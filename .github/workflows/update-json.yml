@@ -27,7 +27,7 @@ jobs:
         run: playwright install --with-deps
 
       - name: 🧠 Run scraper to update cinemas.json
-        run: python scripts/ComingAttractions_gateway-studio35-drexel.py
+        run: python ComingAttractions_gateway-studio35-drexel.py
 
       - name: 📝 Commit and push changes
         run: |
