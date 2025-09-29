@@ -1,46 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Central Ohio Movie Club</title>
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-    }
-    h1 {
-      margin-bottom: 20px;
-    }
-    table.dataTable thead input {
-      width: 100%;
-      box-sizing: border-box;
-    }
-    .filter-container {
-      margin-bottom: 15px;
-    }
-    .filter-container label {
-      margin-right: 10px;
-    }
-    footer {
-      margin-top: 20px;
-      font-size: 0.9em;
-      color: #555;
-    }
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    h1 { text-align: center; }
+    #last-updated { margin: 10px 0; font-size: 0.9em; color: #555; }
+    table.dataTable thead th { white-space: nowrap; }
   </style>
 </head>
 <body>
-  <h1>Central Ohio Movie Club — Showtimes</h1>
-
-  <!-- Date + Time filters -->
-  <div class="filter-container">
-    <label for="min-date">From Date: <input type="date" id="min-date"></label>
-    <label for="max-date">To Date: <input type="date" id="max-date"></label>
-    <label for="min-time">From Time: <input type="time" id="min-time"></label>
-    <label for="max-time">To Time: <input type="time" id="max-time"></label>
-  </div>
-
-  <table id="movieTable" class="display" style="width:100%">
+  <h1>Central Ohio Movie Club</h1>
+  <div id="last-updated">Loading update info...</div>
+  
+  <table id="movies" class="display" style="width:100%">
     <thead>
       <tr>
         <th>Theater</th>
@@ -50,125 +26,103 @@
         <th>Time</th>
         <th>Notes</th>
       </tr>
+      <tr>
+        <!-- Column filters -->
+        <th><input type="text" placeholder="Filter theater"></th>
+        <th><input type="text" placeholder="Filter movie"></th>
+        <th><input type="text" placeholder="Filter day"></th>
+        <th><input type="text" placeholder="Filter date"></th>
+        <th>
+          <select id="time-filter">
+            <option value="">All times</option>
+            <option value="AM">AM</option>
+            <option value="PM">PM</option>
+          </select>
+        </th>
+        <th><input type="text" placeholder="Filter notes"></th>
+      </tr>
     </thead>
     <tbody></tbody>
   </table>
 
-  <footer>
-    <div id="last-updated">Last updated: (fetching...)</div>
-  </footer>
-
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
   <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
   <script>
     const JSON_URL = "https://centralohiomovieclubdotbiz.github.io/Central-Ohio-Movie-Club/cinemas.json";
 
-    $(document).ready(function () {
-      // Fetch JSON data
-      fetch(JSON_URL)
-        .then(response => {
-          // Set last updated using HTTP header
-          const lastModified = response.headers.get("last-modified");
-          if (lastModified) {
-            const dt = new Date(lastModified);
-            document.getElementById("last-updated").innerText =
-              "Last updated: " + dt.toLocaleString();
-          }
-          return response.json();
-        })
-        .then(data => {
-          let rows = [];
-          for (const [theater, movies] of Object.entries(data)) {
-            for (const movie of movies) {
-              for (const show of movie.showtimes) {
-                let label = "";
-                let dstr = show;
+    function formatAMPM(date) {
+      return date.toLocaleTimeString("en-US", {
+        hour: "2-digit",
+        minute: "2-digit",
+        hour12: true
+      });
+    }
 
-                if (typeof show === "object") {
-                  dstr = show.datetime;
-                  label = show.label || "";
-                } else if (show.includes("(")) {
-                  const parts = show.split("(");
-                  dstr = parts[0].trim();
-                  label = parts[1].replace(")", "").trim();
-                }
-
-                const dt = new Date(dstr);
-                if (!isNaN(dt)) {
-                  const day = dt.toLocaleDateString("en-US", { weekday: "long" });
-                  const dateStr = dt.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
-                  const timeStr = dt.toLocaleTimeString("en-US", { hour: "2-digit", minute: "2-digit", hour12: false });
-
-                  rows.push([
-                    theater,
-                    movie.title,
-                    day,
-                    dateStr,
-                    timeStr,
-                    label
-                  ]);
-                }
+    fetch(JSON_URL)
+      .then(response => response.json())
+      .then(data => {
+        const rows = [];
+        for (const [theater, movies] of Object.entries(data)) {
+          for (const movie of movies) {
+            for (const show of movie.showtimes) {
+              let dstr = show;
+              let label = "";
+              if (typeof show === "object") {
+                dstr = show.datetime;
+                label = show.label || "";
+              } else if (show.includes("(")) {
+                const parts = show.split("(");
+                dstr = parts[0].trim();
+                label = parts[1].replace(")", "").trim();
               }
+              const dt = new Date(dstr.replace(" ", "T"));
+              const day = dt.toLocaleDateString("en-US", { weekday: "long" });
+              const dateStr = dt.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+              const timeStr = formatAMPM(dt);
+              rows.push([theater, movie.title, day, dateStr, timeStr, label]);
             }
           }
+        }
 
-          const table = $('#movieTable').DataTable({
-            data: rows,
-            columns: [
-              { title: "Theater" },
-              { title: "Movie" },
-              { title: "Day" },
-              { title: "Date" },
-              { title: "Time" },
-              { title: "Notes" }
-            ],
-            orderCellsTop: true,
-            fixedHeader: true
-          });
+        const table = $('#movies').DataTable({
+          data: rows,
+          columns: [
+            { title: "Theater" },
+            { title: "Movie" },
+            { title: "Day" },
+            { title: "Date" },
+            { title: "Time" },
+            { title: "Notes" }
+          ],
+          orderCellsTop: true,
+          fixedHeader: true,
+          pageLength: 25
+        });
 
-          // Per-column search
-          $('#movieTable thead tr').clone(true).appendTo('#movieTable thead');
-          $('#movieTable thead tr:eq(1) th').each(function (i) {
-            $(this).html('<input type="text" placeholder="Search" />');
-            $('input', this).on('keyup change', function () {
-              if (table.column(i).search() !== this.value) {
-                table.column(i).search(this.value).draw();
-              }
-            });
-          });
-
-          // Custom date + time filtering
-          $.fn.dataTable.ext.search.push(function (settings, data, dataIndex) {
-            const minDate = $('#min-date').val();
-            const maxDate = $('#max-date').val();
-            const minTime = $('#min-time').val();
-            const maxTime = $('#max-time').val();
-
-            const date = new Date(data[3]); // Date column
-            const timeStr = data[4];        // Time column
-            const [hours, minutes] = timeStr.split(':').map(Number);
-            const showDateTime = new Date(date);
-            showDateTime.setHours(hours, minutes);
-
-            if (minDate && showDateTime < new Date(minDate)) return false;
-            if (maxDate && showDateTime > new Date(maxDate + "T23:59")) return false;
-            if (minTime) {
-              const [h, m] = minTime.split(':').map(Number);
-              if (hours < h || (hours === h && minutes < m)) return false;
+        // Column filters
+        $('#movies thead tr:eq(1) th').each(function (i) {
+          $('input', this).on('keyup change', function () {
+            if (table.column(i).search() !== this.value) {
+              table.column(i).search(this.value).draw();
             }
-            if (maxTime) {
-              const [h, m] = maxTime.split(':').map(Number);
-              if (hours > h || (hours === h && minutes > m)) return false;
-            }
-
-            return true;
-          });
-
-          $('#min-date, #max-date, #min-time, #max-time').on('change', function () {
-            table.draw();
           });
         });
-    });
+
+        // Time AM/PM filter
+        $('#time-filter').on('change', function () {
+          const val = this.value;
+          if (val) {
+            table.column(4).search(val, true, false).draw();
+          } else {
+            table.column(4).search("").draw();
+          }
+        });
+
+        // Show last updated time from fetch
+        const now = new Date();
+        document.getElementById("last-updated").innerText =
+          "Last updated: " + now.toLocaleString("en-US", { hour12: true });
+      });
   </script>
 </body>
 </html>
