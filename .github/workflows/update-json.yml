@@ -2,8 +2,8 @@ name: Update Cinemas JSON
 
 on:
   schedule:
-    - cron: "0 * * * *"   # 🔁 Runs once every hour
-  workflow_dispatch:      # 🔘 Allows manual run from GitHub UI
+    - cron: "0 */3 * * *"   # 🔁 Runs every 3 hours
+  workflow_dispatch:        # 🔘 Allows manual run from GitHub UI
 
 jobs:
   update-json:
@@ -25,9 +25,6 @@ jobs:
 
       - name: 🧪 Install Playwright browsers
         run: playwright install --with-deps
-
-      - name: 📁 Debug – list repo contents
-        run: ls -R
 
       - name: 🧠 Run scraper to update cinemas.json
         run: python ComingAttractions_gateway-studio35-drexel.py
