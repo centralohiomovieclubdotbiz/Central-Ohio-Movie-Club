@@ -26,6 +26,9 @@ jobs:
       - name: 🧪 Install Playwright browsers
         run: playwright install --with-deps
 
+      - name: 📁 Debug – list repo contents
+        run: ls -R
+
       - name: 🧠 Run scraper to update cinemas.json
         run: python ComingAttractions_gateway-studio35-drexel.py
 
