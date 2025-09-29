@@ -761,6 +761,19 @@
       ]
     },
     {
+      "title": "Springsteen: Deliver Me from Nowhere (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/springsteen-deliver-me-from-nowhere-2025/",
+      "runtime": 112,
+      "showtimes": [
+        "2025-10-23 17:00 (Festival Perspective)",
+        "2025-10-23 19:45 (Festival Perspective)",
+        "2025-10-23 21:45 (Festival Perspective)",
+        "2025-10-24 16:00 (Festival Perspective)",
+        "2025-10-24 18:45 (Festival Perspective)",
+        "2025-10-24 21:30 (Festival Perspective)"
+      ]
+    },
+    {
       "title": "National Theatre Live: Mrs. Warren’s Profession (2025)",
       "url": "https://gatewayfilmcenter.org/movies/national-theatre-live-mrs-warrens-profession-2025/",
       "runtime": 120,
@@ -774,15 +787,10 @@
       "url": "https://gatewayfilmcenter.org/movies/frankenstein-2025/",
       "runtime": 149,
       "showtimes": [
+        "2025-10-23 21:30 (Festival Perspective)",
         "2025-10-25 12:15 (Festival Perspective)",
         "2025-10-25 15:30 (Festival Perspective)"
       ]
-    },
-    {
-      "title": "Springsteen: Deliver Me from Nowhere (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/springsteen-deliver-me-from-nowhere-2025/",
-      "runtime": 112,
-      "showtimes": []
     },
     {
       "title": "Hitchcocktober 2025: Rope (1948) 4K Restoration",
@@ -1269,9 +1277,7 @@
       "title": "Downton Abbey: The Grand FinaleRated PG | 2 hr 3 min",
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=516202~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=9/29/2025&",
       "runtime": 123,
-      "showtimes": [
-        "2025-09-29 15:30"
-      ]
+      "showtimes": []
     },
     {
       "title": "A Big Bold Beautiful JourneyRated R (language) | 1 hr 48 min",
