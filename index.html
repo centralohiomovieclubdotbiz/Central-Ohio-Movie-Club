@@ -31,7 +31,7 @@
         <th><input type="text" placeholder="Filter theater"></th>
         <th><input type="text" placeholder="Filter movie"></th>
         <th><input type="text" placeholder="Filter day"></th>
-        <th><input type="text" placeholder="Filter date"></th>
+        <th><input type="date" id="date-filter"></th>
         <th>
           <select id="time-filter">
             <option value="">All times</option>
@@ -99,13 +99,27 @@
           pageLength: 25
         });
 
-        // Column filters
+        // Column filters (text inputs)
         $('#movies thead tr:eq(1) th').each(function (i) {
-          $('input', this).on('keyup change', function () {
-            if (table.column(i).search() !== this.value) {
-              table.column(i).search(this.value).draw();
-            }
-          });
+          const input = $('input', this);
+          if (input.length && input.attr("type") !== "date") {
+            input.on('keyup change', function () {
+              if (table.column(i).search() !== this.value) {
+                table.column(i).search(this.value).draw();
+              }
+            });
+          }
+        });
+
+        // Date filter
+        $('#date-filter').on('change', function () {
+          const val = this.value; // yyyy-mm-dd
+          if (val) {
+            const formatted = new Date(val).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+            table.column(3).search(formatted, true, false).draw();
+          } else {
+            table.column(3).search("").draw();
+          }
         });
 
         // Time AM/PM filter
@@ -118,7 +132,7 @@
           }
         });
 
-        // Show last updated time from fetch
+        // Show last updated time
         const now = new Date();
         document.getElementById("last-updated").innerText =
           "Last updated: " + now.toLocaleString("en-US", { hour12: true });
