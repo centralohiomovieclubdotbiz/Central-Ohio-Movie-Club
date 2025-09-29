@@ -3,140 +3,190 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Central Ohio Movie Club</title>
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+  <title>Central Ohio Movie Club – Showtimes</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
-    h1 { text-align: center; }
-    #last-updated { margin: 10px 0; font-size: 0.9em; color: #555; }
-    table.dataTable thead th { white-space: nowrap; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #fafafa;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    #last-updated {
+      text-align: center;
+      font-size: 0.9em;
+      margin-bottom: 20px;
+      color: #666;
+    }
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      gap: 10px;
+    }
+    .controls input,
+    .controls select {
+      padding: 6px;
+      font-size: 14px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      cursor: pointer;
+      background-color: #f4f4f4;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    #no-results {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 1.1em;
+      color: #999;
+    }
   </style>
 </head>
 <body>
-  <h1>Central Ohio Movie Club</h1>
-  <div id="last-updated">Loading update info...</div>
-  
-  <table id="movies" class="display" style="width:100%">
+  <h1>🎬 Central Ohio Movie Club Showtimes</h1>
+  <div id="last-updated">Fetching last updated time…</div>
+
+  <div class="controls">
+    <input type="text" id="searchTitle" placeholder="Search by title" />
+    <select id="theaterFilter">
+      <option value="">All Theaters</option>
+      <option value="Gateway Film Center">Gateway Film Center</option>
+      <option value="Drexel Theatre">Drexel Theatre</option>
+      <option value="Studio 35">Studio 35</option>
+    </select>
+    <input type="date" id="dateFilter" />
+    <select id="ampmFilter">
+      <option value="">All Times</option>
+      <option value="AM">AM</option>
+      <option value="PM">PM</option>
+    </select>
+  </div>
+
+  <table id="showtimesTable">
     <thead>
       <tr>
-        <th>Theater</th>
-        <th>Movie</th>
-        <th>Day</th>
-        <th>Date</th>
-        <th>Time</th>
-        <th>Notes</th>
-      </tr>
-      <tr>
-        <!-- Column filters -->
-        <th><input type="text" placeholder="Filter theater"></th>
-        <th><input type="text" placeholder="Filter movie"></th>
-        <th><input type="text" placeholder="Filter day"></th>
-        <th><input type="date" id="date-filter"></th>
-        <th>
-          <select id="time-filter">
-            <option value="">All times</option>
-            <option value="AM">AM</option>
-            <option value="PM">PM</option>
-          </select>
-        </th>
-        <th><input type="text" placeholder="Filter notes"></th>
+        <th data-sort="theater">Theater</th>
+        <th data-sort="title">Movie</th>
+        <th data-sort="date">Date</th>
+        <th data-sort="time">Time</th>
+        <th data-sort="runtime">Runtime</th>
       </tr>
     </thead>
     <tbody></tbody>
   </table>
 
-  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+  <div id="no-results" style="display:none;">No showtimes found for your filters.</div>
+
   <script>
     const JSON_URL = "https://centralohiomovieclubdotbiz.github.io/Central-Ohio-Movie-Club/cinemas.json";
 
-    function formatAMPM(date) {
-      return date.toLocaleTimeString("en-US", {
-        hour: "2-digit",
-        minute: "2-digit",
-        hour12: true
+    async function fetchLastModified() {
+      const response = await fetch(JSON_URL, { method: "HEAD" });
+      const lastModified = response.headers.get("last-modified");
+      if (lastModified) {
+        const formatted = new Date(lastModified).toLocaleString("en-US", {
+          timeZone: "America/New_York",
+          dateStyle: "medium",
+          timeStyle: "short",
+        });
+        document.getElementById("last-updated").textContent = `Last updated: ${formatted} ET`;
+      } else {
+        document.getElementById("last-updated").textContent = "Last updated: Unknown";
+      }
+    }
+
+    async function loadData() {
+      const response = await fetch(JSON_URL);
+      const data = await response.json();
+
+      let rows = [];
+      for (const [theater, movies] of Object.entries(data)) {
+        for (const movie of movies) {
+          const runtime = movie.runtime
+            ? `${Math.floor(movie.runtime / 60)}h ${movie.runtime % 60}m`
+            : "Unknown";
+          for (const show of movie.showtimes) {
+            const [date, time] = show.split(" ");
+            const dt = new Date(`${date}T${time}`);
+            const ampm = dt.getHours() < 12 ? "AM" : "PM";
+            rows.push({
+              theater: theater === "gateway" ? "Gateway Film Center" :
+                       theater === "drexel" ? "Drexel Theatre" : "Studio 35",
+              title: movie.title,
+              date,
+              time: dt.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit" }),
+              ampm,
+              runtime
+            });
+          }
+        }
+      }
+      return rows;
+    }
+
+    function renderTable(rows) {
+      const tbody = document.querySelector("#showtimesTable tbody");
+      tbody.innerHTML = "";
+      if (rows.length === 0) {
+        document.getElementById("no-results").style.display = "block";
+      } else {
+        document.getElementById("no-results").style.display = "none";
+      }
+      rows.forEach(row => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td>${row.theater}</td>
+          <td>${row.title}</td>
+          <td>${row.date}</td>
+          <td>${row.time}</td>
+          <td>${row.runtime}</td>
+        `;
+        tbody.appendChild(tr);
       });
     }
 
-    fetch(JSON_URL)
-      .then(response => response.json())
-      .then(data => {
-        const rows = [];
-        for (const [theater, movies] of Object.entries(data)) {
-          for (const movie of movies) {
-            for (const show of movie.showtimes) {
-              let dstr = show;
-              let label = "";
-              if (typeof show === "object") {
-                dstr = show.datetime;
-                label = show.label || "";
-              } else if (show.includes("(")) {
-                const parts = show.split("(");
-                dstr = parts[0].trim();
-                label = parts[1].replace(")", "").trim();
-              }
-              const dt = new Date(dstr.replace(" ", "T"));
-              const day = dt.toLocaleDateString("en-US", { weekday: "long" });
-              const dateStr = dt.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
-              const timeStr = formatAMPM(dt);
-              rows.push([theater, movie.title, day, dateStr, timeStr, label]);
-            }
-          }
-        }
+    function filterRows(rows) {
+      const titleQuery = document.getElementById("searchTitle").value.toLowerCase();
+      const theaterFilter = document.getElementById("theaterFilter").value;
+      const dateFilter = document.getElementById("dateFilter").value;
+      const ampmFilter = document.getElementById("ampmFilter").value;
 
-        const table = $('#movies').DataTable({
-          data: rows,
-          columns: [
-            { title: "Theater" },
-            { title: "Movie" },
-            { title: "Day" },
-            { title: "Date" },
-            { title: "Time" },
-            { title: "Notes" }
-          ],
-          orderCellsTop: true,
-          fixedHeader: true,
-          pageLength: 25
-        });
-
-        // Column filters (text inputs)
-        $('#movies thead tr:eq(1) th').each(function (i) {
-          const input = $('input', this);
-          if (input.length && input.attr("type") !== "date") {
-            input.on('keyup change', function () {
-              if (table.column(i).search() !== this.value) {
-                table.column(i).search(this.value).draw();
-              }
-            });
-          }
-        });
-
-        // Date filter
-        $('#date-filter').on('change', function () {
-          const val = this.value; // yyyy-mm-dd
-          if (val) {
-            const formatted = new Date(val).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
-            table.column(3).search(formatted, true, false).draw();
-          } else {
-            table.column(3).search("").draw();
-          }
-        });
-
-        // Time AM/PM filter
-        $('#time-filter').on('change', function () {
-          const val = this.value;
-          if (val) {
-            table.column(4).search(val, true, false).draw();
-          } else {
-            table.column(4).search("").draw();
-          }
-        });
-
-        // Show last updated time
-        const now = new Date();
-        document.getElementById("last-updated").innerText =
-          "Last updated: " + now.toLocaleString("en-US", { hour12: true });
+      return rows.filter(row => {
+        if (titleQuery && !row.title.toLowerCase().includes(titleQuery)) return false;
+        if (theaterFilter && row.theater !== theaterFilter) return false;
+        if (dateFilter && row.date !== dateFilter) return false;
+        if (ampmFilter && row.ampm !== ampmFilter) return false;
+        return true;
       });
+    }
+
+    document.addEventListener("DOMContentLoaded", async () => {
+      await fetchLastModified();
+      let allRows = await loadData();
+      renderTable(allRows);
+
+      document.querySelectorAll(".controls input, .controls select").forEach(input => {
+        input.addEventListener("input", () => {
+          const filtered = filterRows(allRows);
+          renderTable(filtered);
+        });
+      });
+    });
   </script>
 </body>
 </html>
