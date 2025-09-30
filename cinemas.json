@@ -1052,9 +1052,6 @@
       "url": "https://www.studio35.com/movie/him",
       "runtime": 96,
       "showtimes": [
-        "2025-09-28 20:30",
-        "2025-09-29 15:00",
-        "2025-09-29 18:00",
         "2025-09-29 21:30",
         "2025-09-30 16:00",
         "2025-09-30 18:45",
@@ -1099,8 +1096,6 @@
       "url": "https://www.studio35.com/movie/one-battle-after-another",
       "runtime": 162,
       "showtimes": [
-        "2025-09-29 15:00",
-        "2025-09-29 18:15",
         "2025-09-29 20:30",
         "2025-09-30 15:30",
         "2025-09-30 18:15",
@@ -1178,14 +1173,10 @@
       ]
     },
     {
-      "title": "Roofman",
+      "title": "Unknown",
       "url": "https://www.studio35.com/movie/roofman",
-      "runtime": 126,
-      "showtimes": [
-        "2025-10-09 16:15",
-        "2025-10-09 19:00",
-        "2025-10-09 21:45"
-      ]
+      "runtime": null,
+      "showtimes": []
     },
     {
       "title": "Signs",
