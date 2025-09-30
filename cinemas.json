@@ -877,9 +877,7 @@
       "url": "https://gatewayfilmcenter.org/movies/eleanor-the-great-2025/",
       "runtime": 98,
       "showtimes": [
-        "2025-09-29 18:45 (Festival Perspective)",
         "2025-09-30 16:00 (Festival Perspective)",
-        "2025-09-30 18:30 (Festival Perspective)",
         "2025-10-01 16:00 (Festival Perspective)",
         "2025-10-01 18:30 (Festival Perspective)",
         "2025-10-02 16:00 (Festival Perspective)",
@@ -902,7 +900,6 @@
       "url": "https://gatewayfilmcenter.org/movies/manhattan-short-film-festival-2025/",
       "runtime": 154,
       "showtimes": [
-        "2025-09-29 18:45 (Festival Perspective)",
         "2025-09-30 18:45 (Festival Perspective)",
         "2025-10-01 16:15 (Festival Perspective)",
         "2025-10-02 16:30 (Festival Perspective)",
@@ -914,7 +911,6 @@
       "url": "https://gatewayfilmcenter.org/movies/one-battle-after-another-2025/",
       "runtime": 162,
       "showtimes": [
-        "2025-09-29 19:15 (New American)",
         "2025-09-30 16:00 (New American)",
         "2025-09-30 19:15 (New American)",
         "2025-10-01 16:00 (New American)",
@@ -967,7 +963,8 @@
       "url": "https://gatewayfilmcenter.org/movies/strange-journey-the-story-of-rocky-horror-2025/",
       "runtime": 90,
       "showtimes": [
-        "2025-09-30 16:30 (Festival Perspective)"
+        "2025-09-30 16:30 (Festival Perspective)",
+        "2025-09-30 18:00 (Festival Perspective)"
       ]
     },
     {
@@ -983,7 +980,6 @@
       "url": "https://gatewayfilmcenter.org/movies/the-lost-bus-2025/",
       "runtime": 129,
       "showtimes": [
-        "2025-09-29 19:30 (Festival Perspective)",
         "2025-09-30 19:45 (Festival Perspective)",
         "2025-10-01 16:30 (Festival Perspective)"
       ]
@@ -1286,9 +1282,7 @@
       "title": "One Battle After AnotherRated R (language, violence, sexual content) | 2 hr 41 min",
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=519476~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=9/29/2025&",
       "runtime": 161,
-      "showtimes": [
-        "2025-09-29 19:15"
-      ]
+      "showtimes": []
     },
     {
       "title": "Downton Abbey: The Grand FinaleRated PG | 2 hr 3 min",
@@ -1300,17 +1294,13 @@
       "title": "A Big Bold Beautiful JourneyRated R (language) | 1 hr 48 min",
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=518963~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=9/29/2025&",
       "runtime": 108,
-      "showtimes": [
-        "2025-09-29 19:15"
-      ]
+      "showtimes": []
     },
     {
       "title": "A Woman Under the InfluenceRated R (violence, emotionally-intense scenes| 2 hr 35 min",
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=514844~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=9/29/2025&",
       "runtime": 155,
-      "showtimes": [
-        "2025-09-29 19:00"
-      ]
+      "showtimes": []
     },
     {
       "title": "Taylor Swift | The Official Release Party of a ShowgirlUnrated | 1 hr 29 min",
