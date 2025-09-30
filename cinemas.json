@@ -890,10 +890,28 @@
       ]
     },
     {
+      "title": "HIM (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/him-2025/",
+      "runtime": 96,
+      "showtimes": [
+        "2025-09-30 20:00 (New American)",
+        "2025-10-01 16:30 (New American)",
+        "2025-10-01 18:45 (New American)"
+      ]
+    },
+    {
       "title": "Hong Kong Cinema Classics: Hard Boiled (1992) 4K Restoration",
       "url": "https://gatewayfilmcenter.org/movies/hong-kong-cinema-classics-hard-boiled-1992-4k-restoration/",
       "runtime": 128,
       "showtimes": []
+    },
+    {
+      "title": "Cult 101: Lost in Translation (2003) 4K Restoration",
+      "url": "https://gatewayfilmcenter.org/movies/lost-in-translation-2003/",
+      "runtime": 102,
+      "showtimes": [
+        "2025-09-30 19:00 (From the Collection)"
+      ]
     },
     {
       "title": "Manhattan Short Film Festival 2025",
@@ -953,12 +971,6 @@
       ]
     },
     {
-      "title": "Silent Movie Day: Metropolis (1927) 4K Restoration",
-      "url": "https://gatewayfilmcenter.org/movies/silent-movie-day-metropolis-1927-4k-restoration/",
-      "runtime": 153,
-      "showtimes": []
-    },
-    {
       "title": "Strange Journey: The Story of Rocky Horror (2025)",
       "url": "https://gatewayfilmcenter.org/movies/strange-journey-the-story-of-rocky-horror-2025/",
       "runtime": 90,
@@ -968,11 +980,12 @@
       ]
     },
     {
-      "title": "The History of Sound (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/the-history-of-sound-2025/",
-      "runtime": 127,
+      "title": "The Glassworker (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/the-glassworker-2025/",
+      "runtime": 98,
       "showtimes": [
-        "2025-10-01 16:15 (Festival Perspective)"
+        "2025-09-30 17:00 (World Spotlight)",
+        "2025-10-02 16:45 (World Spotlight)"
       ]
     },
     {
@@ -982,6 +995,14 @@
       "showtimes": [
         "2025-09-30 19:45 (Festival Perspective)",
         "2025-10-01 16:30 (Festival Perspective)"
+      ]
+    },
+    {
+      "title": "The Ugly (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/the-ugly-2025/",
+      "runtime": 102,
+      "showtimes": [
+        "2025-09-30 16:15 (World Spotlight)"
       ]
     }
   ],
