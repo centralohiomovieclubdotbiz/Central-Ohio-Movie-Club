@@ -849,6 +849,21 @@
       ]
     },
     {
+      "title": "Cult 101: Thief (1980) 4K Restoration",
+      "url": "https://gatewayfilmcenter.org/movies/cult-101-thief-1980-4k-restoration/",
+      "runtime": 123,
+      "showtimes": [
+        "2025-10-01 19:00 (From the Collection)",
+        "2025-10-02 21:15 (From the Collection)"
+      ]
+    },
+    {
+      "title": "Hitchcocktober 2025: Dial M for Murder (1954) in 3D 4K Restoration",
+      "url": "https://gatewayfilmcenter.org/movies/dial-m-for-murder-1954/",
+      "runtime": 105,
+      "showtimes": []
+    },
+    {
       "title": "Eleanor the Great (2025)",
       "url": "https://gatewayfilmcenter.org/movies/eleanor-the-great-2025/",
       "runtime": 98,
@@ -874,16 +889,12 @@
       ]
     },
     {
-      "title": "Hong Kong Cinema Classics: Hard Boiled (1992) 4K Restoration",
-      "url": "https://gatewayfilmcenter.org/movies/hong-kong-cinema-classics-hard-boiled-1992-4k-restoration/",
-      "runtime": 128,
-      "showtimes": []
-    },
-    {
-      "title": "Cult 101: Lost in Translation (2003) 4K Restoration",
-      "url": "https://gatewayfilmcenter.org/movies/lost-in-translation-2003/",
-      "runtime": 102,
-      "showtimes": []
+      "title": "Life with Chuck (2025) w/Mike Flanagan and Mark Hamill interview",
+      "url": "https://gatewayfilmcenter.org/movies/life-with-chuck-2025-w-mike-flanagan-and-mark-hamill-interview/",
+      "runtime": 123,
+      "showtimes": [
+        "2025-10-01 19:00 (Festival Perspective)"
+      ]
     },
     {
       "title": "Manhattan Short Film Festival 2025",
@@ -940,17 +951,20 @@
       ]
     },
     {
-      "title": "Strange Journey: The Story of Rocky Horror (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/strange-journey-the-story-of-rocky-horror-2025/",
-      "runtime": 90,
-      "showtimes": []
+      "title": "The History of Sound (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/the-history-of-sound-2025/",
+      "runtime": 127,
+      "showtimes": [
+        "2025-10-01 16:15 (Festival Perspective)"
+      ]
     },
     {
-      "title": "The Glassworker (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/the-glassworker-2025/",
-      "runtime": 98,
+      "title": "The Long Walk (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/the-long-walk-2025/",
+      "runtime": 108,
       "showtimes": [
-        "2025-10-02 16:45 (World Spotlight)"
+        "2025-10-01 17:15 (New American)",
+        "2025-10-01 19:45 (New American)"
       ]
     },
     {
@@ -960,12 +974,6 @@
       "showtimes": [
         "2025-10-01 16:30 (Festival Perspective)"
       ]
-    },
-    {
-      "title": "The Ugly (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/the-ugly-2025/",
-      "runtime": 102,
-      "showtimes": []
     }
   ],
   "studio35": [
