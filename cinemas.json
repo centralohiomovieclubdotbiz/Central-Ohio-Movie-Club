@@ -888,6 +888,15 @@
       ]
     },
     {
+      "title": "HIM (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/him-2025/",
+      "runtime": 96,
+      "showtimes": [
+        "2025-10-01 16:30 (New American)",
+        "2025-10-01 18:45 (New American)"
+      ]
+    },
+    {
       "title": "Hong Kong Cinema Classics: Hard Boiled (1992) 4K Restoration",
       "url": "https://gatewayfilmcenter.org/movies/hong-kong-cinema-classics-hard-boiled-1992-4k-restoration/",
       "runtime": 128,
@@ -897,16 +906,13 @@
       "title": "Cult 101: Lost in Translation (2003) 4K Restoration",
       "url": "https://gatewayfilmcenter.org/movies/lost-in-translation-2003/",
       "runtime": 102,
-      "showtimes": [
-        "2025-09-30 19:00 (From the Collection)"
-      ]
+      "showtimes": []
     },
     {
       "title": "Manhattan Short Film Festival 2025",
       "url": "https://gatewayfilmcenter.org/movies/manhattan-short-film-festival-2025/",
       "runtime": 154,
       "showtimes": [
-        "2025-09-30 18:45 (Festival Perspective)",
         "2025-10-01 16:15 (Festival Perspective)",
         "2025-10-02 16:30 (Festival Perspective)",
         "2025-10-04 12:00 (Festival Perspective)"
@@ -917,7 +923,6 @@
       "url": "https://gatewayfilmcenter.org/movies/one-battle-after-another-2025/",
       "runtime": 162,
       "showtimes": [
-        "2025-09-30 19:15 (New American)",
         "2025-10-01 16:00 (New American)",
         "2025-10-01 19:15 (New American)",
         "2025-10-02 16:15 (New American)",
@@ -961,9 +966,7 @@
       "title": "Strange Journey: The Story of Rocky Horror (2025)",
       "url": "https://gatewayfilmcenter.org/movies/strange-journey-the-story-of-rocky-horror-2025/",
       "runtime": 90,
-      "showtimes": [
-        "2025-09-30 18:00 (Festival Perspective)"
-      ]
+      "showtimes": []
     },
     {
       "title": "The Glassworker (2025)",
@@ -978,7 +981,6 @@
       "url": "https://gatewayfilmcenter.org/movies/the-lost-bus-2025/",
       "runtime": 129,
       "showtimes": [
-        "2025-09-30 19:45 (Festival Perspective)",
         "2025-10-01 16:30 (Festival Perspective)"
       ]
     },
