@@ -1,23 +1,6 @@
 {
   "gateway": [
     {
-      "title": "Life with Chuck (2025) w/Mike Flanagan and Mark Hamill interview",
-      "url": "https://gatewayfilmcenter.org/movies/life-with-chuck-2025-w-mike-flanagan-and-mark-hamill-interview/",
-      "runtime": 123,
-      "showtimes": [
-        "2025-10-01 19:00 (Festival Perspective)"
-      ]
-    },
-    {
-      "title": "Cult 101: Thief (1980) 4K Restoration",
-      "url": "https://gatewayfilmcenter.org/movies/cult-101-thief-1980-4k-restoration/",
-      "runtime": 123,
-      "showtimes": [
-        "2025-10-01 19:00 (From the Collection)",
-        "2025-10-02 21:15 (From the Collection)"
-      ]
-    },
-    {
       "title": "Good Boy (2025)",
       "url": "https://gatewayfilmcenter.org/movies/good-boy-2025/",
       "runtime": 73,
@@ -48,12 +31,6 @@
         "2025-10-11 11:15 (Festival Perspective)",
         "2025-10-11 22:15 (Festival Perspective)"
       ]
-    },
-    {
-      "title": "Hitchcocktober 2025: Dial M for Murder (1954) in 3D 4K Restoration",
-      "url": "https://gatewayfilmcenter.org/movies/dial-m-for-murder-1954/",
-      "runtime": 105,
-      "showtimes": []
     },
     {
       "title": "Anemone (2025)",
@@ -462,17 +439,17 @@
       ]
     },
     {
-      "title": "NFFX: Horror Comedy Shorts A",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-horror-comedy-shorts-a/",
-      "runtime": 94,
+      "title": "NFFX: Anything That Moves with Are You Fucking Kidding Me?!",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-anything-that-moves-with-are-you-fucking-kidding-me/",
+      "runtime": 92,
       "showtimes": [
         "2025-10-16 22:00 (Festival Perspective)"
       ]
     },
     {
-      "title": "NFFX: Anything That Moves with Are You Fucking Kidding Me?!",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-anything-that-moves-with-are-you-fucking-kidding-me/",
-      "runtime": 92,
+      "title": "NFFX: Horror Comedy Shorts A",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-horror-comedy-shorts-a/",
+      "runtime": 94,
       "showtimes": [
         "2025-10-16 22:00 (Festival Perspective)"
       ]
