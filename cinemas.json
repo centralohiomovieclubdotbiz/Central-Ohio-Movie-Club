@@ -5,7 +5,6 @@
       "url": "https://gatewayfilmcenter.org/movies/good-boy-2025/",
       "runtime": 73,
       "showtimes": [
-        "2025-10-02 17:15 (Festival Perspective)",
         "2025-10-02 19:15 (Festival Perspective)",
         "2025-10-02 21:30 (Festival Perspective)",
         "2025-10-03 16:30 (Festival Perspective)",
@@ -736,9 +735,7 @@
       "title": "All of You (2025)",
       "url": "https://gatewayfilmcenter.org/movies/all-of-you-2025/",
       "runtime": 98,
-      "showtimes": [
-        "2025-10-02 16:30 (Festival Perspective)"
-      ]
+      "showtimes": []
     },
     {
       "title": "Anemone (2025)",
@@ -822,7 +819,6 @@
       "url": "https://gatewayfilmcenter.org/movies/eleanor-the-great-2025/",
       "runtime": 98,
       "showtimes": [
-        "2025-10-02 16:00 (Festival Perspective)",
         "2025-10-03 16:30 (Festival Perspective)",
         "2025-10-04 13:30 (Festival Perspective)",
         "2025-10-05 11:00 (Festival Perspective)",
@@ -836,7 +832,6 @@
       "url": "https://gatewayfilmcenter.org/movies/manhattan-short-film-festival-2025/",
       "runtime": 154,
       "showtimes": [
-        "2025-10-02 16:30 (Festival Perspective)",
         "2025-10-04 12:00 (Festival Perspective)"
       ]
     },
@@ -845,7 +840,6 @@
       "url": "https://gatewayfilmcenter.org/movies/one-battle-after-another-2025/",
       "runtime": 162,
       "showtimes": [
-        "2025-10-02 16:15 (New American)",
         "2025-10-02 19:30 (New American)",
         "2025-10-02 21:00 (New American)",
         "2025-10-03 16:15 (New American)",
@@ -886,16 +880,13 @@
       "title": "The Glassworker (2025)",
       "url": "https://gatewayfilmcenter.org/movies/the-glassworker-2025/",
       "runtime": 98,
-      "showtimes": [
-        "2025-10-02 16:45 (World Spotlight)"
-      ]
+      "showtimes": []
     },
     {
       "title": "The Smashing Machine (2025)",
       "url": "https://gatewayfilmcenter.org/movies/the-smashing-machine-2025/",
       "runtime": 123,
       "showtimes": [
-        "2025-10-02 17:00 (Festival Perspective)",
         "2025-10-02 18:45 (Festival Perspective)",
         "2025-10-02 19:45 (Festival Perspective)",
         "2025-10-03 21:30 (Festival Perspective)",
@@ -1202,7 +1193,6 @@
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=519476~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/2/2025&",
       "runtime": 161,
       "showtimes": [
-        "2025-10-02 16:00",
         "2025-10-02 19:15",
         "2025-10-03 19:00",
         "2025-10-03 22:15",
@@ -1221,7 +1211,6 @@
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=516202~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/2/2025&",
       "runtime": 123,
       "showtimes": [
-        "2025-10-02 16:15",
         "2025-10-02 19:00",
         "2025-10-04 13:30",
         "2025-10-05 13:00",
@@ -1233,7 +1222,6 @@
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=521166~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/2/2025&",
       "runtime": 123,
       "showtimes": [
-        "2025-10-02 16:30",
         "2025-10-02 19:15",
         "2025-10-03 19:15",
         "2025-10-03 22:00",
