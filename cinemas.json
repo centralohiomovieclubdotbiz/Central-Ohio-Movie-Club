@@ -5,7 +5,6 @@
       "url": "https://gatewayfilmcenter.org/movies/good-boy-2025/",
       "runtime": 73,
       "showtimes": [
-        "2025-10-01 19:30 (Festival Perspective)",
         "2025-10-02 17:15 (Festival Perspective)",
         "2025-10-02 19:15 (Festival Perspective)",
         "2025-10-02 21:30 (Festival Perspective)",
@@ -852,7 +851,6 @@
       "url": "https://gatewayfilmcenter.org/movies/cult-101-thief-1980-4k-restoration/",
       "runtime": 123,
       "showtimes": [
-        "2025-10-01 19:00 (From the Collection)",
         "2025-10-02 21:15 (From the Collection)"
       ]
     },
@@ -866,17 +864,13 @@
       "title": "HIM (2025)",
       "url": "https://gatewayfilmcenter.org/movies/him-2025/",
       "runtime": 96,
-      "showtimes": [
-        "2025-10-01 18:45 (New American)"
-      ]
+      "showtimes": []
     },
     {
       "title": "Life with Chuck (2025) w/Mike Flanagan and Mark Hamill interview",
       "url": "https://gatewayfilmcenter.org/movies/life-with-chuck-2025-w-mike-flanagan-and-mark-hamill-interview/",
       "runtime": 123,
-      "showtimes": [
-        "2025-10-01 19:00 (Festival Perspective)"
-      ]
+      "showtimes": []
     },
     {
       "title": "Manhattan Short Film Festival 2025",
@@ -892,7 +886,6 @@
       "url": "https://gatewayfilmcenter.org/movies/one-battle-after-another-2025/",
       "runtime": 162,
       "showtimes": [
-        "2025-10-01 19:15 (New American)",
         "2025-10-02 16:15 (New American)",
         "2025-10-02 19:30 (New American)",
         "2025-10-02 21:00 (New American)",
@@ -940,9 +933,7 @@
       "title": "The Long Walk (2025)",
       "url": "https://gatewayfilmcenter.org/movies/the-long-walk-2025/",
       "runtime": 108,
-      "showtimes": [
-        "2025-10-01 19:45 (New American)"
-      ]
+      "showtimes": []
     },
     {
       "title": "The Lost Bus (2025)",
