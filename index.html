@@ -28,6 +28,7 @@
   <h1>Central Ohio Movie Club</h1>
   <div id="last-updated">Loading update info...</div>
 
+  <!-- Global toolbar (exact date + AM/PM) -->
   <div class="toolbar">
     <label for="exactDate">Exact date:&nbsp;</label>
     <input type="date" id="exactDate" />
@@ -48,14 +49,21 @@
         <th>Date</th>
         <th>Time</th>
         <th>Runtime</th>
+        <!-- Hidden ISO fields for exact matching/sorting -->
         <th style="display:none;">ISO Date</th>
         <th style="display:none;">Time 24h</th>
       </tr>
       <tr class="filters">
-        <th><input type="text" placeholder="Filter theater"></th>
+        <!-- Theater dropdown (auto-populated) -->
+        <th>
+          <select id="theater-filter">
+            <option value="">All theaters</option>
+          </select>
+        </th>
         <th><input type="text" placeholder="Filter movie"></th>
         <th><input type="text" placeholder="Filter day"></th>
-        <th><input type="text" placeholder="Filter date"></th>
+        <!-- Date picker in column filter -->
+        <th><input type="date" id="date-filter-col"></th>
         <th>
           <select id="time-filter">
             <option value="">All times</option>
@@ -127,9 +135,11 @@
       }
     }
 
+    // Global filters
     let exactDateFilter = "";
     let ampmGlobalFilter = "";
 
+    // DataTables global search hook: enforce exact date + AM/PM if set
     $.fn.dataTable.ext.search.push(function(settings, data) {
       const isoDate = data[6];
       const timeStr = data[4];
@@ -146,19 +156,23 @@
       const json = await resp.json();
 
       const rows = [];
+      const theaterSet = new Set();
+
       for (const [theaterKey, movies] of Object.entries(json)) {
         const theaterName = prettyTheater(theaterKey);
+        theaterSet.add(theaterName);
         for (const movie of movies) {
           const runtimeDisplay = formatRuntime(movie.runtime);
           for (const show of movie.showtimes || []) {
+            // show may be string "YYYY-MM-DD HH:MM (Note)" or dict {datetime, label}
             let dstr = "";
             if (typeof show === "object") {
               dstr = show.datetime;
-              // (label no longer used)
             } else {
               const i = show.indexOf("(");
               dstr = i > -1 ? show.slice(0, i).trim() : show.trim();
             }
+
             const jsDate = new Date(dstr.replace(" ", "T"));
             const isoDate = dstr.slice(0, 10);
             const day = jsDate.toLocaleDateString("en-US", { weekday: "long" });
@@ -167,19 +181,20 @@
             const time24 = to24h(jsDate);
 
             rows.push([
-              theaterName,           // 0
-              movie.title,           // 1
-              day,                   // 2
-              dateDisp,              // 3
-              timeDisp,              // 4
-              runtimeDisplay,        // 5 (new Runtime column)
-              isoDate,               // 6 (hidden)
-              time24                 // 7 (hidden)
+              theaterName,           // 0 Theater
+              movie.title,           // 1 Movie
+              day,                   // 2 Day
+              dateDisp,              // 3 Date (display)
+              timeDisp,              // 4 Time (display)
+              runtimeDisplay,        // 5 Runtime (display)
+              isoDate,               // 6 ISO Date (hidden)
+              time24                 // 7 24h time (hidden)
             ]);
           }
         }
       }
 
+      // Build the table
       const table = $('#movies').DataTable({
         data: rows,
         columns: [
@@ -195,14 +210,24 @@
             }
           },
           { title: "Runtime" },
-          { visible: false },
-          { visible: false }
+          { visible: false }, // ISO date
+          { visible: false }  // 24h time
         ],
         orderCellsTop: true,
         fixedHeader: true,
         pageLength: 25
       });
 
+      // Populate the Theater dropdown filter with values we saw
+      const theaterFilter = document.getElementById("theater-filter");
+      [...theaterSet].sort().forEach(name => {
+        const opt = document.createElement("option");
+        opt.value = name;
+        opt.textContent = name;
+        theaterFilter.appendChild(opt);
+      });
+
+      // Hook up column text inputs (Movie, Day, Runtime)
       $('#movies thead tr.filters th').each(function (i) {
         const input = $('input', this);
         if (input.length) {
@@ -214,7 +239,18 @@
         }
       });
 
-      $('#time-filter').on('change', function () {
+      // Theater dropdown filter (exact match)
+      theaterFilter.addEventListener("change", function () {
+        const v = this.value;
+        if (v) {
+          table.column(0).search('^' + v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '$', true, false).draw();
+        } else {
+          table.column(0).search("").draw();
+        }
+      });
+
+      // Time AM/PM select (column filter)
+      document.getElementById("time-filter").addEventListener("change", function () {
         const val = this.value;
         if (val) {
           table.column(4).search(val, true, false).draw();
@@ -223,12 +259,23 @@
         }
       });
 
+      // Date picker in column header -> apply same exact-date global filter
+      document.getElementById("date-filter-col").addEventListener("change", function () {
+        exactDateFilter = this.value || "";
+        // Keep global toolbar in sync visually
+        document.getElementById("exactDate").value = exactDateFilter;
+        table.draw();
+      });
+
+      // Global toolbar exact date + AM/PM
       document.getElementById("exactDate").addEventListener("change", function () {
-        exactDateFilter = this.value;
+        exactDateFilter = this.value || "";
+        // Keep column header date picker in sync
+        document.getElementById("date-filter-col").value = exactDateFilter;
         table.draw();
       });
       document.getElementById("ampmGlobal").addEventListener("change", function () {
-        ampmGlobalFilter = this.value;
+        ampmGlobalFilter = this.value || "";
         table.draw();
       });
     })();
