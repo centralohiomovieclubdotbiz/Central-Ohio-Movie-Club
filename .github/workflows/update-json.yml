@@ -2,7 +2,7 @@ name: Update Cinemas JSON
 
 on:
   schedule:
-    - cron: "0 */3 * * *"   # 🔁 Runs every 3 hours
+    - cron: "0 */4 * * *"   # 🔁 Runs every 3 hours
   workflow_dispatch:        # 🔘 Allows manual run from GitHub UI
 
 jobs:
