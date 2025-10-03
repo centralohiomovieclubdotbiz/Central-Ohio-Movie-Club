@@ -11,12 +11,6 @@
     body { font-family: Arial, sans-serif; margin: 20px; background: #fafafa; }
     h1 { text-align: center; margin-bottom: 6px; }
     #last-updated { margin: 8px 0 16px; font-size: 0.9em; color: #555; text-align: center; }
-    .toolbar {
-      display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
-      justify-content: center; margin-bottom: 12px;
-    }
-    .toolbar label { font-size: 0.95em; color: #333; }
-    .toolbar input, .toolbar select { padding: 6px 8px; font-size: 14px; }
     table.dataTable thead th { white-space: nowrap; }
     table { width: 100%; }
     #movies thead tr.filters th { padding: 4px 8px; }
@@ -28,18 +22,6 @@
   <h1>Central Ohio Movie Club</h1>
   <div id="last-updated">Loading update info...</div>
 
-  <!-- Global toolbar (exact date + AM/PM) -->
-  <div class="toolbar">
-    <label for="exactDate">Exact date:&nbsp;</label>
-    <input type="date" id="exactDate" />
-    <label for="ampmGlobal">Time:&nbsp;</label>
-    <select id="ampmGlobal">
-      <option value="">All</option>
-      <option value="AM">AM</option>
-      <option value="PM">PM</option>
-    </select>
-  </div>
-
   <table id="movies" class="display">
     <thead>
       <tr>
@@ -49,12 +31,10 @@
         <th>Date</th>
         <th>Time</th>
         <th>Runtime</th>
-        <!-- Hidden ISO fields for exact matching/sorting -->
         <th style="display:none;">ISO Date</th>
         <th style="display:none;">Time 24h</th>
       </tr>
       <tr class="filters">
-        <!-- Theater dropdown (auto-populated) -->
         <th>
           <select id="theater-filter">
             <option value="">All theaters</option>
@@ -62,7 +42,6 @@
         </th>
         <th><input type="text" placeholder="Filter movie"></th>
         <th><input type="text" placeholder="Filter day"></th>
-        <!-- Date picker in column filter -->
         <th><input type="date" id="date-filter-col"></th>
         <th>
           <select id="time-filter">
@@ -135,20 +114,6 @@
       }
     }
 
-    // Global filters
-    let exactDateFilter = "";
-    let ampmGlobalFilter = "";
-
-    // DataTables global search hook: enforce exact date + AM/PM if set
-    $.fn.dataTable.ext.search.push(function(settings, data) {
-      const isoDate = data[6];
-      const timeStr = data[4];
-      const ampm = /AM/i.test(timeStr) ? "AM" : /PM/i.test(timeStr) ? "PM" : "";
-      if (exactDateFilter && isoDate !== exactDateFilter) return false;
-      if (ampmGlobalFilter && ampm !== ampmGlobalFilter) return false;
-      return true;
-    });
-
     (async function init() {
       await fetchLastModified();
 
@@ -164,7 +129,6 @@
         for (const movie of movies) {
           const runtimeDisplay = formatRuntime(movie.runtime);
           for (const show of movie.showtimes || []) {
-            // show may be string "YYYY-MM-DD HH:MM (Note)" or dict {datetime, label}
             let dstr = "";
             if (typeof show === "object") {
               dstr = show.datetime;
@@ -181,20 +145,19 @@
             const time24 = to24h(jsDate);
 
             rows.push([
-              theaterName,           // 0 Theater
-              movie.title,           // 1 Movie
-              day,                   // 2 Day
-              dateDisp,              // 3 Date (display)
-              timeDisp,              // 4 Time (display)
-              runtimeDisplay,        // 5 Runtime (display)
-              isoDate,               // 6 ISO Date (hidden)
-              time24                 // 7 24h time (hidden)
+              theaterName,
+              movie.title,
+              day,
+              dateDisp,
+              timeDisp,
+              runtimeDisplay,
+              isoDate,
+              time24
             ]);
           }
         }
       }
 
-      // Build the table
       const table = $('#movies').DataTable({
         data: rows,
         columns: [
@@ -210,15 +173,14 @@
             }
           },
           { title: "Runtime" },
-          { visible: false }, // ISO date
-          { visible: false }  // 24h time
+          { visible: false },
+          { visible: false }
         ],
         orderCellsTop: true,
         fixedHeader: true,
         pageLength: 25
       });
 
-      // Populate the Theater dropdown filter with values we saw
       const theaterFilter = document.getElementById("theater-filter");
       [...theaterSet].sort().forEach(name => {
         const opt = document.createElement("option");
@@ -227,7 +189,6 @@
         theaterFilter.appendChild(opt);
       });
 
-      // Hook up column text inputs (Movie, Day, Runtime)
       $('#movies thead tr.filters th').each(function (i) {
         const input = $('input', this);
         if (input.length) {
@@ -239,7 +200,6 @@
         }
       });
 
-      // Theater dropdown filter (exact match)
       theaterFilter.addEventListener("change", function () {
         const v = this.value;
         if (v) {
@@ -249,7 +209,6 @@
         }
       });
 
-      // Time AM/PM select (column filter)
       document.getElementById("time-filter").addEventListener("change", function () {
         const val = this.value;
         if (val) {
@@ -259,24 +218,13 @@
         }
       });
 
-      // Date picker in column header -> apply same exact-date global filter
       document.getElementById("date-filter-col").addEventListener("change", function () {
-        exactDateFilter = this.value || "";
-        // Keep global toolbar in sync visually
-        document.getElementById("exactDate").value = exactDateFilter;
-        table.draw();
-      });
-
-      // Global toolbar exact date + AM/PM
-      document.getElementById("exactDate").addEventListener("change", function () {
-        exactDateFilter = this.value || "";
-        // Keep column header date picker in sync
-        document.getElementById("date-filter-col").value = exactDateFilter;
-        table.draw();
-      });
-      document.getElementById("ampmGlobal").addEventListener("change", function () {
-        ampmGlobalFilter = this.value || "";
-        table.draw();
+        const val = this.value;
+        if (val) {
+          table.column(6).search(val, true, false).draw();
+        } else {
+          table.column(6).search("").draw();
+        }
       });
     })();
   </script>
