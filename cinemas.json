@@ -625,12 +625,6 @@
       "showtimes": []
     },
     {
-      "title": "All of You (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/all-of-you-2025/",
-      "runtime": 98,
-      "showtimes": []
-    },
-    {
       "title": "Anemone (2025)",
       "url": "https://gatewayfilmcenter.org/movies/anemone-2025/",
       "runtime": 121,
@@ -690,16 +684,22 @@
       ]
     },
     {
-      "title": "Cult 101: Thief (1980) 4K Restoration",
-      "url": "https://gatewayfilmcenter.org/movies/cult-101-thief-1980-4k-restoration/",
-      "runtime": 123,
-      "showtimes": []
-    },
-    {
-      "title": "Hitchcocktober 2025: Dial M for Murder (1954) in 3D 4K Restoration",
-      "url": "https://gatewayfilmcenter.org/movies/dial-m-for-murder-1954/",
-      "runtime": 105,
-      "showtimes": []
+      "title": "Coyotes (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/coyotes-2025/",
+      "runtime": 91,
+      "showtimes": [
+        "2025-10-03 21:00 (Festival Perspective)",
+        "2025-10-04 18:30 (Festival Perspective)",
+        "2025-10-04 20:45 (Festival Perspective)",
+        "2025-10-05 14:30 (Festival Perspective)",
+        "2025-10-05 17:00 (Festival Perspective)",
+        "2025-10-06 17:30 (Festival Perspective)",
+        "2025-10-06 20:00 (Festival Perspective)",
+        "2025-10-07 17:30 (Festival Perspective)",
+        "2025-10-07 20:00 (Festival Perspective)",
+        "2025-10-08 19:00 (Festival Perspective)",
+        "2025-10-09 16:15 (Festival Perspective)"
+      ]
     },
     {
       "title": "Eleanor the Great (2025)",
@@ -743,14 +743,6 @@
       ]
     },
     {
-      "title": "Manhattan Short Film Festival 2025",
-      "url": "https://gatewayfilmcenter.org/movies/manhattan-short-film-festival-2025/",
-      "runtime": 154,
-      "showtimes": [
-        "2025-10-04 12:00 (Festival Perspective)"
-      ]
-    },
-    {
       "title": "One Battle After Another (2025)",
       "url": "https://gatewayfilmcenter.org/movies/one-battle-after-another-2025/",
       "runtime": 162,
@@ -790,10 +782,63 @@
       ]
     },
     {
-      "title": "The Glassworker (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/the-glassworker-2025/",
-      "runtime": 98,
+      "title": "Plainclothes (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/plainclothes-2025/",
+      "runtime": 97,
+      "showtimes": [
+        "2025-10-03 18:45 (Festival Perspective)",
+        "2025-10-04 18:30 (Festival Perspective)",
+        "2025-10-05 18:30 (Festival Perspective)",
+        "2025-10-06 19:00 (Festival Perspective)",
+        "2025-10-07 19:00 (Festival Perspective)",
+        "2025-10-08 16:00 (Festival Perspective)"
+      ]
+    },
+    {
+      "title": "Souleymane’s Story (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/souleymanes-story-2025/",
+      "runtime": 92,
+      "showtimes": [
+        "2025-10-03 18:45 (World Spotlight)",
+        "2025-10-04 15:45 (World Spotlight)",
+        "2025-10-05 16:00 (World Spotlight)"
+      ]
+    },
+    {
+      "title": "Hitchcocktober 2025: Strangers on a Train (1951) 4K Restoration",
+      "url": "https://gatewayfilmcenter.org/movies/strangers-on-a-train-1951/",
+      "runtime": 101,
       "showtimes": []
+    },
+    {
+      "title": "Taylor Swift | The Official Release Party of a Showgirl (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/taylor-swift-the-official-release-party-of-a-showgirl-2025/",
+      "runtime": 89,
+      "showtimes": [
+        "2025-10-03 16:00 (New American)",
+        "2025-10-03 18:00 (New American)",
+        "2025-10-03 20:00 (New American)",
+        "2025-10-03 22:00 (New American)",
+        "2025-10-04 11:45 (New American)",
+        "2025-10-04 14:15 (New American)",
+        "2025-10-04 16:30 (New American)",
+        "2025-10-04 19:00 (New American)",
+        "2025-10-04 21:15 (New American)",
+        "2025-10-05 11:45 (New American)",
+        "2025-10-05 14:15 (New American)",
+        "2025-10-05 16:45 (New American)",
+        "2025-10-05 19:15 (New American)"
+      ]
+    },
+    {
+      "title": "The Ice Tower (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/the-ice-tower-2025/",
+      "runtime": 118,
+      "showtimes": [
+        "2025-10-03 16:00 (World Spotlight)",
+        "2025-10-04 11:00 (World Spotlight)",
+        "2025-10-05 13:15 (World Spotlight)"
+      ]
     },
     {
       "title": "The Smashing Machine (2025)",
