@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Central Ohio Movie Club</title>
 
-  <!-- DataTables CSS -->
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
 
   <style>
@@ -17,12 +16,9 @@
       justify-content: center; margin-bottom: 12px;
     }
     .toolbar label { font-size: 0.95em; color: #333; }
-    .toolbar input, .toolbar select {
-      padding: 6px 8px; font-size: 14px;
-    }
+    .toolbar input, .toolbar select { padding: 6px 8px; font-size: 14px; }
     table.dataTable thead th { white-space: nowrap; }
     table { width: 100%; }
-    /* Second header row (column filters) */
     #movies thead tr.filters th { padding: 4px 8px; }
     #movies thead tr.filters input,
     #movies thead tr.filters select { width: 98%; padding: 4px 6px; }
@@ -32,7 +28,6 @@
   <h1>Central Ohio Movie Club</h1>
   <div id="last-updated">Loading update info...</div>
 
-  <!-- Global toolbar (exact date + AM/PM) -->
   <div class="toolbar">
     <label for="exactDate">Exact date:&nbsp;</label>
     <input type="date" id="exactDate" />
@@ -52,8 +47,7 @@
         <th>Day</th>
         <th>Date</th>
         <th>Time</th>
-        <th>Notes</th>
-        <!-- Hidden ISO fields for exact matching/sorting -->
+        <th>Runtime</th>
         <th style="display:none;">ISO Date</th>
         <th style="display:none;">Time 24h</th>
       </tr>
@@ -69,7 +63,7 @@
             <option value="PM">PM</option>
           </select>
         </th>
-        <th><input type="text" placeholder="Filter notes"></th>
+        <th><input type="text" placeholder="Filter runtime"></th>
         <th style="display:none;"></th>
         <th style="display:none;"></th>
       </tr>
@@ -77,27 +71,23 @@
     <tbody></tbody>
   </table>
 
-  <!-- jQuery + DataTables -->
   <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
   <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
 
   <script>
     const JSON_URL = "https://centralohiomovieclubdotbiz.github.io/Central-Ohio-Movie-Club/cinemas.json";
 
-    // Map internal keys to nice theater names (in case the JSON uses keys)
     function prettyTheater(keyOrName) {
       const map = {
         "gateway": "Gateway Film Center",
         "drexel": "Drexel Theatre",
         "studio35": "Studio 35"
       };
-      // If we get the key, map it; if already a pretty name, return as-is
       return map[keyOrName] || keyOrName;
     }
 
     function pad(n) { return n < 10 ? "0" + n : "" + n; }
 
-    // Format to AM/PM for display
     function toAmPm(date) {
       return date.toLocaleTimeString("en-US", {
         hour: "numeric",
@@ -106,9 +96,16 @@
       });
     }
 
-    // Get 24h HH:MM for sorting
     function to24h(date) {
       return pad(date.getHours()) + ":" + pad(date.getMinutes());
+    }
+
+    function formatRuntime(minutes) {
+      if (minutes == null || isNaN(minutes)) return "Unknown";
+      const h = Math.floor(minutes / 60);
+      const m = minutes % 60;
+      const hm = h > 0 ? `${h}h ${m}m` : `${m}m`;
+      return `${minutes} min (${hm})`;
     }
 
     async function fetchLastModified() {
@@ -130,19 +127,15 @@
       }
     }
 
-    // Custom global filter for exact date + AM/PM (from toolbar)
     let exactDateFilter = "";
     let ampmGlobalFilter = "";
 
-    $.fn.dataTable.ext.search.push(function(settings, data, dataIndex) {
-      // Columns: 0-Theater,1-Movie,2-Day,3-Date,4-Time,5-Notes,6-ISO Date (hidden),7-Time24h (hidden)
-      const isoDate = data[6];     // YYYY-MM-DD
-      const timeStr = data[4];     // AM/PM display
+    $.fn.dataTable.ext.search.push(function(settings, data) {
+      const isoDate = data[6];
+      const timeStr = data[4];
       const ampm = /AM/i.test(timeStr) ? "AM" : /PM/i.test(timeStr) ? "PM" : "";
-
       if (exactDateFilter && isoDate !== exactDateFilter) return false;
       if (ampmGlobalFilter && ampm !== ampmGlobalFilter) return false;
-
       return true;
     });
 
@@ -156,37 +149,32 @@
       for (const [theaterKey, movies] of Object.entries(json)) {
         const theaterName = prettyTheater(theaterKey);
         for (const movie of movies) {
+          const runtimeDisplay = formatRuntime(movie.runtime);
           for (const show of movie.showtimes || []) {
-            // show may be string "YYYY-MM-DD HH:MM (Note)" or dict {datetime, label}
             let dstr = "";
-            let label = "";
             if (typeof show === "object") {
               dstr = show.datetime;
-              label = show.label || "";
+              // (label no longer used)
             } else {
-              dstr = show;
-              const i = dstr.indexOf("(");
-              if (i > -1) {
-                label = dstr.slice(i + 1).replace(")", "").trim();
-                dstr = dstr.slice(0, i).trim();
-              }
+              const i = show.indexOf("(");
+              dstr = i > -1 ? show.slice(0, i).trim() : show.trim();
             }
-            // Parse date/time (local)
             const jsDate = new Date(dstr.replace(" ", "T"));
-            const isoDate = dstr.slice(0, 10); // YYYY-MM-DD
+            const isoDate = dstr.slice(0, 10);
             const day = jsDate.toLocaleDateString("en-US", { weekday: "long" });
             const dateDisp = jsDate.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
             const timeDisp = toAmPm(jsDate);
             const time24 = to24h(jsDate);
+
             rows.push([
-              theaterName,             // 0 Theater
-              movie.title,             // 1 Movie
-              day,                     // 2 Day
-              dateDisp,                // 3 Date (display)
-              timeDisp,                // 4 Time (display)
-              label,                   // 5 Notes
-              isoDate,                 // 6 ISO Date (hidden) for exact match
-              time24                   // 7 Time 24h (hidden) for proper sorting
+              theaterName,           // 0
+              movie.title,           // 1
+              day,                   // 2
+              dateDisp,              // 3
+              timeDisp,              // 4
+              runtimeDisplay,        // 5 (new Runtime column)
+              isoDate,               // 6 (hidden)
+              time24                 // 7 (hidden)
             ]);
           }
         }
@@ -202,21 +190,19 @@
           {
             title: "Time",
             render: function (data, type, row) {
-              // Use hidden 24h time for sorting, AM/PM for display
-              if (type === 'sort' || type === 'type') return row[7]; // 24h
+              if (type === 'sort' || type === 'type') return row[7];
               return data;
             }
           },
-          { title: "Notes" },
-          { visible: false }, // ISO date
-          { visible: false }  // 24h time
+          { title: "Runtime" },
+          { visible: false },
+          { visible: false }
         ],
         orderCellsTop: true,
         fixedHeader: true,
         pageLength: 25
       });
 
-      // Column filters (2nd header row)
       $('#movies thead tr.filters th').each(function (i) {
         const input = $('input', this);
         if (input.length) {
@@ -228,7 +214,6 @@
         }
       });
 
-      // Per-column AM/PM select (Time column)
       $('#time-filter').on('change', function () {
         const val = this.value;
         if (val) {
@@ -238,13 +223,12 @@
         }
       });
 
-      // Global exact date & AM/PM (toolbar)
       document.getElementById("exactDate").addEventListener("change", function () {
-        exactDateFilter = this.value; // YYYY-MM-DD or ""
+        exactDateFilter = this.value;
         table.draw();
       });
       document.getElementById("ampmGlobal").addEventListener("change", function () {
-        ampmGlobalFilter = this.value; // "AM"/"PM"/""
+        ampmGlobalFilter = this.value;
         table.draw();
       });
     })();
