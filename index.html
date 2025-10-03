@@ -10,6 +10,16 @@
   <style>
     body { font-family: Arial, sans-serif; margin: 20px; background: #fafafa; }
     h1 { text-align: center; margin-bottom: 6px; }
+    #calendar-link { text-align: center; margin-bottom: 16px; }
+    #calendar-link a {
+      font-size: 1rem;
+      color: #0056b3;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    #calendar-link a:hover {
+      text-decoration: underline;
+    }
     #last-updated { margin: 8px 0 16px; font-size: 0.9em; color: #555; text-align: center; }
     table.dataTable thead th { white-space: nowrap; }
     table { width: 100%; }
@@ -20,6 +30,11 @@
 </head>
 <body>
   <h1>Central Ohio Movie Club</h1>
+
+  <div id="calendar-link">
+    <a href="calendar.html" target="_blank">📅 View Google Calendar</a>
+  </div>
+
   <div id="last-updated">Loading update info...</div>
 
   <table id="movies" class="display">
