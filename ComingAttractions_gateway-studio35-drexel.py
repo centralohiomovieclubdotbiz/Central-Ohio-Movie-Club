@@ -38,7 +38,6 @@ def parse_gateway_runtime_minutes(movie_url: str) -> int | None:
         if not specs:
             return None
         text = specs.get_text(" ", strip=True)
-        # Look for 'Run Time: 123 min.'
         m = re.search(r"Run Time:\s*(\d+)\s*min\.?", text, flags=re.I)
         if m:
             return int(m.group(1))
@@ -46,45 +45,41 @@ def parse_gateway_runtime_minutes(movie_url: str) -> int | None:
         pass
     return None
 
-def parse_studio35_runtime_minutes_from_soup(movie_soup: BeautifulSoup) -> int | None:
-    """
-    Parse Studio 35 runtime from JSON-LD duration 'PT#H#M' on the movie page.
-    Returns total minutes or None.
-    """
+def parse_studio35_runtime_minutes(movie_soup: BeautifulSoup) -> int | None:
+    """Parse Studio 35 runtime from JSON-LD duration 'PT2H42M'."""
     try:
-        # There can be multiple LD+JSON blocks; find the Movie one with a duration
-        for tag in movie_soup.find_all("script", {"type": "application/ld+json"}):
-            raw = tag.string or tag.get_text()
-            if not raw:
-                continue
-            data = json.loads(raw)
-            candidates = data if isinstance(data, list) else [data]
-            for obj in candidates:
-                if isinstance(obj, dict) and obj.get("@type") == "Movie":
-                    duration = obj.get("duration")
-                    if not duration:
-                        continue
-                    # ISO 8601 duration like PT2H42M or PT102M
-                    m = re.match(r"PT(?:(\d+)H)?(?:(\d+)M)?", duration)
-                    if not m:
-                        continue
-                    hours = int(m.group(1) or 0)
-                    minutes = int(m.group(2) or 0)
-                    return hours * 60 + minutes
+        script_tag = movie_soup.find("script", {"type": "application/ld+json"})
+        if not script_tag or not script_tag.string:
+            return None
+        data = json.loads(script_tag.string)
+        if isinstance(data, list):
+            for obj in data:
+                if isinstance(obj, dict) and obj.get("@type") == "Movie" and obj.get("duration"):
+                    duration = obj["duration"]
+                    break
+            else:
+                return None
+        else:
+            duration = data.get("duration")
+        if not duration:
+            return None
+        m = re.match(r"PT(?:(\d+)H)?(?:(\d+)M)?", duration)
+        if not m:
+            return None
+        hours = int(m.group(1) or 0)
+        minutes = int(m.group(2) or 0)
+        return hours * 60 + minutes
     except Exception:
         return None
-    return None
 
 def parse_drexel_runtime_minutes(descriptive_text: str) -> int | None:
     """Parse something like '...| 2 hr 35 min' or '...| 107 min'."""
     if not descriptive_text:
         return None
     text = descriptive_text.strip()
-    # Prefer hours + minutes
     m = re.search(r"(\d+)\s*hr[s]?\s*(\d+)\s*min", text, flags=re.I)
     if m:
         return int(m.group(1)) * 60 + int(m.group(2))
-    # Or only minutes
     m = re.search(r"(\d+)\s*min", text, flags=re.I)
     if m:
         return int(m.group(1))
@@ -92,33 +87,25 @@ def parse_drexel_runtime_minutes(descriptive_text: str) -> int | None:
 
 # -------------------------------
 # Gateway Film Center
-#   - Upcoming page (+ labels like 4K)
-#   - Homepage Now Playing
-#   - Runtime via movie page
 # -------------------------------
 def fetch_gateway():
     upcoming_url = "https://gatewayfilmcenter.org/our-program/upcoming-films/"
     home_url = "https://gatewayfilmcenter.org/"
 
-    # Cache for movie page requests (to get runtime once per unique URL)
     runtime_cache: dict[str, int | None] = {}
 
-    def showtimes_from_block(block: BeautifulSoup):
-        """Read date-list epochs + times; capture suffixes like '4K' if present near time link."""
-        # Map epoch -> date
+    def parse_showtimes_from_block(block: BeautifulSoup):
         date_map: dict[str, datetime] = {}
         for li in block.select("ul.datelist li.show-date[data-date]"):
             try:
                 epoch = li.get("data-date", "").strip()
-                if not epoch:
-                    continue
-                d = datetime.fromtimestamp(int(epoch))
-                date_map[epoch] = d
+                if epoch:
+                    d = datetime.fromtimestamp(int(epoch))
+                    date_map[epoch] = d
             except Exception:
                 continue
 
         shows: list[str] = []
-        # Look across all li[data-date] in the times list
         for li in block.select("ol.showtimes li[data-date]"):
             epoch = li.get("data-date", "").strip()
             if epoch not in date_map:
@@ -126,32 +113,25 @@ def fetch_gateway():
             a = li.find("a", class_="showtime")
             if not a:
                 continue
-            time_text = (a.get_text(strip=True) or "").strip()
-            t24 = parse_time_12h_to_24h(time_text)
+
+            # Grab full raw text of this li to capture anything after the time
+            raw_text = li.get_text(" ", strip=True)
+            time_match = re.match(r"(\d{1,2}(:\d{2})?\s*(?:am|pm))", raw_text, flags=re.I)
+            if not time_match:
+                continue
+            time_str = time_match.group(1)
+            t24 = parse_time_12h_to_24h(time_str)
             if not t24:
                 continue
 
-            # Pull possible label/suffix next to/within this li (e.g., series pill or text after time)
-            label = None
-
-            # Look for a pill near this item and reduce '4K Restoration' -> '4K'
-            pill = li.find_next(lambda tag: tag.name == "a" and "pill" in (tag.get("class") or []))
-            if pill:
-                label_candidate = pill.get_text(strip=True)
-                if re.search(r"\b4K\b", label_candidate, flags=re.I):
-                    label = "4K"
-                else:
-                    short = label_candidate[:20].strip()
-                    if short:
-                        label = short
-
-            if not label:
-                trailing_text = (li.get_text(" ", strip=True) or "")
-                if re.search(r"\b4K\b", trailing_text, flags=re.I):
-                    label = "4K"
+            # Grab whatever follows the time and include it verbatim
+            extra_text = raw_text[len(time_match.group(0)):].strip()
 
             d = date_map[epoch]
-            shows.append(f"{d.strftime('%Y-%m-%d')} {t24}" + (f" ({label})" if label else ""))
+            if extra_text:
+                shows.append(f"{d.strftime('%Y-%m-%d')} {t24} ({extra_text})")
+            else:
+                shows.append(f"{d.strftime('%Y-%m-%d')} {t24}")
 
         return sorted(set(shows))
 
@@ -164,7 +144,6 @@ def fetch_gateway():
 
             blocks = soup.select("div.showtimes-description")
             if not blocks:
-                # fallback
                 for h2 in soup.find_all("h2", class_="show-title"):
                     b = h2.find_parent("div", class_="showtimes-description")
                     if b:
@@ -182,7 +161,7 @@ def fetch_gateway():
                     title = h2.get_text(strip=True)
                     link = None
 
-                showtimes = showtimes_from_block(block)
+                showtimes = parse_showtimes_from_block(block)
 
                 runtime = None
                 if link:
@@ -226,51 +205,15 @@ def fetch_gateway():
                     mr.raise_for_status()
                     ms = BeautifulSoup(mr.text, "html.parser")
 
-                    # Title
                     title_el = ms.select_one("h2.show-title a.title, h2.show-title a") or ms.select_one("h1, h2.show-title")
                     title = title_el.get_text(strip=True) if title_el else "Unknown"
 
-                    # Showtimes via epoch map + time anchors
-                    showtimes = []
-                    epoch_map = {}
-                    for li in ms.select("ul.datelist li.show-date[data-date]"):
-                        try:
-                            epoch = li.get("data-date", "").strip()
-                            if epoch:
-                                epoch_map[epoch] = datetime.fromtimestamp(int(epoch))
-                        except Exception:
-                            continue
-                    for li in ms.select("ol.showtimes li[data-date]"):
-                        epoch = li.get("data-date", "").strip()
-                        if epoch not in epoch_map:
-                            continue
-                        a = li.find("a", class_="showtime")
-                        if not a:
-                            continue
-                        t24 = parse_time_12h_to_24h(a.get_text(strip=True))
-                        if not t24:
-                            continue
+                    # Reuse same showtime parsing logic
+                    showtimes = parse_showtimes_from_block(ms)
 
-                        label = None
-                        pill = li.find_next(lambda tag: tag.name == "a" and "pill" in (tag.get("class") or []))
-                        if pill:
-                            pill_text = pill.get_text(strip=True)
-                            if re.search(r"\b4K\b", pill_text, flags=re.I):
-                                label = "4K"
-                            else:
-                                short = pill_text[:20].strip()
-                                if short:
-                                    label = short
-                        if not label:
-                            li_text = (li.get_text(" ", strip=True) or "")
-                            if re.search(r"\b4K\b", li_text, flags=re.I):
-                                label = "4K"
-
-                        d = epoch_map[epoch]
-                        showtimes.append(f"{d.strftime('%Y-%m-%d')} {t24}" + (f" ({label})" if label else ""))
-
-                    # Runtime (cache by URL)
-                    runtime = parse_gateway_runtime_minutes(murl)
+                    if murl not in runtime_cache:
+                        runtime_cache[murl] = parse_gateway_runtime_minutes(murl)
+                    runtime = runtime_cache[murl]
 
                     out[murl] = {
                         "title": title,
@@ -284,7 +227,6 @@ def fetch_gateway():
             pass
         return out
 
-    # Merge both sources
     by_key = {}
     part_a = collect_from_upcoming()
     part_b = collect_from_homepage()
@@ -314,7 +256,7 @@ def fetch_gateway():
     return results
 
 # -------------------------------
-# Studio 35 (Playwright; showtimes + runtime from JSON-LD)
+# Studio 35
 # -------------------------------
 def fetch_studio35():
     base_url = "https://studio35.com/home"
@@ -332,15 +274,12 @@ def fetch_studio35():
             full_link = "https://studio35.com" + link if link.startswith("/") else link
             page.goto(full_link, timeout=60000)
 
-            # Pull full HTML for BeautifulSoup (for runtime JSON-LD)
             html = page.content()
             soup = BeautifulSoup(html, "html.parser")
 
-            # Title
             title_el = soup.select_one("h1[itemprop='name']") or soup.find("h1")
             title = title_el.get_text(strip=True) if title_el else "Unknown"
 
-            # Showtimes (h2 a[href*='/checkout/showing/'] with text like "September 24, 8:45 pm")
             showtimes = []
             for st in soup.select("h2 a[href*='/checkout/showing/']"):
                 text = st.get_text(strip=True)
@@ -350,8 +289,7 @@ def fetch_studio35():
                 except ValueError:
                     continue
 
-            # Runtime from JSON-LD (minutes)
-            runtime = parse_studio35_runtime_minutes_from_soup(soup)
+            runtime = parse_studio35_runtime_minutes(soup)
 
             results.append({
                 "title": title,
@@ -366,7 +304,7 @@ def fetch_studio35():
     return results
 
 # -------------------------------
-# Drexel Theatre (list page; showtimes + runtime from descriptive)
+# Drexel Theatre
 # -------------------------------
 def fetch_drexel():
     url = "https://prod1.agileticketing.net/websales/pages/list.aspx?epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&"
@@ -382,7 +320,6 @@ def fetch_drexel():
             continue
         title = title_tag.get_text(strip=True)
 
-        # Descriptive line for runtime
         desc_div = title_tag.find("div", class_="Descriptive")
         runtime = parse_drexel_runtime_minutes(desc_div.get_text(" ", strip=True) if desc_div else "")
 
@@ -394,11 +331,10 @@ def fetch_drexel():
             date_span = st_block.find("span", class_="Date")
             if not date_span:
                 continue
-            date_text = date_span.get_text(strip=True)  # e.g. "Mon, Sep 29"
+            date_text = date_span.get_text(strip=True)
 
             for time_a in st_block.select("span.Showing a"):
-                time_text = time_a.get_text(strip=True)  # e.g. "7:00 PM"
-                # Append current year to avoid ambiguity
+                time_text = time_a.get_text(strip=True)
                 try:
                     dt = datetime.strptime(f"{date_text} {time_text} {datetime.now().year}", "%a, %b %d %I:%M %p %Y")
                     showtimes.append(dt.strftime("%Y-%m-%d %H:%M"))
