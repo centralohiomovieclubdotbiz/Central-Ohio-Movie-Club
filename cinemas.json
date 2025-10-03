@@ -923,14 +923,6 @@
       ]
     },
     {
-      "title": "Him",
-      "url": "https://www.studio35.com/movie/him",
-      "runtime": 96,
-      "showtimes": [
-        "2025-10-01 21:30"
-      ]
-    },
-    {
       "title": "Hocus Pocus Beer Tasting",
       "url": "https://www.studio35.com/movie/hocus-pocus-beer-tasting",
       "runtime": 216,
@@ -955,19 +947,10 @@
       ]
     },
     {
-      "title": "Unknown",
-      "url": "https://www.studio35.com/movie/ohio-state-vs-washington",
-      "runtime": null,
-      "showtimes": []
-    },
-    {
       "title": "One Battle After Another",
       "url": "https://www.studio35.com/movie/one-battle-after-another",
       "runtime": 162,
       "showtimes": [
-        "2025-10-01 21:00",
-        "2025-10-02 15:15",
-        "2025-10-02 18:45",
         "2025-10-02 21:15",
         "2025-10-03 15:30",
         "2025-10-03 18:45",
@@ -988,12 +971,6 @@
         "2025-10-08 18:30",
         "2025-10-08 21:00"
       ]
-    },
-    {
-      "title": "Unknown",
-      "url": "https://www.studio35.com/movie/pta-meeting-inherent-vice",
-      "runtime": null,
-      "showtimes": []
     },
     {
       "title": "PTA Meeting: Licorice Pizza",
@@ -1044,12 +1021,6 @@
       ]
     },
     {
-      "title": "Unknown",
-      "url": "https://www.studio35.com/movie/star-wars-episode-v--the-empire-strikes-back-beer-tasting",
-      "runtime": null,
-      "showtimes": []
-    },
-    {
       "title": "Suspiria",
       "url": "https://www.studio35.com/movie/suspiria",
       "runtime": 99,
@@ -1063,6 +1034,15 @@
       "runtime": 76,
       "showtimes": [
         "2025-10-26 13:30"
+      ]
+    },
+    {
+      "title": "The Rocky Horror Picture Show- Halloween Edition!",
+      "url": "https://www.studio35.com/movie/the-rocky-horror-picture-show--halloween-edition",
+      "runtime": 100,
+      "showtimes": [
+        "2025-10-31 23:30",
+        "2025-11-01 23:30"
       ]
     },
     {
@@ -1086,8 +1066,6 @@
       "url": "https://www.studio35.com/movie/the-smashing-machine",
       "runtime": 123,
       "showtimes": [
-        "2025-10-02 16:00",
-        "2025-10-02 18:30",
         "2025-10-02 22:00",
         "2025-10-03 15:00",
         "2025-10-03 17:45",
