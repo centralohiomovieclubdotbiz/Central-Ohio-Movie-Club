@@ -46,31 +46,41 @@ def parse_gateway_runtime_minutes(movie_url: str) -> int | None:
     return None
 
 def parse_studio35_runtime_minutes(movie_soup: BeautifulSoup) -> int | None:
-    """Parse Studio 35 runtime from JSON-LD duration 'PT2H42M'."""
+    """
+    Prefer JSON-LD Movie.duration (PT#H#M). Fallback to microdata span[itemprop="duration"].
+    Returns minutes or None.
+    """
+    # 1) JSON-LD blocks: there may be multiple; one is MovieTheater, one is Movie
     try:
-        script_tag = movie_soup.find("script", {"type": "application/ld+json"})
-        if not script_tag or not script_tag.string:
-            return None
-        data = json.loads(script_tag.string)
-        if isinstance(data, list):
-            for obj in data:
-                if isinstance(obj, dict) and obj.get("@type") == "Movie" and obj.get("duration"):
-                    duration = obj["duration"]
-                    break
-            else:
-                return None
-        else:
-            duration = data.get("duration")
-        if not duration:
-            return None
-        m = re.match(r"PT(?:(\d+)H)?(?:(\d+)M)?", duration)
-        if not m:
-            return None
-        hours = int(m.group(1) or 0)
-        minutes = int(m.group(2) or 0)
-        return hours * 60 + minutes
+        for tag in movie_soup.select("script[type='application/ld+json']"):
+            text = tag.string or tag.get_text(strip=True) or ""
+            if not text:
+                continue
+            # Some pages embed multiple JSON-LD objects; handle both object and array
+            data = json.loads(text)
+            candidates = data if isinstance(data, list) else [data]
+            for obj in candidates:
+                if isinstance(obj, dict) and obj.get("@type") == "Movie":
+                    dur = obj.get("duration")
+                    if dur:
+                        m = re.match(r"^PT(?:(\d+)H)?(?:(\d+)M)?$", dur)
+                        if m:
+                            hours = int(m.group(1) or 0)
+                            minutes = int(m.group(2) or 0)
+                            return hours * 60 + minutes
+        # 2) Microdata fallback: <span itemprop="duration">PT2H13M</span>
+        dur_span = movie_soup.select_one("[itemprop='duration']")
+        if dur_span and dur_span.get_text(strip=True):
+            dur = dur_span.get_text(strip=True)
+            m = re.match(r"^PT(?:(\d+)H)?(?:(\d+)M)?$", dur)
+            if m:
+                hours = int(m.group(1) or 0)
+                minutes = int(m.group(2) or 0)
+                return hours * 60 + minutes
     except Exception:
-        return None
+        pass
+    return None
+
 
 def parse_drexel_runtime_minutes(descriptive_text: str) -> int | None:
     """Parse something like '...| 2 hr 35 min' or '...| 107 min'."""
