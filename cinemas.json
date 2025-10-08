@@ -1,21 +1,6 @@
 {
   "gateway": [
     {
-      "title": "Hitchcocktober 2025: The Birds (1963) 4K Restoration",
-      "url": "https://gatewayfilmcenter.org/movies/the-birds-1963/",
-      "runtime": 119,
-      "showtimes": [
-        "2025-10-08 16:30 (4K)",
-        "2025-10-08 19:30 (4K)",
-        "2025-10-09 16:00 (4K)",
-        "2025-10-09 19:00 (4K)",
-        "2025-10-09 21:30",
-        "2025-10-10 19:00 (4K)",
-        "2025-10-11 14:00 (4K)",
-        "2025-10-11 19:00 (4K)"
-      ]
-    },
-    {
       "title": "Orwell: 2+2=5 (2025)",
       "url": "https://gatewayfilmcenter.org/movies/orwell-225-2025/",
       "runtime": 119,
@@ -415,17 +400,17 @@
       ]
     },
     {
-      "title": "NFFX: Siren Songs: Mermaid Horror",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-siren-songs-mermaid-horror/",
-      "runtime": 53,
+      "title": "NFFX: Galaxy of Terror: Alien Horror",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-galaxy-of-terror-alien-horror/",
+      "runtime": 61,
       "showtimes": [
         "2025-10-18 16:00"
       ]
     },
     {
-      "title": "NFFX: Galaxy of Terror: Alien Horror",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-galaxy-of-terror-alien-horror/",
-      "runtime": 61,
+      "title": "NFFX: Siren Songs: Mermaid Horror",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-siren-songs-mermaid-horror/",
+      "runtime": 53,
       "showtimes": [
         "2025-10-18 16:00"
       ]
@@ -1137,12 +1122,6 @@
     }
   ],
   "drexel": [
-    {
-      "title": "Banned Together (2025)Unrated | 1 hr 33 min",
-      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=520093~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/7/2025&",
-      "runtime": 93,
-      "showtimes": []
-    },
     {
       "title": "Double Feature: Bloody Moon (1981) and Zombie (1979)Zombie (1979): Rated R (violence, nudity) | 1 hr 31 min",
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=520086~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/11/2025&",
