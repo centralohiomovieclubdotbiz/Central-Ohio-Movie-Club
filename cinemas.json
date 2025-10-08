@@ -364,6 +364,12 @@
       ]
     },
     {
+      "title": "NFFX Panel: The New Distribution",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-panel-the-new-distribution/",
+      "runtime": 50,
+      "showtimes": []
+    },
+    {
       "title": "NFFX: The Mother, the Menacer and Me with Script Tease",
       "url": "https://gatewayfilmcenter.org/movies/nffx-the-mother-the-menacer-and-me-with-script-tease/",
       "runtime": 101,
@@ -374,12 +380,6 @@
     {
       "title": "NFFX Workshop: Writing Cross-Platform with Hope Madden",
       "url": "https://gatewayfilmcenter.org/special_events/nffx-workshop-writing-cross-platform-with-hope-madden/",
-      "runtime": 50,
-      "showtimes": []
-    },
-    {
-      "title": "NFFX Panel: The New Distribution",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-panel-the-new-distribution/",
       "runtime": 50,
       "showtimes": []
     },
@@ -599,7 +599,7 @@
         "2025-10-24 19:45 (4K)",
         "2025-10-25 12:15",
         "2025-10-25 15:30",
-        "2025-10-25 18:30 (4K)",
+        "2025-10-25 18:30",
         "2025-10-25 21:45 (4K)",
         "2025-10-26 12:15",
         "2025-10-26 15:30",
@@ -649,7 +649,7 @@
         "2025-10-27 19:30 (4K)",
         "2025-10-28 19:30 (4K)",
         "2025-10-29 19:30 (4K)",
-        "2025-10-30 19:30 (4K)",
+        "2025-10-30 19:00 (4K)",
         "2025-10-31 19:00"
       ]
     },
@@ -657,7 +657,14 @@
       "title": "Bugonia (2025)",
       "url": "https://gatewayfilmcenter.org/movies/bugonia-2025/",
       "runtime": 118,
-      "showtimes": []
+      "showtimes": [
+        "2025-10-30 16:15",
+        "2025-10-30 19:00",
+        "2025-10-30 21:45",
+        "2025-10-31 15:30",
+        "2025-10-31 18:30",
+        "2025-10-31 20:45"
+      ]
     },
     {
       "title": "The Phantom of the Opera (1925) with Live Orchestra – 100th Anniversary Screening",
@@ -684,7 +691,6 @@
       "url": "https://gatewayfilmcenter.org/movies/anemone-2025/",
       "runtime": 121,
       "showtimes": [
-        "2025-10-08 16:30",
         "2025-10-08 19:30",
         "2025-10-09 16:30",
         "2025-10-09 19:30",
@@ -758,7 +764,6 @@
       "url": "https://gatewayfilmcenter.org/movies/one-battle-after-another-2025/",
       "runtime": 162,
       "showtimes": [
-        "2025-10-08 16:00",
         "2025-10-08 19:00",
         "2025-10-09 16:15",
         "2025-10-09 19:45",
@@ -788,16 +793,13 @@
       "title": "Plainclothes (2025)",
       "url": "https://gatewayfilmcenter.org/movies/plainclothes-2025/",
       "runtime": 97,
-      "showtimes": [
-        "2025-10-08 16:00"
-      ]
+      "showtimes": []
     },
     {
       "title": "Hitchcocktober 2025: The Birds (1963) 4K Restoration",
       "url": "https://gatewayfilmcenter.org/movies/the-birds-1963/",
       "runtime": 119,
       "showtimes": [
-        "2025-10-08 16:30 (4K)",
         "2025-10-08 19:30 (4K)",
         "2025-10-09 16:00 (4K)",
         "2025-10-09 19:00 (4K)",
@@ -812,7 +814,6 @@
       "url": "https://gatewayfilmcenter.org/movies/the-smashing-machine-2025/",
       "runtime": 123,
       "showtimes": [
-        "2025-10-08 16:15",
         "2025-10-08 19:15",
         "2025-10-09 16:00",
         "2025-10-09 18:30",
