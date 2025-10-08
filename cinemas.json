@@ -793,10 +793,19 @@
       ]
     },
     {
-      "title": "Hitchcocktober 2025: Rear Window (1954) 4K Restoration",
-      "url": "https://gatewayfilmcenter.org/movies/rear-window-1954/",
-      "runtime": 112,
-      "showtimes": []
+      "title": "Hitchcocktober 2025: The Birds (1963) 4K Restoration",
+      "url": "https://gatewayfilmcenter.org/movies/the-birds-1963/",
+      "runtime": 119,
+      "showtimes": [
+        "2025-10-08 16:30 (4K)",
+        "2025-10-08 19:30 (4K)",
+        "2025-10-09 16:00 (4K)",
+        "2025-10-09 19:00 (4K)",
+        "2025-10-09 21:30",
+        "2025-10-10 19:00 (4K)",
+        "2025-10-11 14:00 (4K)",
+        "2025-10-11 19:00 (4K)"
+      ]
     },
     {
       "title": "The Smashing Machine (2025)",
@@ -1122,6 +1131,76 @@
     }
   ],
   "drexel": [
+    {
+      "title": "One Battle After AnotherRated R (language, violence, sexual content) | 2 hr 41 min",
+      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=519476~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/9/2025&",
+      "runtime": 161,
+      "showtimes": [
+        "2025-10-09 16:00",
+        "2025-10-09 19:15",
+        "2025-10-10 16:00",
+        "2025-10-10 19:15",
+        "2025-10-11 12:30",
+        "2025-10-11 16:00",
+        "2025-10-11 19:15",
+        "2025-10-12 12:30",
+        "2025-10-12 16:00",
+        "2025-10-12 19:15",
+        "2025-10-13 16:00",
+        "2025-10-13 19:15"
+      ]
+    },
+    {
+      "title": "Downton Abbey: The Grand FinaleRated PG | 2 hr 3 min",
+      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=516202~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/9/2025&",
+      "runtime": 123,
+      "showtimes": [
+        "2025-10-09 16:15",
+        "2025-10-09 19:00"
+      ]
+    },
+    {
+      "title": "The Smashing MachineRated R (violence, language) | 2 hr 3 min",
+      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=521166~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/9/2025&",
+      "runtime": 123,
+      "showtimes": [
+        "2025-10-09 16:30",
+        "2025-10-09 19:30",
+        "2025-10-10 16:30",
+        "2025-10-11 13:30",
+        "2025-10-11 16:30",
+        "2025-10-12 13:30",
+        "2025-10-12 16:30"
+      ]
+    },
+    {
+      "title": "A House of DynamiteRated R (language) | 1hr 52min",
+      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=523359~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/10/2025&",
+      "runtime": 112,
+      "showtimes": [
+        "2025-10-10 16:15",
+        "2025-10-10 19:00",
+        "2025-10-11 13:00",
+        "2025-10-11 16:15",
+        "2025-10-11 19:00",
+        "2025-10-12 13:00",
+        "2025-10-12 16:15",
+        "2025-10-12 19:00",
+        "2025-10-13 16:00",
+        "2025-10-13 19:30"
+      ]
+    },
+    {
+      "title": "Perfect Blue Remastered",
+      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=379908~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/10/2025&",
+      "runtime": null,
+      "showtimes": [
+        "2025-10-10 19:30",
+        "2025-10-11 19:30",
+        "2025-10-12 19:30",
+        "2025-10-13 16:30"
+      ]
+    },
     {
       "title": "Double Feature: Bloody Moon (1981) and Zombie (1979)Zombie (1979): Rated R (violence, nudity) | 1 hr 31 min",
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=520086~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/11/2025&",
