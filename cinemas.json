@@ -699,7 +699,6 @@
       "url": "https://gatewayfilmcenter.org/movies/anemone-2025/",
       "runtime": 121,
       "showtimes": [
-        "2025-10-07 19:30",
         "2025-10-08 16:30",
         "2025-10-08 19:30",
         "2025-10-09 16:30",
@@ -721,8 +720,6 @@
       "url": "https://gatewayfilmcenter.org/movies/bone-lake-2025/",
       "runtime": 94,
       "showtimes": [
-        "2025-10-07 17:15",
-        "2025-10-07 19:45",
         "2025-10-08 17:15",
         "2025-10-08 19:45",
         "2025-10-09 16:45",
@@ -737,8 +734,6 @@
       "url": "https://gatewayfilmcenter.org/movies/coyotes-2025/",
       "runtime": 91,
       "showtimes": [
-        "2025-10-07 17:30",
-        "2025-10-07 20:00",
         "2025-10-08 19:00",
         "2025-10-09 16:15"
       ]
@@ -748,7 +743,6 @@
       "url": "https://gatewayfilmcenter.org/movies/eleanor-the-great-2025/",
       "runtime": 98,
       "showtimes": [
-        "2025-10-07 16:45",
         "2025-10-08 16:45"
       ]
     },
@@ -757,8 +751,6 @@
       "url": "https://gatewayfilmcenter.org/movies/good-boy-2025/",
       "runtime": 73,
       "showtimes": [
-        "2025-10-07 17:00",
-        "2025-10-07 19:45",
         "2025-10-08 17:00",
         "2025-10-08 19:45",
         "2025-10-09 17:00",
@@ -781,7 +773,6 @@
       "url": "https://gatewayfilmcenter.org/movies/one-battle-after-another-2025/",
       "runtime": 162,
       "showtimes": [
-        "2025-10-07 19:00",
         "2025-10-08 16:00",
         "2025-10-08 19:00",
         "2025-10-09 16:15",
@@ -813,7 +804,6 @@
       "url": "https://gatewayfilmcenter.org/movies/plainclothes-2025/",
       "runtime": 97,
       "showtimes": [
-        "2025-10-07 19:00",
         "2025-10-08 16:00"
       ]
     },
@@ -821,16 +811,13 @@
       "title": "Hitchcocktober 2025: Rear Window (1954) 4K Restoration",
       "url": "https://gatewayfilmcenter.org/movies/rear-window-1954/",
       "runtime": 112,
-      "showtimes": [
-        "2025-10-07 19:30 (4K)"
-      ]
+      "showtimes": []
     },
     {
       "title": "The Smashing Machine (2025)",
       "url": "https://gatewayfilmcenter.org/movies/the-smashing-machine-2025/",
       "runtime": 123,
       "showtimes": [
-        "2025-10-07 19:15",
         "2025-10-08 16:15",
         "2025-10-08 19:15",
         "2025-10-09 16:00",
@@ -1154,9 +1141,7 @@
       "title": "Banned Together (2025)Unrated | 1 hr 33 min",
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=520093~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/7/2025&",
       "runtime": 93,
-      "showtimes": [
-        "2025-10-07 19:00"
-      ]
+      "showtimes": []
     },
     {
       "title": "Double Feature: Bloody Moon (1981) and Zombie (1979)Zombie (1979): Rated R (violence, nudity) | 1 hr 31 min",
