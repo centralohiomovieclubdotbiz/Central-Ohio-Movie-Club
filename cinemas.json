@@ -1,58 +1,6 @@
 {
   "gateway": [
     {
-      "title": "Orwell: 2+2=5 (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/orwell-225-2025/",
-      "runtime": 119,
-      "showtimes": [
-        "2025-10-09 18:45",
-        "2025-10-10 16:00",
-        "2025-10-11 11:00",
-        "2025-10-11 14:30",
-        "2025-10-12 11:30 (4K)",
-        "2025-10-12 15:45",
-        "2025-10-13 16:45",
-        "2025-10-14 16:45",
-        "2025-10-15 16:00",
-        "2025-10-16 16:00"
-      ]
-    },
-    {
-      "title": "Kiss of the Spider Woman (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/kiss-of-the-spider-woman-2025/",
-      "runtime": 128,
-      "showtimes": [
-        "2025-10-09 19:00",
-        "2025-10-10 17:15",
-        "2025-10-10 20:00",
-        "2025-10-11 13:30",
-        "2025-10-11 16:30",
-        "2025-10-11 19:30",
-        "2025-10-12 13:30",
-        "2025-10-12 16:45",
-        "2025-10-12 19:30",
-        "2025-10-13 16:00",
-        "2025-10-13 18:45",
-        "2025-10-14 16:00",
-        "2025-10-14 18:45",
-        "2025-10-15 16:45",
-        "2025-10-16 16:00"
-      ]
-    },
-    {
-      "title": "Deathstalker (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/deathstalker-2025/",
-      "runtime": 102,
-      "showtimes": [
-        "2025-10-09 21:30",
-        "2025-10-10 21:45 (4K)",
-        "2025-10-11 16:15",
-        "2025-10-12 19:00",
-        "2025-10-13 17:30",
-        "2025-10-14 19:15"
-      ]
-    },
-    {
       "title": "Perfect Blue (1997) 4K Restoration",
       "url": "https://gatewayfilmcenter.org/movies/perfect-blue-25th-anniversary/",
       "runtime": 81,
@@ -85,22 +33,6 @@
         "2025-10-15 17:00",
         "2025-10-16 21:15",
         "2025-10-17 21:00"
-      ]
-    },
-    {
-      "title": "The Librarians (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/the-librarians-2025/",
-      "runtime": 94,
-      "showtimes": [
-        "2025-10-10 18:45",
-        "2025-10-11 11:00",
-        "2025-10-11 13:45",
-        "2025-10-12 11:15",
-        "2025-10-12 18:30",
-        "2025-10-13 16:30",
-        "2025-10-14 16:30",
-        "2025-10-15 16:30",
-        "2025-10-16 16:45"
       ]
     },
     {
@@ -251,17 +183,17 @@
       ]
     },
     {
-      "title": "NFFX: Horror Comedy Shorts A",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-horror-comedy-shorts-a/",
-      "runtime": 94,
+      "title": "NFFX: Anything That Moves with Are You Fucking Kidding Me?!",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-anything-that-moves-with-are-you-fucking-kidding-me/",
+      "runtime": 92,
       "showtimes": [
         "2025-10-16 22:00"
       ]
     },
     {
-      "title": "NFFX: Anything That Moves with Are You Fucking Kidding Me?!",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-anything-that-moves-with-are-you-fucking-kidding-me/",
-      "runtime": 92,
+      "title": "NFFX: Horror Comedy Shorts A",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-horror-comedy-shorts-a/",
+      "runtime": 94,
       "showtimes": [
         "2025-10-16 22:00"
       ]
@@ -400,17 +332,17 @@
       ]
     },
     {
-      "title": "NFFX: Galaxy of Terror: Alien Horror",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-galaxy-of-terror-alien-horror/",
-      "runtime": 61,
+      "title": "NFFX: Siren Songs: Mermaid Horror",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-siren-songs-mermaid-horror/",
+      "runtime": 53,
       "showtimes": [
         "2025-10-18 16:00"
       ]
     },
     {
-      "title": "NFFX: Siren Songs: Mermaid Horror",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-siren-songs-mermaid-horror/",
-      "runtime": 53,
+      "title": "NFFX: Galaxy of Terror: Alien Horror",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-galaxy-of-terror-alien-horror/",
+      "runtime": 61,
       "showtimes": [
         "2025-10-18 16:00"
       ]
@@ -726,10 +658,17 @@
       ]
     },
     {
-      "title": "Eleanor the Great (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/eleanor-the-great-2025/",
-      "runtime": 98,
-      "showtimes": []
+      "title": "Deathstalker (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/deathstalker-2025/",
+      "runtime": 102,
+      "showtimes": [
+        "2025-10-09 21:30",
+        "2025-10-10 21:45 (4K)",
+        "2025-10-11 16:15",
+        "2025-10-12 19:00",
+        "2025-10-13 17:30",
+        "2025-10-14 19:15"
+      ]
     },
     {
       "title": "Good Boy (2025)",
@@ -749,6 +688,28 @@
         "2025-10-15 20:00",
         "2025-10-16 16:30",
         "2025-10-16 21:30"
+      ]
+    },
+    {
+      "title": "Kiss of the Spider Woman (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/kiss-of-the-spider-woman-2025/",
+      "runtime": 128,
+      "showtimes": [
+        "2025-10-09 19:00",
+        "2025-10-10 17:15",
+        "2025-10-10 20:00",
+        "2025-10-11 13:30",
+        "2025-10-11 16:30",
+        "2025-10-11 19:30",
+        "2025-10-12 13:30",
+        "2025-10-12 16:45",
+        "2025-10-12 19:30",
+        "2025-10-13 16:00",
+        "2025-10-13 18:45",
+        "2025-10-14 16:00",
+        "2025-10-14 18:45",
+        "2025-10-15 16:45",
+        "2025-10-16 16:00"
       ]
     },
     {
@@ -781,10 +742,21 @@
       ]
     },
     {
-      "title": "Plainclothes (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/plainclothes-2025/",
-      "runtime": 97,
-      "showtimes": []
+      "title": "Orwell: 2+2=5 (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/orwell-225-2025/",
+      "runtime": 119,
+      "showtimes": [
+        "2025-10-09 18:45",
+        "2025-10-10 16:00",
+        "2025-10-11 11:00",
+        "2025-10-11 14:30",
+        "2025-10-12 11:30 (4K)",
+        "2025-10-12 15:45",
+        "2025-10-13 16:45",
+        "2025-10-14 16:45",
+        "2025-10-15 16:00",
+        "2025-10-16 16:00"
+      ]
     },
     {
       "title": "Hitchcocktober 2025: The Birds (1963) 4K Restoration",
