@@ -5,7 +5,6 @@
       "url": "https://gatewayfilmcenter.org/movies/perfect-blue-25th-anniversary/",
       "runtime": 81,
       "showtimes": [
-        "2025-10-09 21:45 (4K)",
         "2025-10-10 17:00 (4K)",
         "2025-10-11 18:45",
         "2025-10-12 17:15 (4K)",
@@ -183,14 +182,6 @@
       ]
     },
     {
-      "title": "NFFX: Horror Comedy Shorts A",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-horror-comedy-shorts-a/",
-      "runtime": 94,
-      "showtimes": [
-        "2025-10-16 22:00"
-      ]
-    },
-    {
       "title": "NFFX: Anything That Moves with Are You Fucking Kidding Me?!",
       "url": "https://gatewayfilmcenter.org/movies/nffx-anything-that-moves-with-are-you-fucking-kidding-me/",
       "runtime": 92,
@@ -199,17 +190,25 @@
       ]
     },
     {
-      "title": "NFFX: Recurring Nightmares A",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-recurring-nightmares-a/",
-      "runtime": 105,
+      "title": "NFFX: Horror Comedy Shorts A",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-horror-comedy-shorts-a/",
+      "runtime": 94,
       "showtimes": [
-        "2025-10-17 16:00"
+        "2025-10-16 22:00"
       ]
     },
     {
       "title": "NFFX: The Red Mask with Shed",
       "url": "https://gatewayfilmcenter.org/movies/nffx-the-red-mask-with-shed/",
       "runtime": 99,
+      "showtimes": [
+        "2025-10-17 16:00"
+      ]
+    },
+    {
+      "title": "NFFX: Recurring Nightmares A",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-recurring-nightmares-a/",
+      "runtime": 105,
       "showtimes": [
         "2025-10-17 16:00"
       ]
@@ -332,17 +331,17 @@
       ]
     },
     {
-      "title": "NFFX: Siren Songs: Mermaid Horror",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-siren-songs-mermaid-horror/",
-      "runtime": 53,
+      "title": "NFFX: Galaxy of Terror: Alien Horror",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-galaxy-of-terror-alien-horror/",
+      "runtime": 61,
       "showtimes": [
         "2025-10-18 16:00"
       ]
     },
     {
-      "title": "NFFX: Galaxy of Terror: Alien Horror",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-galaxy-of-terror-alien-horror/",
-      "runtime": 61,
+      "title": "NFFX: Siren Songs: Mermaid Horror",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-siren-songs-mermaid-horror/",
+      "runtime": 53,
       "showtimes": [
         "2025-10-18 16:00"
       ]
@@ -454,17 +453,17 @@
       ]
     },
     {
-      "title": "NFFX: Queens of the Dead",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-queens-of-the-dead/",
-      "runtime": 91,
+      "title": "NFFX: Interaction",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-interaction/",
+      "runtime": 118,
       "showtimes": [
         "2025-10-19 16:00"
       ]
     },
     {
-      "title": "NFFX: Interaction",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-interaction/",
-      "runtime": 118,
+      "title": "NFFX: Queens of the Dead",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-queens-of-the-dead/",
+      "runtime": 91,
       "showtimes": [
         "2025-10-19 16:00"
       ]
@@ -615,6 +614,16 @@
       ]
     },
     {
+      "title": "The Lovers on the Bridge (1991) 4K Restoration",
+      "url": "https://gatewayfilmcenter.org/movies/the-lovers-on-the-bridge-1991-4k-restoration/",
+      "runtime": 126,
+      "showtimes": [
+        "2025-11-07 16:00",
+        "2025-11-08 11:00",
+        "2025-11-09 11:00"
+      ]
+    },
+    {
       "title": "Matter of Time (2025)",
       "url": "https://gatewayfilmcenter.org/movies/matter-of-time-2025/",
       "runtime": 105,
@@ -625,11 +634,11 @@
       "url": "https://gatewayfilmcenter.org/movies/wicked-for-good-2025/",
       "runtime": 137,
       "showtimes": [
+        "2025-11-20 16:00",
         "2025-11-20 17:00",
-        "2025-11-20 18:00",
-        "2025-11-20 19:15 (4K)",
+        "2025-11-20 19:15",
         "2025-11-20 20:15",
-        "2025-11-20 21:15",
+        "2025-11-20 21:15 (4K)",
         "2025-11-21 16:30 (4K)",
         "2025-11-21 19:45 (4K)",
         "2025-11-21 21:15",
@@ -689,7 +698,6 @@
       "url": "https://gatewayfilmcenter.org/movies/anemone-2025/",
       "runtime": 121,
       "showtimes": [
-        "2025-10-09 19:30",
         "2025-10-10 16:30",
         "2025-10-10 19:15",
         "2025-10-11 13:00",
@@ -707,7 +715,6 @@
       "url": "https://gatewayfilmcenter.org/movies/bone-lake-2025/",
       "runtime": 94,
       "showtimes": [
-        "2025-10-09 16:45",
         "2025-10-10 16:45",
         "2025-10-11 21:30",
         "2025-10-12 16:00",
@@ -725,7 +732,6 @@
       "url": "https://gatewayfilmcenter.org/movies/deathstalker-2025/",
       "runtime": 102,
       "showtimes": [
-        "2025-10-09 21:30",
         "2025-10-10 21:45 (4K)",
         "2025-10-11 16:15",
         "2025-10-12 19:00",
@@ -738,9 +744,6 @@
       "url": "https://gatewayfilmcenter.org/movies/good-boy-2025/",
       "runtime": 73,
       "showtimes": [
-        "2025-10-09 17:00",
-        "2025-10-09 19:15",
-        "2025-10-09 21:45",
         "2025-10-10 22:00",
         "2025-10-11 11:15",
         "2025-10-11 22:15",
@@ -758,7 +761,6 @@
       "url": "https://gatewayfilmcenter.org/movies/kiss-of-the-spider-woman-2025/",
       "runtime": 128,
       "showtimes": [
-        "2025-10-09 19:00",
         "2025-10-10 17:15",
         "2025-10-10 20:00",
         "2025-10-11 13:30",
@@ -780,8 +782,6 @@
       "url": "https://gatewayfilmcenter.org/movies/one-battle-after-another-2025/",
       "runtime": 162,
       "showtimes": [
-        "2025-10-09 19:45",
-        "2025-10-09 21:00",
         "2025-10-10 16:15",
         "2025-10-10 19:45",
         "2025-10-11 12:45",
@@ -808,7 +808,6 @@
       "url": "https://gatewayfilmcenter.org/movies/orwell-225-2025/",
       "runtime": 119,
       "showtimes": [
-        "2025-10-09 18:45",
         "2025-10-10 16:00",
         "2025-10-11 11:00",
         "2025-10-11 14:30",
@@ -825,8 +824,6 @@
       "url": "https://gatewayfilmcenter.org/movies/the-birds-1963/",
       "runtime": 119,
       "showtimes": [
-        "2025-10-09 19:00 (4K)",
-        "2025-10-09 21:30",
         "2025-10-10 19:00 (4K)",
         "2025-10-11 14:00 (4K)",
         "2025-10-11 19:00 (4K)"
@@ -837,8 +834,6 @@
       "url": "https://gatewayfilmcenter.org/movies/the-smashing-machine-2025/",
       "runtime": 123,
       "showtimes": [
-        "2025-10-09 18:30",
-        "2025-10-09 21:15",
         "2025-10-10 16:45",
         "2025-10-10 19:30",
         "2025-10-11 13:15",
@@ -1145,7 +1140,6 @@
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=519476~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/9/2025&",
       "runtime": 161,
       "showtimes": [
-        "2025-10-09 19:15",
         "2025-10-10 16:00",
         "2025-10-10 19:15",
         "2025-10-11 12:30",
@@ -1162,16 +1156,13 @@
       "title": "Downton Abbey: The Grand FinaleRated PG | 2 hr 3 min",
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=516202~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/9/2025&",
       "runtime": 123,
-      "showtimes": [
-        "2025-10-09 19:00"
-      ]
+      "showtimes": []
     },
     {
       "title": "The Smashing MachineRated R (violence, language) | 2 hr 3 min",
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=521166~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/9/2025&",
       "runtime": 123,
       "showtimes": [
-        "2025-10-09 19:30",
         "2025-10-10 16:30",
         "2025-10-11 13:30",
         "2025-10-11 16:30",
