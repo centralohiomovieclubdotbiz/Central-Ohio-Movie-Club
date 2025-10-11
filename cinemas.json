@@ -684,7 +684,6 @@
       "url": "https://gatewayfilmcenter.org/movies/a-house-of-dynamite-2025/",
       "runtime": 112,
       "showtimes": [
-        "2025-10-11 14:15",
         "2025-10-11 16:45",
         "2025-10-11 19:15",
         "2025-10-11 21:45",
@@ -707,7 +706,6 @@
       "url": "https://gatewayfilmcenter.org/movies/anemone-2025/",
       "runtime": 121,
       "showtimes": [
-        "2025-10-11 13:00",
         "2025-10-12 11:00",
         "2025-10-12 13:00",
         "2025-10-13 16:15",
@@ -757,7 +755,6 @@
       "url": "https://gatewayfilmcenter.org/movies/deathstalker-2025/",
       "runtime": 102,
       "showtimes": [
-        "2025-10-11 16:15",
         "2025-10-11 21:30",
         "2025-10-12 19:00",
         "2025-10-13 17:30",
@@ -782,7 +779,6 @@
       "url": "https://gatewayfilmcenter.org/movies/good-boy-2025/",
       "runtime": 73,
       "showtimes": [
-        "2025-10-11 15:45",
         "2025-10-11 18:30",
         "2025-10-11 22:15",
         "2025-10-12 11:00",
@@ -811,8 +807,6 @@
       "url": "https://gatewayfilmcenter.org/movies/kiss-of-the-spider-woman-2025/",
       "runtime": 128,
       "showtimes": [
-        "2025-10-11 13:30",
-        "2025-10-11 16:30",
         "2025-10-11 19:30",
         "2025-10-12 13:30",
         "2025-10-12 16:45",
@@ -836,8 +830,6 @@
       "url": "https://gatewayfilmcenter.org/movies/one-battle-after-another-2025/",
       "runtime": 162,
       "showtimes": [
-        "2025-10-11 12:45",
-        "2025-10-11 16:15",
         "2025-10-11 19:45",
         "2025-10-11 21:00",
         "2025-10-12 12:00",
@@ -869,7 +861,7 @@
         "2025-10-22 19:00",
         "2025-10-23 16:15",
         "2025-10-23 20:00",
-        "2025-10-25 16:15 (70mm)",
+        "2025-10-25 16:15",
         "2025-10-25 19:45 (70mm)",
         "2025-10-26 12:30 (70mm)",
         "2025-10-26 16:00 (70mm)",
@@ -881,7 +873,6 @@
       "url": "https://gatewayfilmcenter.org/movies/orwell-225-2025/",
       "runtime": 119,
       "showtimes": [
-        "2025-10-11 14:30",
         "2025-10-12 11:30 (4K)",
         "2025-10-12 15:45",
         "2025-10-13 16:45",
@@ -930,7 +921,6 @@
       "url": "https://gatewayfilmcenter.org/movies/the-birds-1963/",
       "runtime": 119,
       "showtimes": [
-        "2025-10-11 14:00 (4K)",
         "2025-10-11 19:00 (4K)"
       ]
     },
@@ -939,7 +929,6 @@
       "url": "https://gatewayfilmcenter.org/movies/the-librarians-2025/",
       "runtime": 94,
       "showtimes": [
-        "2025-10-11 13:45",
         "2025-10-12 11:15",
         "2025-10-12 18:30",
         "2025-10-13 16:30",
@@ -960,8 +949,6 @@
       "url": "https://gatewayfilmcenter.org/movies/the-smashing-machine-2025/",
       "runtime": 123,
       "showtimes": [
-        "2025-10-11 13:15",
-        "2025-10-11 16:00",
         "2025-10-11 18:45",
         "2025-10-11 21:15",
         "2025-10-12 11:00",
@@ -1287,7 +1274,6 @@
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=519476~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/11/2025&",
       "runtime": 161,
       "showtimes": [
-        "2025-10-11 16:00",
         "2025-10-11 19:15",
         "2025-10-12 12:30",
         "2025-10-12 16:00",
@@ -1301,8 +1287,6 @@
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=523359~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/11/2025&",
       "runtime": 112,
       "showtimes": [
-        "2025-10-11 13:00",
-        "2025-10-11 16:15",
         "2025-10-11 19:00",
         "2025-10-12 13:00",
         "2025-10-12 16:15",
@@ -1316,8 +1300,6 @@
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=521166~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/11/2025&",
       "runtime": 123,
       "showtimes": [
-        "2025-10-11 13:30",
-        "2025-10-11 16:30",
         "2025-10-12 13:30",
         "2025-10-12 16:30"
       ]
