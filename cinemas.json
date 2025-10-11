@@ -1,24 +1,6 @@
 {
   "gateway": [
     {
-      "title": "Chain Reactions (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/chain-reactions-2025/",
-      "runtime": 103,
-      "showtimes": [
-        "2025-10-11 11:45 (4K)",
-        "2025-10-11 16:45 (4K)",
-        "2025-10-12 14:15",
-        "2025-10-13 17:15",
-        "2025-10-14 17:15",
-        "2025-10-15 17:15",
-        "2025-10-18 11:00",
-        "2025-10-19 11:00",
-        "2025-10-20 17:30",
-        "2025-10-21 17:30",
-        "2025-10-22 17:30"
-      ]
-    },
-    {
       "title": "My Omaha (2025)",
       "url": "https://gatewayfilmcenter.org/movies/my-omaha-2025/",
       "runtime": 85,
@@ -138,17 +120,17 @@
       ]
     },
     {
-      "title": "NFFX: Horror Comedy Shorts A",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-horror-comedy-shorts-a/",
-      "runtime": 94,
+      "title": "NFFX: Anything That Moves with Are You Fucking Kidding Me?!",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-anything-that-moves-with-are-you-fucking-kidding-me/",
+      "runtime": 92,
       "showtimes": [
         "2025-10-16 22:00"
       ]
     },
     {
-      "title": "NFFX: Anything That Moves with Are You Fucking Kidding Me?!",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-anything-that-moves-with-are-you-fucking-kidding-me/",
-      "runtime": 92,
+      "title": "NFFX: Horror Comedy Shorts A",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-horror-comedy-shorts-a/",
+      "runtime": 94,
       "showtimes": [
         "2025-10-16 22:00"
       ]
@@ -756,6 +738,24 @@
       ]
     },
     {
+      "title": "Chain Reactions (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/chain-reactions-2025/",
+      "runtime": 103,
+      "showtimes": [
+        "2025-10-11 11:45 (4K)",
+        "2025-10-11 16:45 (4K)",
+        "2025-10-12 14:15",
+        "2025-10-13 17:15",
+        "2025-10-14 17:15",
+        "2025-10-15 17:15",
+        "2025-10-18 11:00",
+        "2025-10-19 11:00",
+        "2025-10-20 17:30",
+        "2025-10-21 17:30",
+        "2025-10-22 17:30"
+      ]
+    },
+    {
       "title": "Deathstalker (2025)",
       "url": "https://gatewayfilmcenter.org/movies/deathstalker-2025/",
       "runtime": 102,
@@ -780,12 +780,6 @@
         "2025-10-14 17:30",
         "2025-10-15 17:30"
       ]
-    },
-    {
-      "title": "Fright Club Live: Chain Reactions (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/fright-club-live-chain-reactions-2025/",
-      "runtime": 103,
-      "showtimes": []
     },
     {
       "title": "Good Boy (2025)",
@@ -920,6 +914,21 @@
         "2025-10-19 16:00",
         "2025-10-20 19:45",
         "2025-10-21 19:45"
+      ]
+    },
+    {
+      "title": "The Texas Chain Saw Massacre (1974) 4K Restoration",
+      "url": "https://gatewayfilmcenter.org/movies/texas-chain-saw-massacre-1974/",
+      "runtime": 83,
+      "showtimes": [
+        "2025-10-11 22:00 (4K)",
+        "2025-10-12 17:00",
+        "2025-10-15 19:45",
+        "2025-10-18 19:00",
+        "2025-10-19 19:00",
+        "2025-10-20 20:00",
+        "2025-10-21 20:00",
+        "2025-10-22 20:00"
       ]
     },
     {
