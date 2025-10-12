@@ -1,34 +1,6 @@
 {
   "gateway": [
     {
-      "title": "My Omaha (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/my-omaha-2025/",
-      "runtime": 85,
-      "showtimes": [
-        "2025-10-12 14:00"
-      ]
-    },
-    {
-      "title": "Hitchcocktober 2025: North by Northwest (1959) 4K Restoration",
-      "url": "https://gatewayfilmcenter.org/movies/north-by-northwest-1959-4k-restoration/",
-      "runtime": 136,
-      "showtimes": [
-        "2025-10-12 14:00 (4K)",
-        "2025-10-13 19:30 (4K)",
-        "2025-10-14 19:30 (4K)"
-      ]
-    },
-    {
-      "title": "Battle Royale (2000) 25th Anniversary Screenings",
-      "url": "https://gatewayfilmcenter.org/movies/battle-royale-2000-25th-anniversary-screenings/",
-      "runtime": 124,
-      "showtimes": [
-        "2025-10-12 19:30 (4K)",
-        "2025-10-13 19:30",
-        "2025-10-15 19:45"
-      ]
-    },
-    {
       "title": "Ballad of a Small Player (2025)",
       "url": "https://gatewayfilmcenter.org/movies/ballad-of-a-small-player-2025/",
       "runtime": 101,
@@ -400,17 +372,17 @@
       ]
     },
     {
-      "title": "NFFX: Queens of the Dead",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-queens-of-the-dead/",
-      "runtime": 91,
+      "title": "NFFX: Interaction",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-interaction/",
+      "runtime": 118,
       "showtimes": [
         "2025-10-19 16:00"
       ]
     },
     {
-      "title": "NFFX: Interaction",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-interaction/",
-      "runtime": 118,
+      "title": "NFFX: Queens of the Dead",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-queens-of-the-dead/",
+      "runtime": 91,
       "showtimes": [
         "2025-10-19 16:00"
       ]
@@ -1251,8 +1223,14 @@
   ],
   "drexel": [
     {
+      "title": "Double Feature: Bloody Moon (1981) and Zombie (1979)Zombie (1979): Rated R (violence, nudity) | 1 hr 31 min",
+      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=520086~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/11/2025&",
+      "runtime": 91,
+      "showtimes": []
+    },
+    {
       "title": "One Battle After AnotherRated R (language, violence, sexual content) | 2 hr 41 min",
-      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=519476~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/11/2025&",
+      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=519476~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/12/2025&",
       "runtime": 161,
       "showtimes": [
         "2025-10-12 12:30",
@@ -1264,7 +1242,7 @@
     },
     {
       "title": "A House of DynamiteRated R (language) | 1 hr 52 min",
-      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=523359~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/11/2025&",
+      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=523359~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/12/2025&",
       "runtime": 112,
       "showtimes": [
         "2025-10-12 13:00",
@@ -1276,7 +1254,7 @@
     },
     {
       "title": "The Smashing MachineRated R (violence, language) | 2 hr 3 min",
-      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=521166~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/11/2025&",
+      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=521166~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/12/2025&",
       "runtime": 123,
       "showtimes": [
         "2025-10-12 13:30",
@@ -1285,24 +1263,12 @@
     },
     {
       "title": "Perfect Blue Remastered",
-      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=379908~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/11/2025&",
+      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=379908~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/12/2025&",
       "runtime": null,
       "showtimes": [
         "2025-10-12 19:30",
         "2025-10-13 16:30"
       ]
-    },
-    {
-      "title": "Double Feature: Bloody Moon (1981) and Zombie (1979)Zombie (1979): Rated R (violence, nudity) | 1 hr 31 min",
-      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=520086~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/11/2025&",
-      "runtime": 91,
-      "showtimes": []
-    },
-    {
-      "title": "The RoomRated R (sexuality, language and brief violence) | 1 hr 39 min",
-      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=237424~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/11/2025&",
-      "runtime": 99,
-      "showtimes": []
     },
     {
       "title": "Vampyr (1932)Unrated | 1 hr 15 min",
