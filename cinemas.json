@@ -656,7 +656,6 @@
       "url": "https://gatewayfilmcenter.org/movies/a-house-of-dynamite-2025/",
       "runtime": 112,
       "showtimes": [
-        "2025-10-12 16:15",
         "2025-10-13 19:45",
         "2025-10-14 19:45",
         "2025-10-15 17:00",
@@ -674,7 +673,6 @@
       "url": "https://gatewayfilmcenter.org/movies/anemone-2025/",
       "runtime": 121,
       "showtimes": [
-        "2025-10-12 13:00",
         "2025-10-13 16:15",
         "2025-10-14 16:15",
         "2025-10-15 16:15"
@@ -695,7 +693,6 @@
       "url": "https://gatewayfilmcenter.org/movies/beast-of-war-2025/",
       "runtime": 87,
       "showtimes": [
-        "2025-10-12 13:45",
         "2025-10-13 17:00"
       ]
     },
@@ -704,7 +701,6 @@
       "url": "https://gatewayfilmcenter.org/movies/bone-lake-2025/",
       "runtime": 94,
       "showtimes": [
-        "2025-10-12 16:00",
         "2025-10-14 17:00"
       ]
     },
@@ -713,7 +709,6 @@
       "url": "https://gatewayfilmcenter.org/movies/chain-reactions-2025/",
       "runtime": 103,
       "showtimes": [
-        "2025-10-12 14:15",
         "2025-10-13 17:15",
         "2025-10-14 17:15",
         "2025-10-15 17:15",
@@ -776,7 +771,6 @@
       "url": "https://gatewayfilmcenter.org/movies/kiss-of-the-spider-woman-2025/",
       "runtime": 128,
       "showtimes": [
-        "2025-10-12 13:30",
         "2025-10-12 16:45",
         "2025-10-12 19:30",
         "2025-10-13 16:00",
@@ -797,16 +791,13 @@
       "title": "My Omaha (2025)",
       "url": "https://gatewayfilmcenter.org/movies/my-omaha-2025/",
       "runtime": 85,
-      "showtimes": [
-        "2025-10-12 14:00"
-      ]
+      "showtimes": []
     },
     {
       "title": "Hitchcocktober 2025: North by Northwest (1959) 4K Restoration",
       "url": "https://gatewayfilmcenter.org/movies/north-by-northwest-1959-4k-restoration/",
       "runtime": 136,
       "showtimes": [
-        "2025-10-12 14:00 (4K)",
         "2025-10-13 19:30 (4K)",
         "2025-10-14 19:30 (4K)"
       ]
@@ -816,7 +807,6 @@
       "url": "https://gatewayfilmcenter.org/movies/one-battle-after-another-2025/",
       "runtime": 162,
       "showtimes": [
-        "2025-10-12 15:30",
         "2025-10-12 19:00",
         "2025-10-13 16:00 (4K)",
         "2025-10-13 19:00",
@@ -856,7 +846,6 @@
       "url": "https://gatewayfilmcenter.org/movies/orwell-225-2025/",
       "runtime": 119,
       "showtimes": [
-        "2025-10-12 15:45",
         "2025-10-13 16:45",
         "2025-10-14 16:45",
         "2025-10-15 16:00",
@@ -920,8 +909,6 @@
       "url": "https://gatewayfilmcenter.org/movies/the-smashing-machine-2025/",
       "runtime": 123,
       "showtimes": [
-        "2025-10-12 13:45",
-        "2025-10-12 16:30",
         "2025-10-12 19:15",
         "2025-10-13 18:45",
         "2025-10-14 18:45",
@@ -1224,7 +1211,6 @@
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=519476~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/12/2025&",
       "runtime": 161,
       "showtimes": [
-        "2025-10-12 16:00",
         "2025-10-12 19:15",
         "2025-10-13 16:00",
         "2025-10-13 19:15"
@@ -1235,8 +1221,6 @@
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=523359~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/12/2025&",
       "runtime": 112,
       "showtimes": [
-        "2025-10-12 13:00",
-        "2025-10-12 16:15",
         "2025-10-12 19:00",
         "2025-10-13 16:00",
         "2025-10-13 19:30"
@@ -1246,10 +1230,7 @@
       "title": "The Smashing MachineRated R (violence, language) | 2 hr 3 min",
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=521166~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/12/2025&",
       "runtime": 123,
-      "showtimes": [
-        "2025-10-12 13:30",
-        "2025-10-12 16:30"
-      ]
+      "showtimes": []
     },
     {
       "title": "Perfect Blue Remastered",
