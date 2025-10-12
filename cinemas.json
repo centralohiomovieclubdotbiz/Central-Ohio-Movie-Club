@@ -1043,8 +1043,6 @@
       "url": "https://www.studio35.com/movie/good-boy",
       "runtime": 73,
       "showtimes": [
-        "2025-10-11 18:00",
-        "2025-10-11 19:45",
         "2025-10-12 18:45",
         "2025-10-12 22:00",
         "2025-10-13 15:45",
@@ -1077,9 +1075,6 @@
       "url": "https://www.studio35.com/movie/one-battle-after-another",
       "runtime": 162,
       "showtimes": [
-        "2025-10-10 21:30",
-        "2025-10-11 15:15",
-        "2025-10-11 18:45",
         "2025-10-11 21:45",
         "2025-10-12 15:15",
         "2025-10-12 18:30",
@@ -1161,14 +1156,6 @@
       ]
     },
     {
-      "title": "The Room w/ Greg Sestero!",
-      "url": "https://www.studio35.com/movie/the-room-w-greg-sestero",
-      "runtime": 100,
-      "showtimes": [
-        "2025-10-10 21:00"
-      ]
-    },
-    {
       "title": "The Sixth Sense",
       "url": "https://www.studio35.com/movie/the-sixth-sense",
       "runtime": 107,
@@ -1181,8 +1168,6 @@
       "url": "https://www.studio35.com/movie/the-smashing-machine",
       "runtime": 123,
       "showtimes": [
-        "2025-10-11 12:30",
-        "2025-10-11 15:15",
         "2025-10-12 12:30",
         "2025-10-13 17:45",
         "2025-10-14 17:45",
@@ -1204,14 +1189,6 @@
       "runtime": 96,
       "showtimes": [
         "2025-10-18 12:00"
-      ]
-    },
-    {
-      "title": "WALL·E",
-      "url": "https://www.studio35.com/movie/walle",
-      "runtime": 98,
-      "showtimes": [
-        "2025-10-11 12:00"
       ]
     },
     {
