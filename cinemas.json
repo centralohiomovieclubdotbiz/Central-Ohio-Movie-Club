@@ -673,7 +673,6 @@
       "url": "https://gatewayfilmcenter.org/movies/anemone-2025/",
       "runtime": 121,
       "showtimes": [
-        "2025-10-13 16:15",
         "2025-10-14 16:15",
         "2025-10-15 16:15"
       ]
@@ -759,7 +758,6 @@
       "url": "https://gatewayfilmcenter.org/movies/kiss-of-the-spider-woman-2025/",
       "runtime": 128,
       "showtimes": [
-        "2025-10-13 16:00",
         "2025-10-13 18:45",
         "2025-10-14 16:00",
         "2025-10-14 18:45",
@@ -787,7 +785,6 @@
       "url": "https://gatewayfilmcenter.org/movies/one-battle-after-another-2025/",
       "runtime": 162,
       "showtimes": [
-        "2025-10-13 16:00 (4K)",
         "2025-10-13 19:00",
         "2025-10-14 16:00 (4K)",
         "2025-10-14 19:00",
@@ -841,7 +838,6 @@
       "url": "https://gatewayfilmcenter.org/movies/the-librarians-2025/",
       "runtime": 94,
       "showtimes": [
-        "2025-10-13 16:30",
         "2025-10-14 16:30",
         "2025-10-15 16:30",
         "2025-10-16 16:45",
@@ -1177,7 +1173,6 @@
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=523359~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/13/2025&",
       "runtime": 112,
       "showtimes": [
-        "2025-10-13 16:00",
         "2025-10-13 19:30"
       ]
     },
@@ -1186,7 +1181,6 @@
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=519476~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/13/2025&",
       "runtime": 161,
       "showtimes": [
-        "2025-10-13 16:00",
         "2025-10-13 19:15"
       ]
     },
@@ -1194,9 +1188,7 @@
       "title": "Perfect Blue Remastered",
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=379908~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/13/2025&",
       "runtime": null,
-      "showtimes": [
-        "2025-10-13 16:30"
-      ]
+      "showtimes": []
     },
     {
       "title": "Vampyr (1932)Unrated | 1 hr 15 min",
