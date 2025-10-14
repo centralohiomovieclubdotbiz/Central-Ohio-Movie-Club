@@ -56,7 +56,10 @@
         "2025-10-22 19:45",
         "2025-10-23 16:30",
         "2025-10-23 19:15",
-        "2025-10-23 22:00"
+        "2025-10-23 22:00",
+        "2025-10-24 16:30",
+        "2025-10-24 19:15",
+        "2025-10-24 21:45"
       ]
     },
     {
@@ -410,7 +413,10 @@
       "runtime": 100,
       "showtimes": [
         "2025-10-23 16:00",
-        "2025-10-23 18:30"
+        "2025-10-23 18:30",
+        "2025-10-24 16:15",
+        "2025-10-24 18:30",
+        "2025-10-24 20:45"
       ]
     },
     {
@@ -418,7 +424,9 @@
       "url": "https://gatewayfilmcenter.org/movies/if-i-had-legs-id-kick-you-2025/",
       "runtime": 113,
       "showtimes": [
-        "2025-10-23 16:15"
+        "2025-10-23 16:15",
+        "2025-10-24 19:00",
+        "2025-10-24 21:30"
       ]
     },
     {
@@ -426,7 +434,9 @@
       "url": "https://gatewayfilmcenter.org/movies/the-mastermind-2025/",
       "runtime": 110,
       "showtimes": [
-        "2025-10-23 16:45"
+        "2025-10-23 16:45",
+        "2025-10-24 16:30",
+        "2025-10-24 18:45"
       ]
     },
     {
@@ -467,7 +477,10 @@
       "runtime": 91,
       "showtimes": [
         "2025-10-23 19:00",
-        "2025-10-23 21:15"
+        "2025-10-23 21:15",
+        "2025-10-24 16:30",
+        "2025-10-24 18:15",
+        "2025-10-24 21:15"
       ]
     },
     {
@@ -494,6 +507,8 @@
       "runtime": 99,
       "showtimes": [
         "2025-10-23 21:00",
+        "2025-10-24 16:00",
+        "2025-10-24 20:30",
         "2025-10-26 19:30"
       ]
     },
@@ -512,7 +527,6 @@
       "runtime": 91,
       "showtimes": [
         "2025-10-24 21:00",
-        "2025-10-25 18:45",
         "2025-10-26 16:45",
         "2025-10-27 19:45",
         "2025-10-28 19:45",
@@ -656,7 +670,6 @@
       "url": "https://gatewayfilmcenter.org/movies/a-house-of-dynamite-2025/",
       "runtime": 112,
       "showtimes": [
-        "2025-10-13 19:45",
         "2025-10-14 19:45",
         "2025-10-15 17:00",
         "2025-10-16 21:15",
@@ -682,7 +695,6 @@
       "url": "https://gatewayfilmcenter.org/movies/battle-royale-2000-25th-anniversary-screenings/",
       "runtime": 124,
       "showtimes": [
-        "2025-10-13 19:30",
         "2025-10-15 19:45"
       ]
     },
@@ -690,16 +702,13 @@
       "title": "Beast of War (2025)",
       "url": "https://gatewayfilmcenter.org/movies/beast-of-war-2025/",
       "runtime": 87,
-      "showtimes": [
-        "2025-10-13 17:00"
-      ]
+      "showtimes": []
     },
     {
       "title": "Chain Reactions (2025)",
       "url": "https://gatewayfilmcenter.org/movies/chain-reactions-2025/",
       "runtime": 103,
       "showtimes": [
-        "2025-10-13 17:15",
         "2025-10-14 17:15",
         "2025-10-15 17:15",
         "2025-10-18 11:00",
@@ -714,7 +723,6 @@
       "url": "https://gatewayfilmcenter.org/movies/deathstalker-2025/",
       "runtime": 102,
       "showtimes": [
-        "2025-10-13 17:30",
         "2025-10-14 19:15",
         "2025-10-18 16:15",
         "2025-10-19 11:30"
@@ -725,7 +733,6 @@
       "url": "https://gatewayfilmcenter.org/movies/fairyland-2025/",
       "runtime": 116,
       "showtimes": [
-        "2025-10-13 19:15",
         "2025-10-14 17:30",
         "2025-10-15 17:30"
       ]
@@ -735,7 +742,6 @@
       "url": "https://gatewayfilmcenter.org/movies/good-boy-2025/",
       "runtime": 73,
       "showtimes": [
-        "2025-10-13 20:00",
         "2025-10-14 20:00",
         "2025-10-15 20:00",
         "2025-10-16 16:30",
@@ -758,7 +764,6 @@
       "url": "https://gatewayfilmcenter.org/movies/kiss-of-the-spider-woman-2025/",
       "runtime": 128,
       "showtimes": [
-        "2025-10-13 18:45",
         "2025-10-14 16:00",
         "2025-10-14 18:45",
         "2025-10-15 16:45",
@@ -776,7 +781,6 @@
       "url": "https://gatewayfilmcenter.org/movies/north-by-northwest-1959-4k-restoration/",
       "runtime": 136,
       "showtimes": [
-        "2025-10-13 19:30 (4K)",
         "2025-10-14 19:30 (4K)"
       ]
     },
@@ -785,7 +789,6 @@
       "url": "https://gatewayfilmcenter.org/movies/one-battle-after-another-2025/",
       "runtime": 162,
       "showtimes": [
-        "2025-10-13 19:00",
         "2025-10-14 16:00 (4K)",
         "2025-10-14 19:00",
         "2025-10-15 16:00 (4K)",
@@ -810,7 +813,8 @@
         "2025-10-22 19:00",
         "2025-10-23 16:15",
         "2025-10-23 20:00",
-        "2025-10-25 16:15",
+        "2025-10-24 16:00",
+        "2025-10-25 16:15 (70mm)",
         "2025-10-25 19:45 (70mm)",
         "2025-10-26 12:30 (70mm)",
         "2025-10-26 16:00 (70mm)",
@@ -822,7 +826,6 @@
       "url": "https://gatewayfilmcenter.org/movies/orwell-225-2025/",
       "runtime": 119,
       "showtimes": [
-        "2025-10-13 16:45",
         "2025-10-14 16:45",
         "2025-10-15 16:00",
         "2025-10-16 16:00",
@@ -855,7 +858,6 @@
       "url": "https://gatewayfilmcenter.org/movies/the-smashing-machine-2025/",
       "runtime": 123,
       "showtimes": [
-        "2025-10-13 18:45",
         "2025-10-14 18:45",
         "2025-10-15 18:45",
         "2025-10-16 18:45",
@@ -1172,17 +1174,13 @@
       "title": "A House of DynamiteRated R (language) | 1 hr 52 min",
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=523359~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/13/2025&",
       "runtime": 112,
-      "showtimes": [
-        "2025-10-13 19:30"
-      ]
+      "showtimes": []
     },
     {
       "title": "One Battle After AnotherRated R (language, violence, sexual content) | 2 hr 41 min",
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=519476~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/13/2025&",
       "runtime": 161,
-      "showtimes": [
-        "2025-10-13 19:15"
-      ]
+      "showtimes": []
     },
     {
       "title": "Perfect Blue Remastered",
@@ -1194,9 +1192,7 @@
       "title": "Vampyr (1932)Unrated | 1 hr 15 min",
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=520080~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/13/2025&",
       "runtime": 75,
-      "showtimes": [
-        "2025-10-13 19:00"
-      ]
+      "showtimes": []
     },
     {
       "title": "PossessionRated R (language, violence, nudity) | 2 hr 4 min",
