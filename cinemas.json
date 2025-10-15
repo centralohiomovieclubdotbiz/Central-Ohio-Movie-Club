@@ -716,9 +716,7 @@
       "title": "Anemone (2025)",
       "url": "https://gatewayfilmcenter.org/movies/anemone-2025/",
       "runtime": 121,
-      "showtimes": [
-        "2025-10-15 16:15"
-      ]
+      "showtimes": []
     },
     {
       "title": "Ballad of a Small Player (2025)",
@@ -806,7 +804,6 @@
       "url": "https://gatewayfilmcenter.org/movies/one-battle-after-another-2025/",
       "runtime": 162,
       "showtimes": [
-        "2025-10-15 16:00 (4K)",
         "2025-10-15 19:00",
         "2025-10-16 16:15",
         "2025-10-16 19:45",
@@ -842,7 +839,6 @@
       "url": "https://gatewayfilmcenter.org/movies/orwell-225-2025/",
       "runtime": 119,
       "showtimes": [
-        "2025-10-15 16:00",
         "2025-10-16 16:00",
         "2025-10-18 11:15",
         "2025-10-19 11:15",
@@ -869,7 +865,6 @@
       "url": "https://gatewayfilmcenter.org/movies/the-librarians-2025/",
       "runtime": 94,
       "showtimes": [
-        "2025-10-15 16:30",
         "2025-10-16 16:45",
         "2025-10-17 16:45",
         "2025-10-18 16:45",
@@ -1231,7 +1226,7 @@
       ]
     },
     {
-      "title": "Ballad of a Small PlayerRated R (language, violence) | 1hr 41min",
+      "title": "Ballad of a Small PlayerRated R (language, violence) | 1 hr 41 min",
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=524503~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/17/2025&",
       "runtime": 101,
       "showtimes": [
@@ -1242,7 +1237,7 @@
       ]
     },
     {
-      "title": "UrchinNot Rated | 1hr 39min",
+      "title": "UrchinNot Rated | 1 hr 39 min",
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=524502~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/17/2025&",
       "runtime": 99,
       "showtimes": [
