@@ -721,10 +721,28 @@
       ]
     },
     {
-      "title": "Bone Lake (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/bone-lake-2025/",
-      "runtime": 94,
-      "showtimes": []
+      "title": "Ballad of a Small Player (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/ballad-of-a-small-player-2025/",
+      "runtime": 101,
+      "showtimes": [
+        "2025-10-15 19:30",
+        "2025-10-16 18:30",
+        "2025-10-17 18:45",
+        "2025-10-18 13:30",
+        "2025-10-18 18:45",
+        "2025-10-19 18:45",
+        "2025-10-20 18:45",
+        "2025-10-21 18:45",
+        "2025-10-22 18:45"
+      ]
+    },
+    {
+      "title": "Battle Royale (2000) 25th Anniversary Screenings",
+      "url": "https://gatewayfilmcenter.org/movies/battle-royale-2000-25th-anniversary-screenings/",
+      "runtime": 124,
+      "showtimes": [
+        "2025-10-15 19:45"
+      ]
     },
     {
       "title": "Chain Reactions (2025)",
@@ -737,15 +755,6 @@
         "2025-10-20 17:30",
         "2025-10-21 17:30",
         "2025-10-22 17:30"
-      ]
-    },
-    {
-      "title": "Deathstalker (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/deathstalker-2025/",
-      "runtime": 102,
-      "showtimes": [
-        "2025-10-18 16:15",
-        "2025-10-19 11:30"
       ]
     },
     {
@@ -791,12 +800,6 @@
         "2025-10-21 16:30",
         "2025-10-22 16:30"
       ]
-    },
-    {
-      "title": "Hitchcocktober 2025: North by Northwest (1959) 4K Restoration",
-      "url": "https://gatewayfilmcenter.org/movies/north-by-northwest-1959-4k-restoration/",
-      "runtime": 136,
-      "showtimes": []
     },
     {
       "title": "One Battle After Another (2025)",
@@ -849,15 +852,16 @@
       ]
     },
     {
-      "title": "Perfect Blue (1997) 4K Restoration",
-      "url": "https://gatewayfilmcenter.org/movies/perfect-blue-25th-anniversary/",
-      "runtime": 81,
+      "title": "The Texas Chain Saw Massacre (1974) 4K Restoration",
+      "url": "https://gatewayfilmcenter.org/movies/texas-chain-saw-massacre-1974/",
+      "runtime": 83,
       "showtimes": [
-        "2025-10-16 21:45",
-        "2025-10-18 19:00",
-        "2025-10-19 16:00",
-        "2025-10-20 19:45",
-        "2025-10-21 19:45"
+        "2025-10-15 19:45",
+        "2025-10-18 21:00",
+        "2025-10-19 19:00",
+        "2025-10-20 20:00",
+        "2025-10-21 20:00",
+        "2025-10-22 20:00"
       ]
     },
     {
@@ -874,6 +878,15 @@
         "2025-10-21 16:45",
         "2025-10-22 16:45",
         "2025-10-23 16:30"
+      ]
+    },
+    {
+      "title": "Hitchcocktober 2025: The Man Who Knew Too Much (1956) 4K Restoration",
+      "url": "https://gatewayfilmcenter.org/movies/the-man-who-knew-too-much-1956/",
+      "runtime": 120,
+      "showtimes": [
+        "2025-10-15 19:30 (4K)",
+        "2025-10-16 19:00"
       ]
     },
     {
