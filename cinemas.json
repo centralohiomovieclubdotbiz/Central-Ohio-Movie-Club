@@ -1,112 +1,17 @@
 {
   "gateway": [
     {
-      "title": "Black Phone 2 (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/black-phone-2-2025/",
-      "runtime": 114,
+      "title": "NFFX: Recurring Nightmares A",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-recurring-nightmares-a/",
+      "runtime": 105,
       "showtimes": [
-        "2025-10-16 17:00",
-        "2025-10-16 18:30",
-        "2025-10-16 19:30",
-        "2025-10-16 21:00",
-        "2025-10-16 22:00",
-        "2025-10-17 17:00",
-        "2025-10-17 19:30",
-        "2025-10-17 21:00",
-        "2025-10-17 22:00",
-        "2025-10-18 12:00",
-        "2025-10-18 14:30",
-        "2025-10-18 17:00",
-        "2025-10-18 19:30",
-        "2025-10-18 22:00",
-        "2025-10-19 12:00",
-        "2025-10-19 14:30",
-        "2025-10-19 17:00",
-        "2025-10-19 19:30",
-        "2025-10-20 17:15",
-        "2025-10-20 19:45",
-        "2025-10-21 17:15",
-        "2025-10-21 19:45",
-        "2025-10-22 17:15",
-        "2025-10-22 19:45",
-        "2025-10-23 16:30",
-        "2025-10-23 19:15",
-        "2025-10-23 22:00",
-        "2025-10-24 16:30",
-        "2025-10-24 19:15",
-        "2025-10-24 21:45",
-        "2025-10-25 11:15",
-        "2025-10-25 14:30",
-        "2025-10-25 17:00",
-        "2025-10-25 19:30",
-        "2025-10-25 22:15",
-        "2025-10-26 14:30",
-        "2025-10-26 17:00",
-        "2025-10-26 19:30",
-        "2025-10-27 17:00",
-        "2025-10-27 19:45"
-      ]
-    },
-    {
-      "title": "NFFX: A Serbian Documentary (2025) with Sicko",
-      "url": "https://gatewayfilmcenter.org/movies/nff25-a-serbian-documentary-2025-w-sicko/",
-      "runtime": 93,
-      "showtimes": [
-        "2025-10-16 18:00"
-      ]
-    },
-    {
-      "title": "NFFX: Horror Shorts A",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-horror-shorts-a/",
-      "runtime": 99,
-      "showtimes": [
-        "2025-10-16 18:00"
-      ]
-    },
-    {
-      "title": "NFFX: Bodycam with Mopsorden",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-bodycam-with-mopsorden/",
-      "runtime": 95,
-      "showtimes": [
-        "2025-10-16 20:00"
-      ]
-    },
-    {
-      "title": "NFFX: Midnight Shorts A",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-midnight-shorts-a/",
-      "runtime": 109,
-      "showtimes": [
-        "2025-10-16 20:00"
-      ]
-    },
-    {
-      "title": "NFFX: Anything That Moves with Are You Fucking Kidding Me?!",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-anything-that-moves-with-are-you-fucking-kidding-me/",
-      "runtime": 92,
-      "showtimes": [
-        "2025-10-16 22:00"
-      ]
-    },
-    {
-      "title": "NFFX: Horror Comedy Shorts A",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-horror-comedy-shorts-a/",
-      "runtime": 94,
-      "showtimes": [
-        "2025-10-16 22:00"
+        "2025-10-17 16:00"
       ]
     },
     {
       "title": "NFFX: The Red Mask with Shed",
       "url": "https://gatewayfilmcenter.org/movies/nffx-the-red-mask-with-shed/",
       "runtime": 99,
-      "showtimes": [
-        "2025-10-17 16:00"
-      ]
-    },
-    {
-      "title": "NFFX: Recurring Nightmares A",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-recurring-nightmares-a/",
-      "runtime": 105,
       "showtimes": [
         "2025-10-17 16:00"
       ]
@@ -238,17 +143,17 @@
       ]
     },
     {
-      "title": "NFFX: Galaxy of Terror: Alien Horror",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-galaxy-of-terror-alien-horror/",
-      "runtime": 61,
+      "title": "NFFX: Siren Songs: Mermaid Horror",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-siren-songs-mermaid-horror/",
+      "runtime": 53,
       "showtimes": [
         "2025-10-18 16:00"
       ]
     },
     {
-      "title": "NFFX: Siren Songs: Mermaid Horror",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-siren-songs-mermaid-horror/",
-      "runtime": 53,
+      "title": "NFFX: Galaxy of Terror: Alien Horror",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-galaxy-of-terror-alien-horror/",
+      "runtime": 61,
       "showtimes": [
         "2025-10-18 16:00"
       ]
@@ -360,17 +265,17 @@
       ]
     },
     {
-      "title": "NFFX: Queens of the Dead",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-queens-of-the-dead/",
-      "runtime": 91,
+      "title": "NFFX: Interaction",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-interaction/",
+      "runtime": 118,
       "showtimes": [
         "2025-10-19 16:00"
       ]
     },
     {
-      "title": "NFFX: Interaction",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-interaction/",
-      "runtime": 118,
+      "title": "NFFX: Queens of the Dead",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-queens-of-the-dead/",
+      "runtime": 91,
       "showtimes": [
         "2025-10-19 16:00"
       ]
@@ -712,12 +617,6 @@
       ]
     },
     {
-      "title": "Anemone (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/anemone-2025/",
-      "runtime": 121,
-      "showtimes": []
-    },
-    {
       "title": "Ballad of a Small Player (2025)",
       "url": "https://gatewayfilmcenter.org/movies/ballad-of-a-small-player-2025/",
       "runtime": 101,
@@ -733,28 +632,51 @@
       ]
     },
     {
-      "title": "Battle Royale (2000) 25th Anniversary Screenings",
-      "url": "https://gatewayfilmcenter.org/movies/battle-royale-2000-25th-anniversary-screenings/",
-      "runtime": 124,
-      "showtimes": []
-    },
-    {
-      "title": "Chain Reactions (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/chain-reactions-2025/",
-      "runtime": 103,
+      "title": "Black Phone 2 (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/black-phone-2-2025/",
+      "runtime": 114,
       "showtimes": [
-        "2025-10-18 11:00",
-        "2025-10-19 11:00",
-        "2025-10-20 17:30",
-        "2025-10-21 17:30",
-        "2025-10-22 17:30"
+        "2025-10-16 17:00",
+        "2025-10-16 18:30",
+        "2025-10-16 19:30",
+        "2025-10-16 21:00",
+        "2025-10-16 22:00",
+        "2025-10-17 17:00",
+        "2025-10-17 19:30",
+        "2025-10-17 21:00",
+        "2025-10-17 22:00",
+        "2025-10-18 12:00",
+        "2025-10-18 14:30",
+        "2025-10-18 17:00",
+        "2025-10-18 19:30",
+        "2025-10-18 22:00",
+        "2025-10-19 12:00",
+        "2025-10-19 14:30",
+        "2025-10-19 17:00",
+        "2025-10-19 19:30",
+        "2025-10-20 17:15",
+        "2025-10-20 19:45",
+        "2025-10-21 17:15",
+        "2025-10-21 19:45",
+        "2025-10-22 17:15",
+        "2025-10-22 19:45",
+        "2025-10-23 16:30",
+        "2025-10-23 19:15",
+        "2025-10-23 22:00",
+        "2025-10-24 16:30",
+        "2025-10-24 19:15",
+        "2025-10-24 21:45",
+        "2025-10-25 11:15",
+        "2025-10-25 14:30",
+        "2025-10-25 17:00",
+        "2025-10-25 19:30",
+        "2025-10-25 22:15",
+        "2025-10-26 14:30",
+        "2025-10-26 17:00",
+        "2025-10-26 19:30",
+        "2025-10-27 17:00",
+        "2025-10-27 19:45"
       ]
-    },
-    {
-      "title": "Fairyland (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/fairyland-2025/",
-      "runtime": 116,
-      "showtimes": []
     },
     {
       "title": "Good Boy (2025)",
@@ -788,6 +710,54 @@
         "2025-10-20 16:30",
         "2025-10-21 16:30",
         "2025-10-22 16:30"
+      ]
+    },
+    {
+      "title": "NFFX: A Serbian Documentary (2025) with Sicko",
+      "url": "https://gatewayfilmcenter.org/movies/nff25-a-serbian-documentary-2025-w-sicko/",
+      "runtime": 93,
+      "showtimes": [
+        "2025-10-16 18:00"
+      ]
+    },
+    {
+      "title": "NFFX: Anything That Moves with Are You Fucking Kidding Me?!",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-anything-that-moves-with-are-you-fucking-kidding-me/",
+      "runtime": 92,
+      "showtimes": [
+        "2025-10-16 22:00"
+      ]
+    },
+    {
+      "title": "NFFX: Bodycam with Mopsorden",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-bodycam-with-mopsorden/",
+      "runtime": 95,
+      "showtimes": [
+        "2025-10-16 20:00"
+      ]
+    },
+    {
+      "title": "NFFX: Horror Comedy Shorts A",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-horror-comedy-shorts-a/",
+      "runtime": 94,
+      "showtimes": [
+        "2025-10-16 22:00"
+      ]
+    },
+    {
+      "title": "NFFX: Horror Shorts A",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-horror-shorts-a/",
+      "runtime": 99,
+      "showtimes": [
+        "2025-10-16 18:00"
+      ]
+    },
+    {
+      "title": "NFFX: Midnight Shorts A",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-midnight-shorts-a/",
+      "runtime": 109,
+      "showtimes": [
+        "2025-10-16 20:00"
       ]
     },
     {
@@ -838,15 +808,15 @@
       ]
     },
     {
-      "title": "The Texas Chain Saw Massacre (1974) 4K Restoration",
-      "url": "https://gatewayfilmcenter.org/movies/texas-chain-saw-massacre-1974/",
-      "runtime": 83,
+      "title": "Perfect Blue (1997) 4K Restoration",
+      "url": "https://gatewayfilmcenter.org/movies/perfect-blue-25th-anniversary/",
+      "runtime": 81,
       "showtimes": [
-        "2025-10-18 21:00",
-        "2025-10-19 19:00",
-        "2025-10-20 20:00",
-        "2025-10-21 20:00",
-        "2025-10-22 20:00"
+        "2025-10-16 21:45",
+        "2025-10-18 19:00",
+        "2025-10-19 16:00",
+        "2025-10-20 19:45",
+        "2025-10-21 19:45"
       ]
     },
     {
@@ -1281,6 +1251,21 @@
       "runtime": 84,
       "showtimes": [
         "2025-11-12 19:00"
+      ]
+    },
+    {
+      "title": "Wicked: For GoodRated PG | 2hr 18min",
+      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=523553~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=11/20/2025&",
+      "runtime": 138,
+      "showtimes": [
+        "2025-11-20 16:00",
+        "2025-11-20 19:00",
+        "2025-11-21 16:00",
+        "2025-11-21 19:00",
+        "2025-11-22 16:00",
+        "2025-11-22 19:00",
+        "2025-11-23 16:00",
+        "2025-11-23 19:00"
       ]
     }
   ]
