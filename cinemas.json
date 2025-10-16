@@ -702,7 +702,6 @@
       "url": "https://gatewayfilmcenter.org/movies/a-house-of-dynamite-2025/",
       "runtime": 112,
       "showtimes": [
-        "2025-10-15 17:00",
         "2025-10-16 21:15",
         "2025-10-17 21:45",
         "2025-10-18 21:45",
@@ -723,7 +722,6 @@
       "url": "https://gatewayfilmcenter.org/movies/ballad-of-a-small-player-2025/",
       "runtime": 101,
       "showtimes": [
-        "2025-10-15 19:30",
         "2025-10-16 18:30",
         "2025-10-17 18:45",
         "2025-10-18 13:30",
@@ -738,16 +736,13 @@
       "title": "Battle Royale (2000) 25th Anniversary Screenings",
       "url": "https://gatewayfilmcenter.org/movies/battle-royale-2000-25th-anniversary-screenings/",
       "runtime": 124,
-      "showtimes": [
-        "2025-10-15 19:45"
-      ]
+      "showtimes": []
     },
     {
       "title": "Chain Reactions (2025)",
       "url": "https://gatewayfilmcenter.org/movies/chain-reactions-2025/",
       "runtime": 103,
       "showtimes": [
-        "2025-10-15 17:15",
         "2025-10-18 11:00",
         "2025-10-19 11:00",
         "2025-10-20 17:30",
@@ -759,16 +754,13 @@
       "title": "Fairyland (2025)",
       "url": "https://gatewayfilmcenter.org/movies/fairyland-2025/",
       "runtime": 116,
-      "showtimes": [
-        "2025-10-15 17:30"
-      ]
+      "showtimes": []
     },
     {
       "title": "Good Boy (2025)",
       "url": "https://gatewayfilmcenter.org/movies/good-boy-2025/",
       "runtime": 73,
       "showtimes": [
-        "2025-10-15 20:00",
         "2025-10-16 16:30",
         "2025-10-16 21:30",
         "2025-10-17 19:00",
@@ -789,7 +781,6 @@
       "url": "https://gatewayfilmcenter.org/movies/kiss-of-the-spider-woman-2025/",
       "runtime": 128,
       "showtimes": [
-        "2025-10-15 16:45",
         "2025-10-16 16:00",
         "2025-10-17 16:00",
         "2025-10-18 16:15",
@@ -804,7 +795,6 @@
       "url": "https://gatewayfilmcenter.org/movies/one-battle-after-another-2025/",
       "runtime": 162,
       "showtimes": [
-        "2025-10-15 19:00",
         "2025-10-16 16:15",
         "2025-10-16 19:45",
         "2025-10-17 16:15",
@@ -852,7 +842,6 @@
       "url": "https://gatewayfilmcenter.org/movies/texas-chain-saw-massacre-1974/",
       "runtime": 83,
       "showtimes": [
-        "2025-10-15 19:45",
         "2025-10-18 21:00",
         "2025-10-19 19:00",
         "2025-10-20 20:00",
@@ -880,7 +869,6 @@
       "url": "https://gatewayfilmcenter.org/movies/the-man-who-knew-too-much-1956/",
       "runtime": 120,
       "showtimes": [
-        "2025-10-15 19:30 (4K)",
         "2025-10-16 19:00"
       ]
     },
@@ -889,7 +877,6 @@
       "url": "https://gatewayfilmcenter.org/movies/the-smashing-machine-2025/",
       "runtime": 123,
       "showtimes": [
-        "2025-10-15 18:45",
         "2025-10-16 18:45",
         "2025-10-17 16:30",
         "2025-10-18 11:30",
