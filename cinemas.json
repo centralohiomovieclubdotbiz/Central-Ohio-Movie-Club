@@ -1,112 +1,6 @@
 {
   "gateway": [
     {
-      "title": "NFFX: The Red Mask with Shed",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-the-red-mask-with-shed/",
-      "runtime": 99,
-      "showtimes": [
-        "2025-10-17 16:00"
-      ]
-    },
-    {
-      "title": "NFFX: Recurring Nightmares A",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-recurring-nightmares-a/",
-      "runtime": 105,
-      "showtimes": [
-        "2025-10-17 16:00"
-      ]
-    },
-    {
-      "title": "Soul of a Nation (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/soul-of-a-nation-2025/",
-      "runtime": 105,
-      "showtimes": [
-        "2025-10-17 16:30",
-        "2025-10-18 13:45",
-        "2025-10-19 13:45"
-      ]
-    },
-    {
-      "title": "NFFX: Filmmaker and screenwriter meetup",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-filmmaker-and-screenwriter-meetup/",
-      "runtime": 30,
-      "showtimes": [
-        "2025-10-17 18:00"
-      ]
-    },
-    {
-      "title": "NFFX: If It Bleeds",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-if-it-bleeds/",
-      "runtime": 98,
-      "showtimes": [
-        "2025-10-17 18:30"
-      ]
-    },
-    {
-      "title": "NFFX: Horror Shorts B",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-horror-shorts-b/",
-      "runtime": 90,
-      "showtimes": [
-        "2025-10-17 18:30"
-      ]
-    },
-    {
-      "title": "Hitchcocktober 2025: To Catch a Thief (1955) 4K Restoration",
-      "url": "https://gatewayfilmcenter.org/movies/to-catch-a-thief-1955/",
-      "runtime": 106,
-      "showtimes": [
-        "2025-10-17 19:00",
-        "2025-10-18 14:00"
-      ]
-    },
-    {
-      "title": "Urchin (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/urchin-2025/",
-      "runtime": 99,
-      "showtimes": [
-        "2025-10-17 19:15",
-        "2025-10-18 14:15",
-        "2025-10-18 19:15",
-        "2025-10-19 14:15",
-        "2025-10-19 19:15",
-        "2025-10-20 19:15",
-        "2025-10-21 19:15",
-        "2025-10-22 19:15"
-      ]
-    },
-    {
-      "title": "NFFX: Blood Barn with Consumer",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-blood-barn-with-consumer/",
-      "runtime": 88,
-      "showtimes": [
-        "2025-10-17 20:30"
-      ]
-    },
-    {
-      "title": "NFFX: Thriller Shorts A",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-thriller-shorts-a/",
-      "runtime": 90,
-      "showtimes": [
-        "2025-10-17 20:30"
-      ]
-    },
-    {
-      "title": "NFFX: The Cramps: A Period Piece with Scrumptious",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-the-cramps-a-period-piece-with-scrumptious/",
-      "runtime": 98,
-      "showtimes": [
-        "2025-10-17 22:30"
-      ]
-    },
-    {
-      "title": "NFFX: Horror Shorts C",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-horror-shorts-c/",
-      "runtime": 95,
-      "showtimes": [
-        "2025-10-17 22:30"
-      ]
-    },
-    {
       "title": "NFFX Panel: The New Distribution",
       "url": "https://gatewayfilmcenter.org/movies/nffx-panel-the-new-distribution/",
       "runtime": 50,
@@ -265,17 +159,17 @@
       ]
     },
     {
-      "title": "NFFX: Queens of the Dead",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-queens-of-the-dead/",
-      "runtime": 91,
+      "title": "NFFX: Interaction",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-interaction/",
+      "runtime": 118,
       "showtimes": [
         "2025-10-19 16:00"
       ]
     },
     {
-      "title": "NFFX: Interaction",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-interaction/",
-      "runtime": 118,
+      "title": "NFFX: Queens of the Dead",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-queens-of-the-dead/",
+      "runtime": 91,
       "showtimes": [
         "2025-10-19 16:00"
       ]
@@ -1131,7 +1025,7 @@
   "drexel": [
     {
       "title": "One Battle After AnotherRated R (language, violence, sexual content) | 2 hr 41 min",
-      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=519476~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/16/2025&",
+      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=519476~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/17/2025&",
       "runtime": 161,
       "showtimes": [
         "2025-10-17 16:00",
@@ -1147,8 +1041,20 @@
       ]
     },
     {
+      "title": "Ballad of a Small PlayerRated R (language, violence) | 1 hr 41 min",
+      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=524503~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/17/2025&",
+      "runtime": 101,
+      "showtimes": [
+        "2025-10-17 16:15",
+        "2025-10-18 13:30",
+        "2025-10-18 15:00",
+        "2025-10-19 13:30",
+        "2025-10-19 16:15"
+      ]
+    },
+    {
       "title": "A House of DynamiteRated R (language) | 1 hr 52 min",
-      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=523359~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/16/2025&",
+      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=523359~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/17/2025&",
       "runtime": 112,
       "showtimes": [
         "2025-10-17 16:30",
@@ -1160,24 +1066,6 @@
         "2025-10-19 19:30",
         "2025-10-20 16:30",
         "2025-10-20 19:30"
-      ]
-    },
-    {
-      "title": "Perfect Blue Remastered",
-      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=379908~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/16/2025&",
-      "runtime": null,
-      "showtimes": []
-    },
-    {
-      "title": "Ballad of a Small PlayerRated R (language, violence) | 1 hr 41 min",
-      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=524503~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/17/2025&",
-      "runtime": 101,
-      "showtimes": [
-        "2025-10-17 16:15",
-        "2025-10-18 13:30",
-        "2025-10-18 15:00",
-        "2025-10-19 13:30",
-        "2025-10-19 16:15"
       ]
     },
     {
