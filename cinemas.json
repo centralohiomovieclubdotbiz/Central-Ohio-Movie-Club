@@ -623,40 +623,76 @@
       ]
     },
     {
-      "title": "NFFX: A Serbian Documentary (2025) with Sicko",
-      "url": "https://gatewayfilmcenter.org/movies/nff25-a-serbian-documentary-2025-w-sicko/",
-      "runtime": 93,
-      "showtimes": []
+      "title": "NFFX: Blood Barn with Consumer",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-blood-barn-with-consumer/",
+      "runtime": 88,
+      "showtimes": [
+        "2025-10-17 20:30"
+      ]
     },
     {
-      "title": "NFFX: Anything That Moves with Are You Fucking Kidding Me?!",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-anything-that-moves-with-are-you-fucking-kidding-me/",
-      "runtime": 92,
-      "showtimes": []
+      "title": "NFFX: Filmmaker and screenwriter meetup",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-filmmaker-and-screenwriter-meetup/",
+      "runtime": 30,
+      "showtimes": [
+        "2025-10-17 18:00"
+      ]
     },
     {
-      "title": "NFFX: Bodycam with Mopsorden",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-bodycam-with-mopsorden/",
+      "title": "NFFX: Horror Shorts B",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-horror-shorts-b/",
+      "runtime": 90,
+      "showtimes": [
+        "2025-10-17 18:30"
+      ]
+    },
+    {
+      "title": "NFFX: Horror Shorts C",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-horror-shorts-c/",
       "runtime": 95,
-      "showtimes": []
+      "showtimes": [
+        "2025-10-17 22:30"
+      ]
     },
     {
-      "title": "NFFX: Horror Comedy Shorts A",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-horror-comedy-shorts-a/",
-      "runtime": 94,
-      "showtimes": []
+      "title": "NFFX: If It Bleeds",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-if-it-bleeds/",
+      "runtime": 98,
+      "showtimes": [
+        "2025-10-17 18:30"
+      ]
     },
     {
-      "title": "NFFX: Horror Shorts A",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-horror-shorts-a/",
+      "title": "NFFX: Recurring Nightmares A",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-recurring-nightmares-a/",
+      "runtime": 105,
+      "showtimes": [
+        "2025-10-17 16:00"
+      ]
+    },
+    {
+      "title": "NFFX: The Cramps: A Period Piece with Scrumptious",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-the-cramps-a-period-piece-with-scrumptious/",
+      "runtime": 98,
+      "showtimes": [
+        "2025-10-17 22:30"
+      ]
+    },
+    {
+      "title": "NFFX: The Red Mask with Shed",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-the-red-mask-with-shed/",
       "runtime": 99,
-      "showtimes": []
+      "showtimes": [
+        "2025-10-17 16:00"
+      ]
     },
     {
-      "title": "NFFX: Midnight Shorts A",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-midnight-shorts-a/",
-      "runtime": 109,
-      "showtimes": []
+      "title": "NFFX: Thriller Shorts A",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-thriller-shorts-a/",
+      "runtime": 90,
+      "showtimes": [
+        "2025-10-17 20:30"
+      ]
     },
     {
       "title": "One Battle After Another (2025)",
@@ -691,26 +727,13 @@
       ]
     },
     {
-      "title": "Orwell: 2+2=5 (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/orwell-225-2025/",
-      "runtime": 119,
+      "title": "Soul of a Nation (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/soul-of-a-nation-2025/",
+      "runtime": 105,
       "showtimes": [
-        "2025-10-18 11:15",
-        "2025-10-19 11:15",
-        "2025-10-20 17:00",
-        "2025-10-21 17:00",
-        "2025-10-22 16:00"
-      ]
-    },
-    {
-      "title": "Perfect Blue (1997) 4K Restoration",
-      "url": "https://gatewayfilmcenter.org/movies/perfect-blue-25th-anniversary/",
-      "runtime": 81,
-      "showtimes": [
-        "2025-10-18 19:00",
-        "2025-10-19 16:00",
-        "2025-10-20 19:45",
-        "2025-10-21 19:45"
+        "2025-10-17 16:30",
+        "2025-10-18 13:45",
+        "2025-10-19 13:45"
       ]
     },
     {
@@ -728,12 +751,6 @@
       ]
     },
     {
-      "title": "Hitchcocktober 2025: The Man Who Knew Too Much (1956) 4K Restoration",
-      "url": "https://gatewayfilmcenter.org/movies/the-man-who-knew-too-much-1956/",
-      "runtime": 120,
-      "showtimes": []
-    },
-    {
       "title": "The Smashing Machine (2025)",
       "url": "https://gatewayfilmcenter.org/movies/the-smashing-machine-2025/",
       "runtime": 123,
@@ -745,6 +762,30 @@
         "2025-10-20 16:30",
         "2025-10-21 16:30",
         "2025-10-22 16:30"
+      ]
+    },
+    {
+      "title": "Hitchcocktober 2025: To Catch a Thief (1955) 4K Restoration",
+      "url": "https://gatewayfilmcenter.org/movies/to-catch-a-thief-1955/",
+      "runtime": 106,
+      "showtimes": [
+        "2025-10-17 19:00",
+        "2025-10-18 14:00"
+      ]
+    },
+    {
+      "title": "Urchin (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/urchin-2025/",
+      "runtime": 99,
+      "showtimes": [
+        "2025-10-17 19:15",
+        "2025-10-18 14:15",
+        "2025-10-18 19:15",
+        "2025-10-19 14:15",
+        "2025-10-19 19:15",
+        "2025-10-20 19:15",
+        "2025-10-21 19:15",
+        "2025-10-22 19:15"
       ]
     }
   ],
