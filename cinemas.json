@@ -450,88 +450,52 @@
       ]
     },
     {
-      "title": "NFFX: Awards Presentation",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-awards-presentation/",
-      "runtime": 45,
-      "showtimes": []
+      "title": "NFFX: Interaction",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-interaction/",
+      "runtime": 118,
+      "showtimes": [
+        "2025-10-19 16:00"
+      ]
     },
     {
-      "title": "NFFX: Midnight Mind Fuck – Fuck My Son! with Holy Shit",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-fuck-my-son-with-holy-shit/",
-      "runtime": 100,
-      "showtimes": []
-    },
-    {
-      "title": "NFFX: Galaxy of Terror: Alien Horror",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-galaxy-of-terror-alien-horror/",
-      "runtime": 61,
-      "showtimes": []
-    },
-    {
-      "title": "NFFX: Horror Comedy Shorts B",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-horror-comedy-shorts-b/",
+      "title": "NFFX: Ohio Shorts",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-ohio-shorts/",
       "runtime": 120,
-      "showtimes": []
+      "showtimes": [
+        "2025-10-19 14:00"
+      ]
     },
     {
-      "title": "NFFX: Horror Shorts D",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-horror-shorts-d/",
-      "runtime": 120,
-      "showtimes": []
+      "title": "NFFX: Queens of the Dead",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-queens-of-the-dead/",
+      "runtime": 91,
+      "showtimes": [
+        "2025-10-19 16:00"
+      ]
     },
     {
-      "title": "NFFX: LandLord with A Drive at Dawn",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-landlord-with-a-drive-at-dawn/",
-      "runtime": 98,
-      "showtimes": []
-    },
-    {
-      "title": "NFFX: Midnight Shorts B",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-midnight-shorts-b/",
-      "runtime": 120,
-      "showtimes": []
-    },
-    {
-      "title": "NFFX: Pig Hill",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-pig-hill/",
-      "runtime": 100,
-      "showtimes": []
-    },
-    {
-      "title": "NFFX: Recurring Nightmares B",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-recurring-nightmares-b/",
-      "runtime": 95,
-      "showtimes": []
-    },
-    {
-      "title": "NFFX: Siren Songs: Mermaid Horror",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-siren-songs-mermaid-horror/",
-      "runtime": 53,
-      "showtimes": []
-    },
-    {
-      "title": "NFFX: The Curse with Call Earl",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-the-curse-with-call-earl/",
+      "title": "NFFX: Shelby Oaks",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-shelby-oaks/",
       "runtime": 99,
-      "showtimes": []
+      "showtimes": [
+        "2025-10-19 12:00"
+      ]
     },
     {
-      "title": "NFFX: The Mother, the Menacer and Me with Script Tease",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-the-mother-the-menacer-and-me-with-script-tease/",
-      "runtime": 101,
-      "showtimes": []
+      "title": "NFFX Tinsman Road",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-tinsman-road/",
+      "runtime": 119,
+      "showtimes": [
+        "2025-10-19 14:00"
+      ]
     },
     {
-      "title": "NFFX: Thriller Shorts B",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-thriller-shorts-b/",
-      "runtime": 120,
-      "showtimes": []
-    },
-    {
-      "title": "NFFX: We Put the World to Sleep with Lady Lithium",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-we-put-the-world-to-sleep-with-lady-lithium/",
-      "runtime": 93,
-      "showtimes": []
+      "title": "NFFX: V/H/S/HALLOWEEN",
+      "url": "https://gatewayfilmcenter.org/movies/nffx-v-h-s-halloween/",
+      "runtime": 115,
+      "showtimes": [
+        "2025-10-19 12:00"
+      ]
     },
     {
       "title": "One Battle After Another (2025)",
@@ -622,12 +586,6 @@
       ]
     },
     {
-      "title": "Hitchcocktober 2025: To Catch a Thief (1955) 4K Restoration",
-      "url": "https://gatewayfilmcenter.org/movies/to-catch-a-thief-1955/",
-      "runtime": 106,
-      "showtimes": []
-    },
-    {
       "title": "Urchin (2025)",
       "url": "https://gatewayfilmcenter.org/movies/urchin-2025/",
       "runtime": 99,
@@ -637,6 +595,16 @@
         "2025-10-20 19:15",
         "2025-10-21 19:15",
         "2025-10-22 19:15"
+      ]
+    },
+    {
+      "title": "Hitchcocktober 2025: Vertigo (1958) 4K Restoration",
+      "url": "https://gatewayfilmcenter.org/movies/vertigo-1958-2/",
+      "runtime": 128,
+      "showtimes": [
+        "2025-10-19 14:00",
+        "2025-10-20 19:30 (4K)",
+        "2025-10-21 19:30 (4K)"
       ]
     }
   ],
