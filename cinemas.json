@@ -638,10 +638,6 @@
       "url": "https://www.studio35.com/movie/black-phone-2",
       "runtime": 114,
       "showtimes": [
-        "2025-10-17 20:30",
-        "2025-10-18 14:30",
-        "2025-10-18 17:00",
-        "2025-10-18 19:30",
         "2025-10-19 13:45",
         "2025-10-19 18:00",
         "2025-10-19 20:45",
@@ -719,8 +715,6 @@
       "url": "https://www.studio35.com/movie/good-boy",
       "runtime": 73,
       "showtimes": [
-        "2025-10-17 21:45",
-        "2025-10-17 23:30",
         "2025-10-18 23:30"
       ]
     },
@@ -745,7 +739,6 @@
       "url": "https://www.studio35.com/movie/one-battle-after-another",
       "runtime": 162,
       "showtimes": [
-        "2025-10-18 16:30",
         "2025-10-19 16:30",
         "2025-10-19 20:00",
         "2025-10-20 16:45",
@@ -775,14 +768,6 @@
       "url": "https://www.studio35.com/movie/rocky-horror-picture-show",
       "runtime": null,
       "showtimes": []
-    },
-    {
-      "title": "Signs",
-      "url": "https://www.studio35.com/movie/signs",
-      "runtime": 106,
-      "showtimes": [
-        "2025-10-17 23:00"
-      ]
     },
     {
       "title": "The Muppet Christmas Carol Beer Tasting",
@@ -824,14 +809,6 @@
       "runtime": 250,
       "showtimes": [
         "2025-11-16 13:00"
-      ]
-    },
-    {
-      "title": "Up",
-      "url": "https://www.studio35.com/movie/up",
-      "runtime": 96,
-      "showtimes": [
-        "2025-10-18 12:00"
       ]
     },
     {
