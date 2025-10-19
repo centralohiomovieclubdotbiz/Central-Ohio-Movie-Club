@@ -1,64 +1,6 @@
 {
   "gateway": [
     {
-      "title": "NFFX: V/H/S/HALLOWEEN",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-v-h-s-halloween/",
-      "runtime": 115,
-      "showtimes": [
-        "2025-10-19 12:00"
-      ]
-    },
-    {
-      "title": "NFFX: Shelby Oaks",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-shelby-oaks/",
-      "runtime": 99,
-      "showtimes": [
-        "2025-10-19 12:00"
-      ]
-    },
-    {
-      "title": "NFFX Tinsman Road",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-tinsman-road/",
-      "runtime": 119,
-      "showtimes": [
-        "2025-10-19 14:00"
-      ]
-    },
-    {
-      "title": "NFFX: Ohio Shorts",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-ohio-shorts/",
-      "runtime": 120,
-      "showtimes": [
-        "2025-10-19 14:00"
-      ]
-    },
-    {
-      "title": "Hitchcocktober 2025: Vertigo (1958) 4K Restoration",
-      "url": "https://gatewayfilmcenter.org/movies/vertigo-1958-2/",
-      "runtime": 128,
-      "showtimes": [
-        "2025-10-19 14:00",
-        "2025-10-20 19:30 (4K)",
-        "2025-10-21 19:30 (4K)"
-      ]
-    },
-    {
-      "title": "NFFX: Queens of the Dead",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-queens-of-the-dead/",
-      "runtime": 91,
-      "showtimes": [
-        "2025-10-19 16:00"
-      ]
-    },
-    {
-      "title": "NFFX: Interaction",
-      "url": "https://gatewayfilmcenter.org/movies/nffx-interaction/",
-      "runtime": 118,
-      "showtimes": [
-        "2025-10-19 16:00"
-      ]
-    },
-    {
       "title": "Roads of Fire (2025)",
       "url": "https://gatewayfilmcenter.org/movies/roads-of-fire-2025/",
       "runtime": 119,
@@ -517,9 +459,7 @@
       "title": "NFFX: Midnight Mind Fuck – Fuck My Son! with Holy Shit",
       "url": "https://gatewayfilmcenter.org/movies/nffx-fuck-my-son-with-holy-shit/",
       "runtime": 100,
-      "showtimes": [
-        "2025-10-18 00:00 (MIDNIGHT)"
-      ]
+      "showtimes": []
     },
     {
       "title": "NFFX: Galaxy of Terror: Alien Horror",
@@ -537,9 +477,7 @@
       "title": "NFFX: Horror Shorts D",
       "url": "https://gatewayfilmcenter.org/movies/nffx-horror-shorts-d/",
       "runtime": 120,
-      "showtimes": [
-        "2025-10-18 00:00 (MIDNIGHT)"
-      ]
+      "showtimes": []
     },
     {
       "title": "NFFX: LandLord with A Drive at Dawn",
@@ -959,8 +897,14 @@
   ],
   "drexel": [
     {
+      "title": "Messiah of Evil (1974)Rated R (violence, nudity) | 1 hr 30 min",
+      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=520088~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/19/2025&",
+      "runtime": 90,
+      "showtimes": []
+    },
+    {
       "title": "One Battle After AnotherRated R (language, violence, sexual content) | 2 hr 41 min",
-      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=519476~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/18/2025&",
+      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=519476~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/19/2025&",
       "runtime": 161,
       "showtimes": [
         "2025-10-19 12:30",
@@ -971,26 +915,8 @@
       ]
     },
     {
-      "title": "Ballad of a Small PlayerRated R (language, violence) | 1 hr 41 min",
-      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=524503~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/18/2025&",
-      "runtime": 101,
-      "showtimes": [
-        "2025-10-19 13:30",
-        "2025-10-19 16:15"
-      ]
-    },
-    {
-      "title": "UrchinNot Rated | 1 hr 39 min",
-      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=524502~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/18/2025&",
-      "runtime": 99,
-      "showtimes": [
-        "2025-10-19 19:00",
-        "2025-10-20 16:15"
-      ]
-    },
-    {
       "title": "A House of DynamiteRated R (language) | 1 hr 52 min",
-      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=523359~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/18/2025&",
+      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=523359~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/19/2025&",
       "runtime": 112,
       "showtimes": [
         "2025-10-19 13:00",
@@ -1001,17 +927,21 @@
       ]
     },
     {
-      "title": "PossessionRated R (language, violence, nudity) | 2 hr 4 min",
-      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=453979~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/18/2025&",
-      "runtime": 124,
-      "showtimes": []
+      "title": "Ballad of a Small PlayerRated R (language, violence) | 1 hr 41 min",
+      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=524503~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/19/2025&",
+      "runtime": 101,
+      "showtimes": [
+        "2025-10-19 13:30",
+        "2025-10-19 16:15"
+      ]
     },
     {
-      "title": "Messiah of Evil (1974)Rated R (violence, nudity) | 1 hr 30 min",
-      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=520088~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/19/2025&",
-      "runtime": 90,
+      "title": "UrchinNot Rated | 1 hr 39 min",
+      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=524502~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/19/2025&",
+      "runtime": 99,
       "showtimes": [
-        "2025-10-19 00:00"
+        "2025-10-19 19:00",
+        "2025-10-20 16:15"
       ]
     },
     {
