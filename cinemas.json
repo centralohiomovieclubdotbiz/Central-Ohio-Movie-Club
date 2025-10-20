@@ -525,6 +525,15 @@
   ],
   "studio35": [
     {
+      "title": "2025 MLS Cup Playoffs: Columbus Crew vs. FC Cincinnati",
+      "url": "https://www.studio35.com/movie/2025-mls-cup-playoffs-columbus-crew-vs-fc-cincinnati",
+      "runtime": 150,
+      "showtimes": [
+        "2025-10-27 18:45",
+        "2025-11-02 18:30"
+      ]
+    },
+    {
       "title": "A Christmas Story Beer Tasting",
       "url": "https://www.studio35.com/movie/a-christmas-story",
       "runtime": 213,
@@ -553,8 +562,6 @@
       "url": "https://www.studio35.com/movie/black-phone-2",
       "runtime": 114,
       "showtimes": [
-        "2025-10-19 13:45",
-        "2025-10-19 18:00",
         "2025-10-19 20:45",
         "2025-10-20 16:00",
         "2025-10-20 18:30",
@@ -564,7 +571,25 @@
         "2025-10-21 21:00",
         "2025-10-22 16:00",
         "2025-10-22 18:30",
-        "2025-10-22 21:00"
+        "2025-10-22 21:00",
+        "2025-10-23 16:00",
+        "2025-10-23 18:30",
+        "2025-10-24 16:30",
+        "2025-10-24 19:30",
+        "2025-10-24 22:30",
+        "2025-10-25 13:45",
+        "2025-10-25 16:30",
+        "2025-10-25 19:15",
+        "2025-10-26 15:00",
+        "2025-10-26 17:45",
+        "2025-10-26 20:30",
+        "2025-10-27 16:30",
+        "2025-10-27 21:30",
+        "2025-10-28 16:00",
+        "2025-10-28 18:30",
+        "2025-10-28 21:00",
+        "2025-10-29 16:00",
+        "2025-10-29 20:45"
       ]
     },
     {
@@ -580,7 +605,7 @@
       "url": "https://www.studio35.com/movie/bugonia",
       "runtime": 118,
       "showtimes": [
-        "2025-10-30 15:45",
+        "2025-10-30 16:30",
         "2025-10-30 18:30",
         "2025-10-30 21:15",
         "2025-10-31 15:30",
@@ -589,8 +614,9 @@
         "2025-11-01 14:45",
         "2025-11-01 17:30",
         "2025-11-01 20:15",
-        "2025-11-02 18:30",
-        "2025-11-02 21:15"
+        "2025-11-02 15:15",
+        "2025-11-02 18:00",
+        "2025-11-02 20:45"
       ]
     },
     {
@@ -626,14 +652,6 @@
       ]
     },
     {
-      "title": "Good Boy",
-      "url": "https://www.studio35.com/movie/good-boy",
-      "runtime": 73,
-      "showtimes": [
-        "2025-10-18 23:30"
-      ]
-    },
-    {
       "title": "Inside Out",
       "url": "https://www.studio35.com/movie/inside-out",
       "runtime": 95,
@@ -654,14 +672,14 @@
       "url": "https://www.studio35.com/movie/one-battle-after-another",
       "runtime": 162,
       "showtimes": [
-        "2025-10-19 16:30",
         "2025-10-19 20:00",
         "2025-10-20 16:45",
         "2025-10-20 20:15",
         "2025-10-21 16:45",
         "2025-10-21 20:15",
         "2025-10-22 16:45",
-        "2025-10-22 20:15"
+        "2025-10-22 20:15",
+        "2025-10-23 16:15"
       ]
     },
     {
@@ -674,13 +692,13 @@
     },
     {
       "title": "Unknown",
-      "url": "https://www.studio35.com/movie/pta-meeting-phantom-thread",
+      "url": "https://www.studio35.com/movie/rocky-horror-picture-show",
       "runtime": null,
       "showtimes": []
     },
     {
       "title": "Unknown",
-      "url": "https://www.studio35.com/movie/rocky-horror-picture-show",
+      "url": "https://www.studio35.com/movie/shelby-oaks",
       "runtime": null,
       "showtimes": []
     },
@@ -711,14 +729,6 @@
       ]
     },
     {
-      "title": "The Sixth Sense",
-      "url": "https://www.studio35.com/movie/the-sixth-sense",
-      "runtime": 107,
-      "showtimes": [
-        "2025-10-18 22:15"
-      ]
-    },
-    {
       "title": "Tombstone Beer Tasting",
       "url": "https://www.studio35.com/movie/tombstone-beer-tasting",
       "runtime": 250,
@@ -744,14 +754,6 @@
         "2025-11-23 15:15",
         "2025-11-23 18:30",
         "2025-11-23 21:30"
-      ]
-    },
-    {
-      "title": "Young Frankenstein Beer Tasting",
-      "url": "https://www.studio35.com/movie/young-frankenstein-beer-tasting",
-      "runtime": 226,
-      "showtimes": [
-        "2025-10-19 13:00"
       ]
     }
   ],
