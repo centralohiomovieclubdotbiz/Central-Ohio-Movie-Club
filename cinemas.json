@@ -37,7 +37,10 @@
         "2025-10-26 16:15",
         "2025-10-26 18:45",
         "2025-10-27 17:15",
-        "2025-10-28 16:45"
+        "2025-10-28 16:45",
+        "2025-10-29 17:15",
+        "2025-10-30 17:00",
+        "2025-10-31 16:30"
       ]
     },
     {
@@ -57,7 +60,9 @@
         "2025-10-26 18:30",
         "2025-10-27 17:30",
         "2025-10-28 17:30",
-        "2025-10-28 19:00"
+        "2025-10-28 19:00",
+        "2025-10-29 17:30",
+        "2025-10-30 16:30"
       ]
     },
     {
@@ -85,7 +90,13 @@
         "2025-10-28 16:15",
         "2025-10-28 19:15",
         "2025-10-29 16:15",
-        "2025-10-29 19:15"
+        "2025-10-29 19:15",
+        "2025-10-30 16:00",
+        "2025-10-30 18:30",
+        "2025-10-30 20:45",
+        "2025-10-31 16:15",
+        "2025-10-31 19:00",
+        "2025-10-31 21:45"
       ]
     },
     {
@@ -119,7 +130,11 @@
         "2025-10-27 20:00",
         "2025-10-28 16:30",
         "2025-10-28 20:00",
-        "2025-10-29 16:45"
+        "2025-10-29 16:45",
+        "2025-10-29 20:00",
+        "2025-10-30 16:45",
+        "2025-10-30 22:00",
+        "2025-10-31 22:00"
       ]
     },
     {
@@ -144,7 +159,10 @@
         "2025-10-28 16:30",
         "2025-10-28 19:00",
         "2025-10-29 16:30",
-        "2025-10-29 19:15"
+        "2025-10-29 19:15",
+        "2025-10-30 16:30",
+        "2025-10-30 19:45",
+        "2025-10-31 21:00"
       ]
     },
     {
@@ -161,7 +179,10 @@
         "2025-10-26 19:30 (4K)",
         "2025-10-27 16:45",
         "2025-10-27 20:00",
-        "2025-10-28 20:00"
+        "2025-10-28 20:00",
+        "2025-10-29 20:00",
+        "2025-10-30 21:00",
+        "2025-10-31 21:00"
       ]
     },
     {
@@ -226,12 +247,6 @@
       "showtimes": []
     },
     {
-      "title": "In Our Blood (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/in-our-blood-2025/",
-      "runtime": 89,
-      "showtimes": []
-    },
-    {
       "title": "Bugonia (2025)",
       "url": "https://gatewayfilmcenter.org/movies/bugonia-2025/",
       "runtime": 118,
@@ -247,6 +262,34 @@
         "2025-11-01 16:30",
         "2025-11-01 19:15",
         "2025-11-01 22:00"
+      ]
+    },
+    {
+      "title": "In Our Blood (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/in-our-blood-2025/",
+      "runtime": 89,
+      "showtimes": [
+        "2025-10-30 18:30",
+        "2025-10-31 18:45"
+      ]
+    },
+    {
+      "title": "It Was Just an Accident (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/it-was-just-an-accident-2025/",
+      "runtime": 104,
+      "showtimes": [
+        "2025-10-30 19:15",
+        "2025-10-31 16:30",
+        "2025-10-31 19:30"
+      ]
+    },
+    {
+      "title": "Nouvelle Vague (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/nouvelle-vague-2025/",
+      "runtime": 106,
+      "showtimes": [
+        "2025-10-30 19:30",
+        "2025-10-31 17:00"
       ]
     },
     {
@@ -387,7 +430,6 @@
       "url": "https://gatewayfilmcenter.org/movies/ballad-of-a-small-player-2025/",
       "runtime": 101,
       "showtimes": [
-        "2025-10-20 18:45",
         "2025-10-21 18:45",
         "2025-10-22 18:45"
       ]
@@ -397,8 +439,6 @@
       "url": "https://gatewayfilmcenter.org/movies/black-phone-2-2025/",
       "runtime": 114,
       "showtimes": [
-        "2025-10-20 17:15",
-        "2025-10-20 19:45",
         "2025-10-21 17:15",
         "2025-10-21 19:45",
         "2025-10-22 17:15",
@@ -422,7 +462,13 @@
         "2025-10-28 17:00",
         "2025-10-28 19:45",
         "2025-10-29 17:00",
-        "2025-10-29 19:30"
+        "2025-10-29 19:30",
+        "2025-10-30 16:15",
+        "2025-10-30 18:45",
+        "2025-10-30 21:15",
+        "2025-10-31 16:15",
+        "2025-10-31 18:45",
+        "2025-10-31 21:15"
       ]
     },
     {
@@ -430,7 +476,6 @@
       "url": "https://gatewayfilmcenter.org/movies/chain-reactions-2025/",
       "runtime": 103,
       "showtimes": [
-        "2025-10-20 17:30",
         "2025-10-21 17:30",
         "2025-10-22 17:30"
       ]
@@ -440,14 +485,14 @@
       "url": "https://gatewayfilmcenter.org/movies/good-boy-2025/",
       "runtime": 73,
       "showtimes": [
-        "2025-10-20 19:15",
         "2025-10-21 19:15",
         "2025-10-22 19:15",
         "2025-10-23 17:15",
         "2025-10-24 19:00",
         "2025-10-25 18:45",
         "2025-10-26 16:30",
-        "2025-10-29 17:45"
+        "2025-10-29 17:45",
+        "2025-10-30 16:45"
       ]
     },
     {
@@ -464,7 +509,6 @@
       "url": "https://gatewayfilmcenter.org/movies/one-battle-after-another-2025/",
       "runtime": 162,
       "showtimes": [
-        "2025-10-20 19:00",
         "2025-10-21 16:00 (4K)",
         "2025-10-21 19:00",
         "2025-10-22 16:00 (4K)",
@@ -488,7 +532,6 @@
       "url": "https://gatewayfilmcenter.org/movies/orwell-225-2025/",
       "runtime": 119,
       "showtimes": [
-        "2025-10-20 17:00",
         "2025-10-21 17:00",
         "2025-10-22 16:00",
         "2025-10-23 16:15"
@@ -499,7 +542,6 @@
       "url": "https://gatewayfilmcenter.org/movies/perfect-blue-25th-anniversary/",
       "runtime": 81,
       "showtimes": [
-        "2025-10-20 19:45",
         "2025-10-21 19:45"
       ]
     },
@@ -508,7 +550,6 @@
       "url": "https://gatewayfilmcenter.org/movies/texas-chain-saw-massacre-1974/",
       "runtime": 83,
       "showtimes": [
-        "2025-10-20 20:00",
         "2025-10-21 20:00",
         "2025-10-22 20:00"
       ]
@@ -518,7 +559,6 @@
       "url": "https://gatewayfilmcenter.org/movies/the-librarians-2025/",
       "runtime": 94,
       "showtimes": [
-        "2025-10-20 16:45",
         "2025-10-21 16:45",
         "2025-10-22 16:45",
         "2025-10-23 16:30"
@@ -538,7 +578,6 @@
       "url": "https://gatewayfilmcenter.org/movies/urchin-2025/",
       "runtime": 99,
       "showtimes": [
-        "2025-10-20 19:15",
         "2025-10-21 19:15",
         "2025-10-22 19:15"
       ]
@@ -548,7 +587,6 @@
       "url": "https://gatewayfilmcenter.org/movies/vertigo-1958-2/",
       "runtime": 128,
       "showtimes": [
-        "2025-10-20 19:30 (4K)",
         "2025-10-21 19:30 (4K)"
       ]
     }
@@ -798,9 +836,7 @@
       "title": "One Battle After AnotherRated R (language, violence, sexual content) | 2 hr 41 min",
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=519476~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/20/2025&",
       "runtime": 161,
-      "showtimes": [
-        "2025-10-20 19:15"
-      ]
+      "showtimes": []
     },
     {
       "title": "UrchinNot Rated | 1 hr 39 min",
@@ -812,17 +848,13 @@
       "title": "A House of DynamiteRated R (language) | 1 hr 52 min",
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=523359~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/20/2025&",
       "runtime": 112,
-      "showtimes": [
-        "2025-10-20 19:30"
-      ]
+      "showtimes": []
     },
     {
       "title": "The Seventh Victim (1943)Unrated | 1 hr 11 min",
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=520087~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/20/2025&",
       "runtime": 71,
-      "showtimes": [
-        "2025-10-20 19:00"
-      ]
+      "showtimes": []
     },
     {
       "title": "Double Feature: Trick or Treat (1986) and Halloween III: Season of the WitchTrick or Treat (1986): Rated R (violence, nudity) | 1 hr 38 min",
