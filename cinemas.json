@@ -600,9 +600,6 @@
       "url": "https://www.studio35.com/movie/black-phone-2",
       "runtime": 114,
       "showtimes": [
-        "2025-10-20 21:00",
-        "2025-10-21 16:00",
-        "2025-10-21 18:30",
         "2025-10-21 21:00",
         "2025-10-22 16:00",
         "2025-10-22 18:30",
@@ -703,12 +700,19 @@
       ]
     },
     {
+      "title": "Killer Raccoons 2: Dark Christmas in the Dark",
+      "url": "https://www.studio35.com/movie/killer-raccoons-2-dark-christmas-in-the-dark",
+      "runtime": 96,
+      "showtimes": [
+        "2025-12-19 23:30",
+        "2025-12-20 23:30"
+      ]
+    },
+    {
       "title": "One Battle After Another",
       "url": "https://www.studio35.com/movie/one-battle-after-another",
       "runtime": 162,
       "showtimes": [
-        "2025-10-20 20:15",
-        "2025-10-21 16:45",
         "2025-10-21 20:15",
         "2025-10-22 16:45",
         "2025-10-22 20:15",
@@ -813,6 +817,14 @@
         "2025-11-23 15:15",
         "2025-11-23 18:30",
         "2025-11-23 21:30"
+      ]
+    },
+    {
+      "title": "#WorstChristmasEver with Maurice Hall Q&A!",
+      "url": "https://www.studio35.com/movie/worstchristmasever-with-maurice-hall-qa",
+      "runtime": 100,
+      "showtimes": [
+        "2025-11-13 19:30"
       ]
     }
   ],
