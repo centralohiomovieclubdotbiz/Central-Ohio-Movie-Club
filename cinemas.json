@@ -429,7 +429,6 @@
       "url": "https://gatewayfilmcenter.org/movies/ballad-of-a-small-player-2025/",
       "runtime": 101,
       "showtimes": [
-        "2025-10-21 18:45",
         "2025-10-22 18:45"
       ]
     },
@@ -438,8 +437,6 @@
       "url": "https://gatewayfilmcenter.org/movies/black-phone-2-2025/",
       "runtime": 114,
       "showtimes": [
-        "2025-10-21 17:15",
-        "2025-10-21 19:45",
         "2025-10-22 17:15",
         "2025-10-22 19:45",
         "2025-10-23 16:30",
@@ -475,7 +472,6 @@
       "url": "https://gatewayfilmcenter.org/movies/chain-reactions-2025/",
       "runtime": 103,
       "showtimes": [
-        "2025-10-21 17:30",
         "2025-10-22 17:30"
       ]
     },
@@ -484,7 +480,6 @@
       "url": "https://gatewayfilmcenter.org/movies/good-boy-2025/",
       "runtime": 73,
       "showtimes": [
-        "2025-10-21 19:15",
         "2025-10-22 19:15",
         "2025-10-23 17:15",
         "2025-10-24 19:00",
@@ -507,7 +502,6 @@
       "url": "https://gatewayfilmcenter.org/movies/one-battle-after-another-2025/",
       "runtime": 162,
       "showtimes": [
-        "2025-10-21 19:00",
         "2025-10-22 16:00 (4K)",
         "2025-10-22 19:00",
         "2025-10-23 16:15",
@@ -529,7 +523,6 @@
       "url": "https://gatewayfilmcenter.org/movies/orwell-225-2025/",
       "runtime": 119,
       "showtimes": [
-        "2025-10-21 17:00",
         "2025-10-22 16:00",
         "2025-10-23 16:15"
       ]
@@ -538,16 +531,13 @@
       "title": "Perfect Blue (1997) 4K Restoration",
       "url": "https://gatewayfilmcenter.org/movies/perfect-blue-25th-anniversary/",
       "runtime": 81,
-      "showtimes": [
-        "2025-10-21 19:45"
-      ]
+      "showtimes": []
     },
     {
       "title": "The Texas Chain Saw Massacre (1974) 4K Restoration",
       "url": "https://gatewayfilmcenter.org/movies/texas-chain-saw-massacre-1974/",
       "runtime": 83,
       "showtimes": [
-        "2025-10-21 20:00",
         "2025-10-22 20:00"
       ]
     },
@@ -556,7 +546,6 @@
       "url": "https://gatewayfilmcenter.org/movies/the-librarians-2025/",
       "runtime": 94,
       "showtimes": [
-        "2025-10-21 16:45",
         "2025-10-22 16:45",
         "2025-10-23 16:30"
       ]
@@ -574,7 +563,6 @@
       "url": "https://gatewayfilmcenter.org/movies/urchin-2025/",
       "runtime": 99,
       "showtimes": [
-        "2025-10-21 19:15",
         "2025-10-22 19:15"
       ]
     },
@@ -582,9 +570,7 @@
       "title": "Hitchcocktober 2025: Vertigo (1958) 4K Restoration",
       "url": "https://gatewayfilmcenter.org/movies/vertigo-1958-2/",
       "runtime": 128,
-      "showtimes": [
-        "2025-10-21 19:30 (4K)"
-      ]
+      "showtimes": []
     }
   ],
   "studio35": [
@@ -843,6 +829,71 @@
     }
   ],
   "drexel": [
+    {
+      "title": "One Battle After AnotherRated R (language, violence, sexual content) | 2 hr 41 min",
+      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=519476~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/23/2025&",
+      "runtime": 161,
+      "showtimes": [
+        "2025-10-23 16:00"
+      ]
+    },
+    {
+      "title": "Springsteen: Deliver Me from NowhereRated PG-13 | 2hr",
+      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=524973~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/23/2025&",
+      "runtime": null,
+      "showtimes": [
+        "2025-10-23 16:15",
+        "2025-10-23 19:00",
+        "2025-10-24 16:15",
+        "2025-10-24 19:00",
+        "2025-10-25 13:30",
+        "2025-10-25 16:15",
+        "2025-10-25 19:00",
+        "2025-10-25 22:15",
+        "2025-10-26 13:30",
+        "2025-10-26 16:15",
+        "2025-10-26 19:00",
+        "2025-10-27 16:00",
+        "2025-10-27 19:15"
+      ]
+    },
+    {
+      "title": "Blue MoonRated R (lanuage, sexual references) | 1hr 40min",
+      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=525458~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/23/2025&",
+      "runtime": 100,
+      "showtimes": [
+        "2025-10-23 16:30",
+        "2025-10-23 19:30",
+        "2025-10-24 16:30",
+        "2025-10-24 19:30",
+        "2025-10-25 13:15",
+        "2025-10-25 16:30",
+        "2025-10-25 19:30",
+        "2025-10-26 13:15",
+        "2025-10-26 16:30",
+        "2025-10-26 19:30",
+        "2025-10-27 16:15"
+      ]
+    },
+    {
+      "title": "Frankenstein (2025)Rated R (violence) | 2hr 29min",
+      "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=524972~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/23/2025&",
+      "runtime": 149,
+      "showtimes": [
+        "2025-10-23 19:15",
+        "2025-10-24 16:00",
+        "2025-10-24 19:15",
+        "2025-10-25 13:00",
+        "2025-10-25 16:00",
+        "2025-10-25 19:15",
+        "2025-10-25 21:45",
+        "2025-10-26 13:00",
+        "2025-10-26 16:00",
+        "2025-10-26 19:15",
+        "2025-10-27 16:00",
+        "2025-10-27 18:30"
+      ]
+    },
     {
       "title": "Double Feature: Trick or Treat (1986) and Halloween III: Season of the WitchTrick or Treat (1986): Rated R (violence, nudity) | 1 hr 38 min",
       "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=520090~e2e0a350-c626-4e33-bc63-27e983f4aecf&epguid=ab0b2f82-403c-4972-9998-5475e7dcfa0e&mdy=10/25/2025&",
