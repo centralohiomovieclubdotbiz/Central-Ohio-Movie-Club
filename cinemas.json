@@ -1,23 +1,6 @@
 {
   "gateway": [
     {
-      "title": "Roads of Fire (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/roads-of-fire-2025/",
-      "runtime": 119,
-      "showtimes": [
-        "2025-10-22 19:00"
-      ]
-    },
-    {
-      "title": "Hitchcocktober 2025: Shadow of a Doubt (1943) 4K Restoration",
-      "url": "https://gatewayfilmcenter.org/movies/shadow-of-a-doubt-1943/",
-      "runtime": 108,
-      "showtimes": [
-        "2025-10-22 19:30 (4K)",
-        "2025-10-23 19:00"
-      ]
-    },
-    {
       "title": "Blue Moon (2025)",
       "url": "https://gatewayfilmcenter.org/movies/blue-moon-2025/",
       "runtime": 100,
