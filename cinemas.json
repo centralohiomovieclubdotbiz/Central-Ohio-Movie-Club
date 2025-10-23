@@ -407,17 +407,13 @@
       "title": "Ballad of a Small Player (2025)",
       "url": "https://gatewayfilmcenter.org/movies/ballad-of-a-small-player-2025/",
       "runtime": 101,
-      "showtimes": [
-        "2025-10-22 18:45"
-      ]
+      "showtimes": []
     },
     {
       "title": "Black Phone 2 (2025)",
       "url": "https://gatewayfilmcenter.org/movies/black-phone-2-2025/",
       "runtime": 114,
       "showtimes": [
-        "2025-10-22 17:15",
-        "2025-10-22 19:45",
         "2025-10-23 16:30",
         "2025-10-23 19:15",
         "2025-10-23 22:00",
@@ -450,16 +446,13 @@
       "title": "Chain Reactions (2025)",
       "url": "https://gatewayfilmcenter.org/movies/chain-reactions-2025/",
       "runtime": 103,
-      "showtimes": [
-        "2025-10-22 17:30"
-      ]
+      "showtimes": []
     },
     {
       "title": "Good Boy (2025)",
       "url": "https://gatewayfilmcenter.org/movies/good-boy-2025/",
       "runtime": 73,
       "showtimes": [
-        "2025-10-22 19:15",
         "2025-10-23 17:15",
         "2025-10-24 19:00",
         "2025-10-25 18:45",
@@ -479,7 +472,6 @@
       "url": "https://gatewayfilmcenter.org/movies/one-battle-after-another-2025/",
       "runtime": 162,
       "showtimes": [
-        "2025-10-22 19:00",
         "2025-10-23 16:15",
         "2025-10-23 20:00",
         "2025-10-24 16:00",
@@ -506,16 +498,13 @@
       "title": "Roads of Fire (2025)",
       "url": "https://gatewayfilmcenter.org/movies/roads-of-fire-2025/",
       "runtime": 119,
-      "showtimes": [
-        "2025-10-22 19:00"
-      ]
+      "showtimes": []
     },
     {
       "title": "Hitchcocktober 2025: Shadow of a Doubt (1943) 4K Restoration",
       "url": "https://gatewayfilmcenter.org/movies/shadow-of-a-doubt-1943/",
       "runtime": 108,
       "showtimes": [
-        "2025-10-22 19:30 (4K)",
         "2025-10-23 19:00"
       ]
     },
@@ -523,16 +512,13 @@
       "title": "The Texas Chain Saw Massacre (1974) 4K Restoration",
       "url": "https://gatewayfilmcenter.org/movies/texas-chain-saw-massacre-1974/",
       "runtime": 83,
-      "showtimes": [
-        "2025-10-22 20:00"
-      ]
+      "showtimes": []
     },
     {
       "title": "The Librarians (2025)",
       "url": "https://gatewayfilmcenter.org/movies/the-librarians-2025/",
       "runtime": 94,
       "showtimes": [
-        "2025-10-22 16:45",
         "2025-10-23 16:30"
       ]
     },
@@ -546,9 +532,7 @@
       "title": "Urchin (2025)",
       "url": "https://gatewayfilmcenter.org/movies/urchin-2025/",
       "runtime": 99,
-      "showtimes": [
-        "2025-10-22 19:15"
-      ]
+      "showtimes": []
     }
   ],
   "studio35": [
