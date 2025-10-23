@@ -230,18 +230,6 @@
       "showtimes": []
     },
     {
-      "title": "A House of Dynamite (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/a-house-of-dynamite-2025/",
-      "runtime": 112,
-      "showtimes": []
-    },
-    {
-      "title": "Ballad of a Small Player (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/ballad-of-a-small-player-2025/",
-      "runtime": 101,
-      "showtimes": []
-    },
-    {
       "title": "Black Phone 2 (2025)",
       "url": "https://gatewayfilmcenter.org/movies/black-phone-2-2025/",
       "runtime": 114,
@@ -275,10 +263,58 @@
       ]
     },
     {
-      "title": "Chain Reactions (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/chain-reactions-2025/",
-      "runtime": 103,
-      "showtimes": []
+      "title": "Blue Moon (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/blue-moon-2025/",
+      "runtime": 100,
+      "showtimes": [
+        "2025-10-23 16:00",
+        "2025-10-23 18:30",
+        "2025-10-24 16:15",
+        "2025-10-24 18:30",
+        "2025-10-24 20:45",
+        "2025-10-25 11:15",
+        "2025-10-25 14:00",
+        "2025-10-25 16:00",
+        "2025-10-25 18:30",
+        "2025-10-25 20:45",
+        "2025-10-26 11:30",
+        "2025-10-26 14:15",
+        "2025-10-26 16:15",
+        "2025-10-26 18:45",
+        "2025-10-27 17:15",
+        "2025-10-28 16:45",
+        "2025-10-29 17:15",
+        "2025-10-30 17:00",
+        "2025-10-31 16:30"
+      ]
+    },
+    {
+      "title": "Frankenstein (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/frankenstein-2025/",
+      "runtime": 149,
+      "showtimes": [
+        "2025-10-23 19:30 (4K)",
+        "2025-10-23 21:30",
+        "2025-10-24 16:15 (4K)",
+        "2025-10-24 19:45 (4K)",
+        "2025-10-24 21:00",
+        "2025-10-25 12:15",
+        "2025-10-25 15:30",
+        "2025-10-25 18:30",
+        "2025-10-25 21:45",
+        "2025-10-26 12:15",
+        "2025-10-26 15:30",
+        "2025-10-26 18:45",
+        "2025-10-27 16:30",
+        "2025-10-27 19:00",
+        "2025-10-28 16:30",
+        "2025-10-28 19:00",
+        "2025-10-29 16:30",
+        "2025-10-29 19:15",
+        "2025-10-30 16:30",
+        "2025-10-30 19:45",
+        "2025-10-31 21:00"
+      ]
     },
     {
       "title": "Good Boy (2025)",
@@ -294,10 +330,14 @@
       ]
     },
     {
-      "title": "Kiss of the Spider Woman (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/kiss-of-the-spider-woman-2025/",
-      "runtime": 128,
-      "showtimes": []
+      "title": "National Theatre Live: Mrs. Warren’s Profession (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/national-theatre-live-mrs-warrens-profession-2025/",
+      "runtime": 120,
+      "showtimes": [
+        "2025-10-23 18:45",
+        "2025-10-25 11:00 (4K)",
+        "2025-10-28 16:30"
+      ]
     },
     {
       "title": "One Battle After Another (2025)",
@@ -327,10 +367,24 @@
       ]
     },
     {
-      "title": "Roads of Fire (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/roads-of-fire-2025/",
-      "runtime": 119,
-      "showtimes": []
+      "title": "Queens of the Dead (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/queens-of-the-dead-2025/",
+      "runtime": 99,
+      "showtimes": [
+        "2025-10-23 21:00",
+        "2025-10-24 16:00",
+        "2025-10-24 20:30",
+        "2025-10-25 13:45",
+        "2025-10-25 21:15",
+        "2025-10-26 11:15",
+        "2025-10-26 19:30 (4K)",
+        "2025-10-27 16:45",
+        "2025-10-27 20:00",
+        "2025-10-28 20:00",
+        "2025-10-29 20:00",
+        "2025-10-30 21:00",
+        "2025-10-31 21:00"
+      ]
     },
     {
       "title": "Hitchcocktober 2025: Shadow of a Doubt (1943) 4K Restoration",
@@ -341,10 +395,66 @@
       ]
     },
     {
-      "title": "The Texas Chain Saw Massacre (1974) 4K Restoration",
-      "url": "https://gatewayfilmcenter.org/movies/texas-chain-saw-massacre-1974/",
-      "runtime": 83,
-      "showtimes": []
+      "title": "Shelby Oaks (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/shelby-oaks-2025/",
+      "runtime": 91,
+      "showtimes": [
+        "2025-10-23 19:00",
+        "2025-10-23 21:15",
+        "2025-10-24 16:30",
+        "2025-10-24 18:15",
+        "2025-10-24 21:15",
+        "2025-10-25 12:00",
+        "2025-10-25 16:45",
+        "2025-10-25 19:00",
+        "2025-10-25 21:30",
+        "2025-10-26 11:45",
+        "2025-10-26 16:45",
+        "2025-10-26 19:00",
+        "2025-10-27 16:30",
+        "2025-10-27 20:00",
+        "2025-10-28 16:30",
+        "2025-10-28 20:00",
+        "2025-10-29 16:45",
+        "2025-10-29 20:00",
+        "2025-10-30 16:45",
+        "2025-10-30 22:00",
+        "2025-10-31 22:00"
+      ]
+    },
+    {
+      "title": "Springsteen: Deliver Me from Nowhere (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/springsteen-deliver-me-from-nowhere-2025/",
+      "runtime": 112,
+      "showtimes": [
+        "2025-10-23 17:00",
+        "2025-10-23 19:45",
+        "2025-10-23 21:45",
+        "2025-10-24 16:00",
+        "2025-10-24 18:45",
+        "2025-10-24 21:30",
+        "2025-10-25 11:00",
+        "2025-10-25 13:45",
+        "2025-10-25 16:30",
+        "2025-10-25 19:15",
+        "2025-10-25 22:00",
+        "2025-10-26 11:00",
+        "2025-10-26 13:45",
+        "2025-10-26 16:30",
+        "2025-10-26 19:15",
+        "2025-10-27 16:15",
+        "2025-10-27 19:15",
+        "2025-10-28 16:15",
+        "2025-10-28 19:15",
+        "2025-10-29 16:15",
+        "2025-10-29 19:15",
+        "2025-10-30 16:00",
+        "2025-10-30 18:30",
+        "2025-10-30 20:45",
+        "2025-10-31 16:15",
+        "2025-10-31 19:00",
+        "2025-10-31 21:45"
+      ]
     },
     {
       "title": "The Librarians (2025)",
@@ -355,16 +465,26 @@
       ]
     },
     {
-      "title": "The Smashing Machine (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/the-smashing-machine-2025/",
-      "runtime": 123,
-      "showtimes": []
-    },
-    {
-      "title": "Urchin (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/urchin-2025/",
-      "runtime": 99,
-      "showtimes": []
+      "title": "The Mastermind (2025)",
+      "url": "https://gatewayfilmcenter.org/movies/the-mastermind-2025/",
+      "runtime": 110,
+      "showtimes": [
+        "2025-10-23 16:45",
+        "2025-10-24 16:30",
+        "2025-10-24 18:45",
+        "2025-10-25 11:30",
+        "2025-10-25 14:15",
+        "2025-10-25 16:15",
+        "2025-10-25 18:45",
+        "2025-10-26 12:00",
+        "2025-10-26 15:45",
+        "2025-10-26 18:30",
+        "2025-10-27 17:30",
+        "2025-10-28 17:30",
+        "2025-10-28 19:00",
+        "2025-10-29 17:30",
+        "2025-10-30 16:30"
+      ]
     }
   ],
   "studio35": [
