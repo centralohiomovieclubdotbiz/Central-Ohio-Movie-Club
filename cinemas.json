@@ -1,30 +1,6 @@
 {
   "gateway": [
     {
-      "title": "Hitchcocktober 2025: Rope (1948) 4K Restoration",
-      "url": "https://gatewayfilmcenter.org/movies/rope-1948/",
-      "runtime": 81,
-      "showtimes": [
-        "2025-10-24 19:00",
-        "2025-10-25 16:30"
-      ]
-    },
-    {
-      "title": "Halloween (1978)",
-      "url": "https://gatewayfilmcenter.org/movies/3167330/",
-      "runtime": 91,
-      "showtimes": [
-        "2025-10-24 21:00",
-        "2025-10-25 21:00",
-        "2025-10-26 19:00",
-        "2025-10-27 19:45",
-        "2025-10-28 19:45",
-        "2025-10-29 19:45",
-        "2025-10-30 21:30",
-        "2025-10-31 21:30"
-      ]
-    },
-    {
       "title": "Among Neighbors (2025)",
       "url": "https://gatewayfilmcenter.org/movies/among-neighbors-2025/",
       "runtime": 100,
@@ -230,6 +206,21 @@
       "showtimes": []
     },
     {
+      "title": "Halloween (1978)",
+      "url": "https://gatewayfilmcenter.org/movies/3167330/",
+      "runtime": 91,
+      "showtimes": [
+        "2025-10-24 21:00",
+        "2025-10-25 21:00",
+        "2025-10-26 19:00",
+        "2025-10-27 19:45",
+        "2025-10-28 19:45",
+        "2025-10-29 19:45",
+        "2025-10-30 21:30",
+        "2025-10-31 21:30"
+      ]
+    },
+    {
       "title": "Black Phone 2 (2025)",
       "url": "https://gatewayfilmcenter.org/movies/black-phone-2-2025/",
       "runtime": 114,
@@ -322,15 +313,6 @@
       ]
     },
     {
-      "title": "National Theatre Live: Mrs. Warren’s Profession (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/national-theatre-live-mrs-warrens-profession-2025/",
-      "runtime": 120,
-      "showtimes": [
-        "2025-10-25 11:00 (4K)",
-        "2025-10-28 16:30"
-      ]
-    },
-    {
       "title": "One Battle After Another (2025)",
       "url": "https://gatewayfilmcenter.org/movies/one-battle-after-another-2025/",
       "runtime": 162,
@@ -346,12 +328,6 @@
         "2025-10-29 19:00",
         "2025-10-30 21:30 (70mm)"
       ]
-    },
-    {
-      "title": "Orwell: 2+2=5 (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/orwell-225-2025/",
-      "runtime": 119,
-      "showtimes": []
     },
     {
       "title": "Queens of the Dead (2025)",
@@ -373,10 +349,13 @@
       ]
     },
     {
-      "title": "Hitchcocktober 2025: Shadow of a Doubt (1943) 4K Restoration",
-      "url": "https://gatewayfilmcenter.org/movies/shadow-of-a-doubt-1943/",
-      "runtime": 108,
-      "showtimes": []
+      "title": "Hitchcocktober 2025: Rope (1948) 4K Restoration",
+      "url": "https://gatewayfilmcenter.org/movies/rope-1948/",
+      "runtime": 81,
+      "showtimes": [
+        "2025-10-24 19:00",
+        "2025-10-25 16:30"
+      ]
     },
     {
       "title": "Shelby Oaks (2025)",
@@ -434,12 +413,6 @@
         "2025-10-31 19:00",
         "2025-10-31 21:45"
       ]
-    },
-    {
-      "title": "The Librarians (2025)",
-      "url": "https://gatewayfilmcenter.org/movies/the-librarians-2025/",
-      "runtime": 94,
-      "showtimes": []
     },
     {
       "title": "The Mastermind (2025)",
